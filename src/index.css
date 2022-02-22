@@ -2,15 +2,15 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	height: 60%;
+	height: 70%;
 	width: 100%;
 }
 
 .street-container {
 	position: absolute; 
-	top: 60%;
-	left: 75%;
-	width: 25%;
+	top: 70%;
+	left: 50%;
+	width: 50%;
 	height: 40%;
 }
 
