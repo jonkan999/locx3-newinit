@@ -1,0 +1,78 @@
+
+import React from 'react';
+import App from './App.js';
+import {Viewer} from 'mapillary-js';
+
+
+
+ export default class Street extends React.Component {
+
+    constructor(props) {
+      super(props);
+	  this.state = {
+	  imageId: this.props.imageId
+    };
+      this.streetContainer = React.createRef();
+    }
+	
+    componentDidMount() {
+      this.viewer = new Viewer({
+		
+        accessToken: 'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a',
+        container: this.streetContainer.current,
+		imageId: this.props.imageId,
+		component: {cover: false}
+        //imageId: this.props.imageId,
+      });
+	  //  componentDidUpdate(prevProps,prevState) {
+		//if (this.props.imageId !== prevState.imageId) {
+		//  this.viewer.moveTo(this.props.imageId);
+		//}
+	  //};
+    }
+	
+	componentDidUpdate(prevProps,prevState) {
+		if (this.props.imageId !== prevState.imageId) {
+			//document.getElementsByClassName('street-container').moveTo(this.props.imageId);
+			//this.mly.moveTo(this.props.imageId)
+			this.viewer.moveTo(this.props.imageId);
+		    //this.viewer = new Viewer({
+			//accessToken: 'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a',
+			//container: this.streetContainer.current,
+			//imageId: this.props.imageId 
+			////imageId: this.props.imageId,
+			//});
+		}
+	}	
+
+
+
+    render() {
+      return (
+	  <div>
+	<div ref={this.streetContainer}  class="street-container" >
+	//imageId= {this.props.imageId} //man ska nog få in en force refresh på viewrn här
+
+		</div>
+	</div>
+	
+	  );
+    }
+	
+  }
+//	  //<App parent={this} />
+//  return (
+//  
+//    <ViewerComponent
+//      accessToken={'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a'}
+//      imageId={'394639591619707'}
+//      style={{position: 'absolute', top: '60%',width: '40%', height: '40%'}}
+//    />
+//	
+//  );
+//}
+
+
+	//  <div class="sidebar">
+	//        Photoid: {this.props.imageId}
+	//    </div>

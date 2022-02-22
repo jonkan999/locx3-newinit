@@ -1,8 +1,6 @@
 
 import React from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import { MapNodes } from './MapNodes.js';
-import Street from './Street';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
 
@@ -12,8 +10,7 @@ export default class App extends React.PureComponent {
     this.state = {
       lng: 18.036,
       lat: 59.317,
-      zoom: 15.31,
-	  iframeURL: '394639591619707'
+      zoom: 15.31
     };
     this.mapContainer = React.createRef();
   }
@@ -25,7 +22,6 @@ export default class App extends React.PureComponent {
       center: [lng, lat],
       zoom: zoom
     });
-	
 	map.on('load', () => {
 		map.addSource('Hornstull', {
 			'type': 'geojson',
@@ -115,26 +111,26 @@ export default class App extends React.PureComponent {
 				'fill-extrusion-height': 10
 			}
 		});
-		//// Add a black outline around the polygon.
-		//map.addLayer({
-		//	'id': 'Hornstull-outline',
-		//	'type': 'line',
-		//	'source': 'Hornstull',
-		//	'layout': {
-		//		'visibility': 'none'
-		//	},
-		//	'paint': {
-		//		'line-color': '#000',
-		//		'line-width': {
-		//			'type': 'exponential',
-		//			'base': 1,
-		//			'stops': [
-		//				[0, 1 * Math.pow(1, (0 - zoom))],
-		//				[24, 1 * Math.pow(1, (24 - zoom))]
-		//			]
-		//		}
-		//	}
-		//});
+		// Add a black outline around the polygon.
+		map.addLayer({
+			'id': 'Hornstull-outline',
+			'type': 'line',
+			'source': 'Hornstull',
+			'layout': {
+				'visibility': 'none'
+			},
+			'paint': {
+				'line-color': '#000',
+				'line-width': {
+					'type': 'exponential',
+					'base': 1,
+					'stops': [
+						[0, 1 * Math.pow(1, (0 - zoom))],
+						[24, 1 * Math.pow(1, (24 - zoom))]
+					]
+				}
+			}
+		});
 		map.addLayer({
 			'id': 'BRFBulten',
 			'type': 'fill-extrusion',
@@ -148,25 +144,25 @@ export default class App extends React.PureComponent {
 				'fill-extrusion-height': 35
 			}
 		});
-		//map.addLayer({
-		//	'id': 'BRFBulten-outline',
-		//	'type': 'line',
-		//	'source': 'BRFBulten',
-		//	'layout': {
-		//		'visibility': 'none'
-		//	},
-		//	'paint': {
-		//		'line-color': '#000',
-		//		'line-width': {
-		//			'type': 'exponential',
-		//			'base': 1,
-		//			'stops': [
-		//				[0, 1 * Math.pow(1, (0 - zoom))],
-		//				[24, 1 * Math.pow(1, (24 - zoom))]
-		//			]
-		//		}
-		//	}
-		//});
+		map.addLayer({
+			'id': 'BRFBulten-outline',
+			'type': 'line',
+			'source': 'BRFBulten',
+			'layout': {
+				'visibility': 'none'
+			},
+			'paint': {
+				'line-color': '#000',
+				'line-width': {
+					'type': 'exponential',
+					'base': 1,
+					'stops': [
+						[0, 1 * Math.pow(1, (0 - zoom))],
+						[24, 1 * Math.pow(1, (24 - zoom))]
+					]
+				}
+			}
+		});
 		map.addLayer({
 			'id': 'points',
 			'type': 'circle',
@@ -195,98 +191,62 @@ export default class App extends React.PureComponent {
 				}
 			}
 		});
-
-
-
-
+		
 	});
 
 	map.on('click', 'points', (e) => {
-		const coordinates = e.features[0].geometry.coordinates.slice();
-		//var ObjectArray = ['BRFBulten','Hornstull'];
-		var arrayLength = MapNodes.length;
-		var i = 0;
-		
-		//new mapboxgl.Popup()
-		//.setLngLat(coordinates)
-		//.setHTML('test')
-		//.addTo(map);
-		
-		if (map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
-			for (i; i < arrayLength; i++) {
-				//Turn off all but clicked highlights
-				if (e.features[0].properties.title === MapNodes[i][0]) {
-					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'visible');
-					this.setState({
-						iframeURL: MapNodes[i][1]
-					  });
-				} else {
-					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'none');
-				}
+		if (e.features[0].properties.title==='Hornstull') {
+			const visibility = map.getLayoutProperty(
+				e.features[0].properties.title,
+				'visibility'
+			);
+			 
+			// Toggle layer visibility by changing the layout object's visibility property.
+			if (visibility === 'visible') {
+				map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
+				map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
+			} else {
+				this.className = 'active';
+				map.setLayoutProperty(
+					e.features[0].properties.title,
+					'visibility',
+					'visible'
+				);
+				map.setLayoutProperty(
+					e.features[0].properties.title+'-outline',
+					'visibility',
+					'visible'
+				);
 			}
+        
+		} else if (e.features[0].properties.title==='BRFBulten') {
+			const visibility = map.getLayoutProperty(
+				e.features[0].properties.title,
+				'visibility'
+			);
+			 
+			// Toggle layer visibility by changing the layout object's visibility property.
+			if (visibility === 'visible') {
+				map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
+				map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
+				this.className = '';
+			} else {
+				this.className = 'active';
+				map.setLayoutProperty(
+					e.features[0].properties.title,
+					'visibility',
+					'visible'
+				);
+				map.setLayoutProperty(
+					e.features[0].properties.title+'-outline',
+					'visibility',
+					'visible'
+				);
+			}
+        
 		} else {
-			for (i; i < arrayLength; i++) {
-				//Turn off all
-				map.setLayoutProperty(MapNodes[i][0], 'visibility', 'none');
-			}
 		}
-		//if (e.features[0].properties.title==='Hornstull') {
-		//	const visibility = map.getLayoutProperty(
-		//		e.features[0].properties.title,
-		//		'visibility'
-		//	);
-		//	 
-		//	// Toggle layer visibility by changing the layout object's visibility property.
-		//	if (visibility === 'visible') {
-		//		map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
-		//		map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
-		//	} else {
-		//		this.className = 'active';
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title,
-		//			'visibility',
-		//			'visible'
-		//		);
-		//		map.setLayoutProperty(
-		//			'fill-extrusion',
-		//			'visibility',
-		//			'none'
-		//		);
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title+'-outline',
-		//			'visibility',
-		//			'visible'
-		//		);
-		//	}
-        //
-		//} else if (e.features[0].properties.title==='BRFBulten') {
-		//	const visibility = map.getLayoutProperty(
-		//		e.features[0].properties.title,
-		//		'visibility'
-		//	);
-		//	 
-		//	// Toggle layer visibility by changing the layout object's visibility property.
-		//	if (visibility === 'visible') {
-		//		map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
-		//		map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
-		//		this.className = '';
-		//	} else {
-		//		this.className = 'active';
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title,
-		//			'visibility',
-		//			'visible'
-		//		);
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title+'-outline',
-		//			'visibility',
-		//			'visible'
-		//		);
-		//	}
-        //
-		//} else {
-		//}
-		//
+		
 	});
 
     map.on('move', () => {
@@ -298,20 +258,14 @@ export default class App extends React.PureComponent {
     });
   }
   render() {
-    const { lng, lat, zoom, iframeURL } = this.state;
+    const { lng, lat, zoom } = this.state;
     return (
-	<div>
-		<Street imageId={iframeURL} />
-	    <div class="sidebar">
-	        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Photoid: {iframeURL}
-	    </div>
-	    <div ref={this.mapContainer} class="map-container" />
-		
-			
-	</div>
-
+      <div>
+        <div className="sidebar">
+          Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
+        </div>
+        <div ref={this.mapContainer} className="map-container" />
+      </div>
     );
   }
 }
-
-

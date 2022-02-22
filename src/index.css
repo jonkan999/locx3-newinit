@@ -1,6 +1,17 @@
 .map-container {
-	height: 600px;
-	top: 0px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 60%;
+	width: 100%;
+}
+
+.street-container {
+	position: absolute; 
+	top: 60%;
+	left: 75%;
+	width: 25%;
+	height: 40%;
 }
 
 .sidebar {
@@ -14,4 +25,13 @@
 	left: 0;
 	margin: 12px;
 	border-radius: 4px;
+}
+
+.resp-iframe {
+    position: relative;
+    bottom: 50%;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+	border: 0;
 }
