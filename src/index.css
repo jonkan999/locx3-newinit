@@ -1,3 +1,5 @@
+
+
 .map-container {
 	position: absolute;
 	top: 0;
@@ -35,3 +37,40 @@
     height: 100%;
 	border: 0;
 }
+
+
+
+.mapboxgl-popup-content {
+	width: 359px;
+	height: 153px;
+	text-align: top;
+	background-color: rgba(205, 205, 205,0);
+	color: rgba(255,255,255);
+	font: 12px 'Calibri (Body)';
+	padding: 0;
+}
+
+.BRFBulten {
+	opacity: 0.8;
+	background-image: url('./icons/test2.png');
+
+};
+
+.mapboxgl-popup-content {
+	width: 359px;
+	height: 153px;
+	text-align: top;
+	background-color: rgba(205, 205, 205,0);
+	color: rgba(255,255,255);
+	font: 12px 'Calibri (Body)';
+	padding: 0;
+}
+
+
+
+.Hornstull {
+	opacity: 0.8;
+	background-image: url('./icons/test3.png');
+};
+
+

@@ -4,6 +4,7 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 import { MapNodes } from './MapNodes.js';
 import Street from './Street';
 
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
 
 export default class App extends React.PureComponent {
@@ -68,6 +69,7 @@ export default class App extends React.PureComponent {
 				}
 			}
 		});
+
 		map.addSource('points', {
 			'type': 'geojson',
 			'data': {
@@ -82,7 +84,9 @@ export default class App extends React.PureComponent {
 						},
 						'properties': {
 							'title': 'Hornstull',
-							'color': '#CF9FFF'
+							'color': '#CF9FFF',
+							'description':
+								'<h style="font-size:24px">Hornstull</h>'
 						}
 						
 					},
@@ -95,7 +99,11 @@ export default class App extends React.PureComponent {
 						},
 						'properties': {
 							'title': 'BRFBulten',
-							'color': '#A34646'
+							'color': '#A34646',
+							'description':
+								'<h style="font-size:24px">BRF Bulten</h><br><br><br><br><br><br><h style="font-size:17px">&nbsp&nbsp&nbsp62,2'+
+							'/m2&nbsp&nbsp 2,600 &nbsp&nbsp&nbsp 1,2 milj &nbsp&nbsp Ranking &nbsp 1,220 m2<br>'+
+							'&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp uthyrningsyta</h>'
 						}
 					}
 				]
@@ -182,8 +190,8 @@ export default class App extends React.PureComponent {
 				'circle-radius': {
 					'base': 2,
 					'stops': [
-						[0, 7 * Math.pow(2, (0 - zoom))],
-						[24, 7 * Math.pow(2, (24 - zoom))]
+						[0, 10 * Math.pow(2, (0 - zoom))],
+						[24, 10 * Math.pow(2, (24 - zoom))]
 					]
 				},
 				'circle-stroke-width': {
@@ -206,16 +214,19 @@ export default class App extends React.PureComponent {
 		//var ObjectArray = ['BRFBulten','Hornstull'];
 		var arrayLength = MapNodes.length;
 		var i = 0;
-		
-		//new mapboxgl.Popup()
-		//.setLngLat(coordinates)
-		//.setHTML('test')
-		//.addTo(map);
+
+
 		
 		if (map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
 			for (i; i < arrayLength; i++) {
 				//Turn off all but clicked highlights
 				if (e.features[0].properties.title === MapNodes[i][0]) {
+					const popup = new mapboxgl.Popup({ offset: [10, -25], className: e.features[0].properties.title , focusAfterOpen: false})
+					.setLngLat(coordinates)
+					.setHTML(e.features[0].properties.description)
+					.setMaxWidth('none')
+					popup.addTo(map);
+
 					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'visible');
 					this.setState({
 						iframeURL: MapNodes[i][1]
@@ -302,9 +313,7 @@ export default class App extends React.PureComponent {
     return (
 	<div>
 		<Street imageId={iframeURL} />
-	    <div class="sidebar">
-	        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Photoid: {iframeURL}
-	    </div>
+
 	    <div ref={this.mapContainer} class="map-container" />
 		
 			
@@ -313,5 +322,7 @@ export default class App extends React.PureComponent {
     );
   }
 }
-
+	    //<div class="sidebar">
+	    //    Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Photoid: {iframeURL}
+		//</div>
 
