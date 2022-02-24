@@ -101,7 +101,7 @@ export default class App extends React.PureComponent {
 							'title': 'BRFBulten',
 							'color': '#A34646',
 							'description':
-								'<h1>BRF Bulten</h1><h2><br><br>&nbsp&nbsp62'+
+							'<h1>BRF Bulten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62'+
 							'/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp 2%.hyryta</h2>'
 							
 						}
