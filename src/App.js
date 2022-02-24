@@ -86,7 +86,7 @@ export default class App extends React.PureComponent {
 							'title': 'Hornstull',
 							'color': '#CF9FFF',
 							'description':
-								'<h style="font-size:24px">Hornstull</h>'
+								'<h1>Hornstull</h1>'
 						}
 						
 					},
@@ -101,9 +101,9 @@ export default class App extends React.PureComponent {
 							'title': 'BRFBulten',
 							'color': '#A34646',
 							'description':
-								'<h style="font-size:24px">BRF Bulten</h><br><br><br><br><br><br><h style="font-size:17px">&nbsp&nbsp&nbsp62,2'+
-							'/m2&nbsp&nbsp 2,600 &nbsp&nbsp&nbsp 1,2 milj &nbsp&nbsp Ranking &nbsp 1,220 m2<br>'+
-							'&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp uthyrningsyta</h>'
+								'<h1>BRF Bulten</h1><h2><br><br>&nbsp&nbsp62'+
+							'/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp 2%.hyryta</h2>'
+							
 						}
 					}
 				]
@@ -221,11 +221,11 @@ export default class App extends React.PureComponent {
 			for (i; i < arrayLength; i++) {
 				//Turn off all but clicked highlights
 				if (e.features[0].properties.title === MapNodes[i][0]) {
-					const popup = new mapboxgl.Popup({ offset: [10, -25], className: e.features[0].properties.title , focusAfterOpen: false})
+					var popup = new mapboxgl.Popup({closeButton: false, className: e.features[0].properties.title, 'border-top-color': 'rgba(205, 205, 205,0)' })
 					.setLngLat(coordinates)
 					.setHTML(e.features[0].properties.description)
 					.setMaxWidth('none')
-					popup.addTo(map);
+					.addTo(map);
 
 					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'visible');
 					this.setState({

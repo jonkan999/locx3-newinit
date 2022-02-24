@@ -16,7 +16,7 @@ import {Viewer} from 'mapillary-js';
     }
 	
     componentDidMount() {
-      this.viewer = new Viewer({
+        var mly = this.viewer = new Viewer({
 		
         accessToken: 'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a',
         container: this.streetContainer.current,
@@ -24,6 +24,7 @@ import {Viewer} from 'mapillary-js';
 		component: {cover: false}
         //imageId: this.props.imageId,
       });
+	  //mly.setCenter([0.84, 0.52]);
 	  //  componentDidUpdate(prevProps,prevState) {
 		//if (this.props.imageId !== prevState.imageId) {
 		//  this.viewer.moveTo(this.props.imageId);

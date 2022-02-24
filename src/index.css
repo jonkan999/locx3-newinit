@@ -1,19 +1,22 @@
-
-
 .map-container {
 	position: absolute;
+	left:0;
 	top: 0;
 	bottom: 0;
 	height: 70%;
 	width: 100%;
+	padding: 0;
+	margin: 0;
+
 }
 
 .street-container {
 	position: absolute; 
-	top: 70%;
+	z-index: -1;
+	top: 61.5%;
 	left: 50%;
 	width: 50%;
-	height: 40%;
+	height: 41.5%;
 }
 
 .sidebar {
@@ -39,38 +42,67 @@
 }
 
 
+.BRFBulten .mapboxgl-popup-content {
+	position: absolute;
+	top: -100px;  /* position the top  edge of the element at the middle of the parent */
+    left: -90px; /* position the left edge of the element at the middle of the parent */
+	width: 216px;
+	height: 93px;
+	color: rgb(0,0,0);
+	opacity: 0.75;
+	background-image: url('./icons/test260.png');
+	padding:0;
 
-.mapboxgl-popup-content {
-	width: 359px;
-	height: 153px;
-	text-align: top;
-	background-color: rgba(205, 205, 205,0);
-	color: rgba(255,255,255);
-	font: 12px 'Calibri (Body)';
-	padding: 0;
+}
+.BRFBulten .mapboxgl-popup-tip {
+  border-top-color: rgba(205, 205, 205,0);
+  border-bottom-color: rgba(205, 205, 205,0);
+  border-right-color: rgba(205, 205, 205,0);
+  border-left-color: rgba(205, 205, 205,0);
 }
 
-.BRFBulten {
-	opacity: 0.8;
-	background-image: url('./icons/test2.png');
+.BRFBulten .mapboxgl-popup-content h1 {
+  font: 18px 'Verdana';
+  color: rgb(0,0,0);
+  margin: 0;
+  border-radius: 3px 1px 0 0;
+  font-weight: 900;
+}
 
-};
-
-.mapboxgl-popup-content {
-	width: 359px;
-	height: 153px;
-	text-align: top;
-	background-color: rgba(205, 205, 205,0);
-	color: rgba(255,255,255);
-	font: 12px 'Calibri (Body)';
-	padding: 0;
+.BRFBulten .mapboxgl-popup-content h2 {
+  font: 10px 'Verdana';
+  line-height:19px;
+  color: rgb(0,0,0);
+  margin: 0;
+  font-weight: 10000;
 }
 
 
 
-.Hornstull {
-	opacity: 0.8;
-	background-image: url('./icons/test3.png');
-};
+.Hornstull .mapboxgl-popup-content {
+	position: absolute;
+	top: -100px;  /* position the top  edge of the element at the middle of the parent */
+    left: -90px; /* position the left edge of the element at the middle of the parent */
+	width: 216px;
+	height: 93px;
+	color: rgb(0,0,0);
+	opacity: 0.75;
+	background-image: url('./icons/test360.png');
+	padding:0;
+}
+.Hornstull .mapboxgl-popup-tip {
+  border-top-color: rgba(205, 205, 205,0);
+  border-bottom-color: rgba(205, 205, 205,0);
+  border-right-color: rgba(205, 205, 205,0);
+  border-left-color: rgba(205, 205, 205,0);
+}
+
+.Hornstull .mapboxgl-popup-content h1 {
+  font: 18px 'Verdana';
+  color: rgb(0,0,0);
+  margin: 0;
+  border-radius: 3px 1px 0 0;
+  font-weight: 900;
+}
 
 
