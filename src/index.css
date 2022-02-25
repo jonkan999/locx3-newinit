@@ -128,9 +128,9 @@ a { text-decoration: none; }
 	left: 0%;
 	width: 50%;
 	height: 45.5%;
-	background-image: url('./icons/BRFBulten1.png');
+	background-image: url('./icons/Hornstull.png');
     background-repeat:   no-repeat;
-    background-position: center left;              /* optional, center the image */
+    background-position: top left;              /* optional, center the image */
 }
 
 .BRFBulten-container {
@@ -142,6 +142,6 @@ a { text-decoration: none; }
 	height: 45.5%;
 	background-image: url('./icons/BRFBulten1.png');
     background-repeat:   no-repeat;
-    background-position: center left;              /* optional, center the image */
+    background-position: top left;              /* optional, center the image */
 }
 
