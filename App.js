@@ -14,6 +14,7 @@ export default class App extends React.PureComponent {
       lng: 18.036,
       lat: 59.317,
       zoom: 15.31,
+	  activePoint: 'default',
 	  iframeURL: '394639591619707'
     };
     this.mapContainer = React.createRef();
@@ -226,9 +227,9 @@ export default class App extends React.PureComponent {
 					.setHTML(e.features[0].properties.description)
 					.setMaxWidth('none')
 					.addTo(map);
-
 					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'visible');
 					this.setState({
+						activePoint: MapNodes[i][0],
 						iframeURL: MapNodes[i][1]
 					  });
 				} else {
@@ -313,8 +314,12 @@ export default class App extends React.PureComponent {
     return (
 	<div>
 		<Street imageId={iframeURL} />
-
-	    <div ref={this.mapContainer} class="map-container" />
+			<div ref={this.mapContainer} class="map-container" />
+			<div>
+				<div class={this.state.activePoint+"-container"}/>
+				<a href="https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355" target="_blank" title="Opens in a new window">bleble</a>
+			</div>
+				
 		
 			
 	</div>
