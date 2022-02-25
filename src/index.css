@@ -107,4 +107,42 @@ a { text-decoration: none; }
   font-weight: 900;
 }
 
+.default-container {
+	position: absolute; 
+	z-index: -2;
+	top: 51.5%;
+	left: 0%;
+	width: 50%;
+	height: 45.5%;
+	background-image: url('./icons/default.png');
+    background-repeat:   no-repeat;
+    background-position: center;              /* optional, center the image */
+}
+
+
+.Hornstull-container {
+	position: absolute; 
+	z-index: -2;
+	top: 51.5%;
+	left: 0%;
+	width: 50%;
+	height: 45.5%;
+	background-image: url('./icons/test3.png');
+		background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+
+.BRFBulten-container {
+	position: absolute; 
+	z-index: -2;
+	top: 51.5%;
+	left: 0%;
+	width: 50%;
+	height: 45.5%;
+	background-image: url('./icons/test.png');
+		background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
 
