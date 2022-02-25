@@ -120,6 +120,15 @@ a { text-decoration: none; }
     background-position: top center ;              /* optional, center the image */
 }
 
+.default-container a {
+	position: absolute; 
+	z-index: -3;
+	top: 218px;
+	left: 460px;
+  font: 1px 'Verdana';
+
+}
+
 
 .Hornstull-container {
 	position: absolute; 
@@ -131,6 +140,14 @@ a { text-decoration: none; }
 	background-image: url('./icons/Hornstull.png');
     background-repeat:   no-repeat;
     background-position: top left;              /* optional, center the image */
+}
+.Hornstull-container a {
+	position: absolute; 
+	z-index: -3;
+	top: 218px;
+	left: 460px;
+  font: 1px 'Verdana';
+
 }
 
 .BRFBulten-container {
@@ -144,4 +161,13 @@ a { text-decoration: none; }
     background-repeat:   no-repeat;
     background-position: top left;              /* optional, center the image */
 }
+
+.BRFBulten-container a {
+	position: absolute; 
+	top: 218px;
+	left: 460px;
+  font: 23px 'Verdana';
+
+}
+
 
