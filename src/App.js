@@ -1,7 +1,8 @@
 
 import React from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import { MapNodes } from './MapNodes.js';
+//import { MapNodes } from './MapNodes.js';
+import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
 
 
@@ -29,134 +30,71 @@ export default class App extends React.PureComponent {
       zoom: zoom
     });
 	
-	map.on('load', () => {
-		map.addSource('Hornstull', {
-			'type': 'geojson',
-			'data': {
-				'type': 'Feature',
-				'geometry': {
-					'type': 'Polygon',
-					// These coordinates outline Hornstull.
-					'coordinates': [
-						[
-							[18.033466, 59.315227],
-							[18.034969, 59.315230],
-							[18.033320, 59.317945],
-							[18.031628, 59.317828],
-							[18.033466, 59.315227]
-						]
-					]
-				}
-			}
-		});
-		map.addSource('BRFBulten', {
-			'type': 'geojson',
-			'data': {
-				'type': 'Feature',
-				'geometry': {
-					'type': 'Polygon',
-					// These coordinates outline Hornstull.
-					'coordinates': [
-						[
-							
-							[18.033901, 59.316236],
-							[18.034647, 59.316325],
-							[18.034257, 59.316970],
-							[18.034698, 59.316986],
-							[18.035178, 59.316137],
-							[18.034012, 59.316037],
-							[18.033901, 59.316236]
-						]
-					]
-				}
-			}
-		});
+	map.getCanvas().style.cursor = 'pointer';
+	
 
+	
+	map.on('load', () => {
+
+		var arrayLength = MapPolygons.length;
+		var i = 0;
+		for (i; i < arrayLength; i++) {
+			map.addSource(MapPolygons[i][0], {
+				'type': 'geojson',
+				'data': {
+					'type': 'Feature',
+					'geometry': {
+						'type': 'Polygon',
+						// These coordinates outline Hornstull.
+						'coordinates': [
+							
+							MapPolygons[i][1]
+							
+						]
+					}
+				}
+			});
+		}
+		i=0;
+		var pointsData = {};
+		pointsData['type'] = 'FeatureCollection';
+		pointsData['features'] = [];
+
+		for (i; i < arrayLength; i++) {
+			//points
+			var newFeature = {
+				"type": "Feature",
+				"geometry": {
+					"type": "Point",
+					"coordinates": MapPolygons[i][2]
+				},
+				"properties": {
+					"title": MapPolygons[i][0],
+					'color': MapPolygons[i][3],
+					"description": MapPolygons[i][7]
+				}
+			}
+			pointsData['features'].push(newFeature);
+			//extrusions
+			map.addLayer({
+				'id': MapPolygons[i][0],
+				'type': 'fill-extrusion',
+				'source': MapPolygons[i][0], // reference the data source
+				'layout': {
+					'visibility': 'none'
+				},
+				'paint': {
+					'fill-extrusion-color': MapPolygons[i][3], // blue color fill
+					'fill-extrusion-opacity': 0.4,
+					'fill-extrusion-height': MapPolygons[i][4]
+				}
+			});
+
+			
+		}
 		map.addSource('points', {
 			'type': 'geojson',
-			'data': {
-				'type': 'FeatureCollection',
-				'features': [
-					{
-						// feature for point Hornstull
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [18.033153, 59.316858]
-						},
-						'properties': {
-							'title': 'Hornstull',
-							'color': '#CF9FFF',
-							'description':
-								'<h1>Hornstull</h1>'
-						}
-						
-					},
-					{
-						// feature for BRF Bulten
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [18.034865, 59.316240]
-						},
-						'properties': {
-							'title': 'BRFBulten',
-							'color': '#A34646',
-							'description':
-							'<h1>BRF Bulten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62'+
-							'/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>'
-							
-						}
-					}
-				]
-			}
-		});
-		// Add a point layer
-		map.addLayer({
-			'id': 'Hornstull',
-			'type': 'fill-extrusion',
-			'source': 'Hornstull', // reference the data source
-			'layout': {
-				'visibility': 'none'
-			},
-			'paint': {
-				'fill-extrusion-color': '#CF9FFF', // blue color fill
-				'fill-extrusion-opacity': 0.4,
-				'fill-extrusion-height': 10
-			}
-		});
-		//// Add a black outline around the polygon.
-		//map.addLayer({
-		//	'id': 'Hornstull-outline',
-		//	'type': 'line',
-		//	'source': 'Hornstull',
-		//	'layout': {
-		//		'visibility': 'none'
-		//	},
-		//	'paint': {
-		//		'line-color': '#000',
-		//		'line-width': {
-		//			'type': 'exponential',
-		//			'base': 1,
-		//			'stops': [
-		//				[0, 1 * Math.pow(1, (0 - zoom))],
-		//				[24, 1 * Math.pow(1, (24 - zoom))]
-		//			]
-		//		}
-		//	}
-		//});
-		map.addLayer({
-			'id': 'BRFBulten',
-			'type': 'fill-extrusion',
-			'source': 'BRFBulten', // reference the data source
-			'layout': {
-				'visibility': 'none'
-			},
-			'paint': {
-				'fill-extrusion-color': '#A34646', // blue color fill
-				'fill-extrusion-opacity': 0.4,
-				'fill-extrusion-height': 35
-			}
+			'data': pointsData
 		});
 		//map.addLayer({
 		//	'id': 'BRFBulten-outline',
@@ -192,15 +130,15 @@ export default class App extends React.PureComponent {
 				'circle-radius': {
 					'base': 2,
 					'stops': [
-						[0, 10 * Math.pow(2, (0 - zoom))],
-						[24, 10 * Math.pow(2, (24 - zoom))]
+						[0, 150 * Math.pow(1.5, (0 - zoom))],
+						[24, 150 * Math.pow(1.5, (24 - zoom))]
 					]
 				},
 				'circle-stroke-width': {
 					'base': 2,
 					'stops': [
-						[0, 0.5 * Math.pow(2, (0 - zoom))],
-						[24, 0.5 * Math.pow(2, (24 - zoom))]
+						[0, 15 * Math.pow(1.5, (0 - zoom))],
+						[24, 15 * Math.pow(1.5, (24 - zoom))]
 					]
 				}
 			}
@@ -214,7 +152,7 @@ export default class App extends React.PureComponent {
 	map.on('click', 'points', (e) => {
 		const coordinates = e.features[0].geometry.coordinates.slice();
 		//var ObjectArray = ['BRFBulten','Hornstull'];
-		var arrayLength = MapNodes.length;
+		var arrayLength = MapPolygons.length;
 		var i = 0;
 
 
@@ -222,26 +160,26 @@ export default class App extends React.PureComponent {
 		if (map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
 			for (i; i < arrayLength; i++) {
 				//Turn off all but clicked highlights
-				if (e.features[0].properties.title === MapNodes[i][0]) {
+				if (e.features[0].properties.title === MapPolygons[i][0]) {
 					var popup = new mapboxgl.Popup({closeButton: false, className: e.features[0].properties.title, 'border-top-color': 'rgba(205, 205, 205,0)' })
 					.setLngLat(coordinates)
 					.setHTML(e.features[0].properties.description)
 					.setMaxWidth('none')
 					.addTo(map);
-					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'visible');
+					map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
 					this.setState({
-						activePoint: MapNodes[i][0],
-						iframeURL: MapNodes[i][1],
-						linkURL: MapNodes[i][2],
+						activePoint: MapPolygons[i][0],
+						iframeURL: MapPolygons[i][5],
+						linkURL: MapPolygons[i][6],
 					  });
 				} else {
-					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'none');
+					map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 				}
 			}
 		} else {
 			for (i; i < arrayLength; i++) {
 				//Turn off all
-				map.setLayoutProperty(MapNodes[i][0], 'visibility', 'none');
+				map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 			}
 		}
 		//if (e.features[0].properties.title==='Hornstull') {
