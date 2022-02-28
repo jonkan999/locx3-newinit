@@ -13,33 +13,45 @@ export default class App extends React.PureComponent {
     super(props);
     this.state = {
       lng: 18.036,
-      lat: 59.317,
+      lat: 59.316,
       zoom: 15.31,
 	  activePoint: 'default',
 	  iframeURL: '394639591619707',
-	  linkURL: ''
+	  linkURL: '',
+	  spriteLng: 18.036,
+	  spriteLat: 59.316,
+	  spriteBearing: 1
+	  
     };
     this.mapContainer = React.createRef();
   }
+  
+  
+
+	
   componentDidMount() {
     const { lng, lat, zoom } = this.state;
-    const map = new mapboxgl.Map({
+    this.map = new mapboxgl.Map({
       container: this.mapContainer.current,
       style: 'mapbox://styles/jonkanx3/ckzkcsi4t002w15sekpsbw7xt',
       center: [lng, lat],
+	  pitch: 60,
+	  bearing: 40,
       zoom: zoom
     });
 	
-	map.getCanvas().style.cursor = 'pointer';
+	this.map.getCanvas().style.cursor = 'pointer';
 	
 
 	
-	map.on('load', () => {
+
+	
+	this.map.on('load', () => {
 
 		var arrayLength = MapPolygons.length;
 		var i = 0;
 		for (i; i < arrayLength; i++) {
-			map.addSource(MapPolygons[i][0], {
+			this.map.addSource(MapPolygons[i][0], {
 				'type': 'geojson',
 				'data': {
 					'type': 'Feature',
@@ -55,11 +67,12 @@ export default class App extends React.PureComponent {
 				}
 			});
 		}
+		
 		i=0;
 		var pointsData = {};
 		pointsData['type'] = 'FeatureCollection';
 		pointsData['features'] = [];
-
+		
 		for (i; i < arrayLength; i++) {
 			//points
 			var newFeature = {
@@ -75,8 +88,9 @@ export default class App extends React.PureComponent {
 				}
 			}
 			pointsData['features'].push(newFeature);
+			
 			//extrusions
-			map.addLayer({
+			this.map.addLayer({
 				'id': MapPolygons[i][0],
 				'type': 'fill-extrusion',
 				'source': MapPolygons[i][0], // reference the data source
@@ -92,7 +106,7 @@ export default class App extends React.PureComponent {
 
 			
 		}
-		map.addSource('points', {
+		this.map.addSource('points', {
 			'type': 'geojson',
 			'data': pointsData
 		});
@@ -115,7 +129,7 @@ export default class App extends React.PureComponent {
 		//		}
 		//	}
 		//});
-		map.addLayer({
+		this.map.addLayer({
 			'id': 'points',
 			'type': 'circle',
 			'source': 'points',
@@ -143,13 +157,51 @@ export default class App extends React.PureComponent {
 				}
 			}
 		});
+		
+		//Adding Mapillary sprite
+		this.map.loadImage(
+			'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png',
+			(error, image) => {
+				if (error) throw error;
 
+				// Add the image to the map style.
+				this.map.addImage('cat', image);
 
+				// Add a data source containing one point feature.
+				this.map.addSource('sprite', {
+					'type': 'geojson',
+					'data': {
+						'type': 'FeatureCollection',
+						'features': [{
+							'type': 'Feature',
+							'geometry': {
+								'type': 'Point',
+								'coordinates': [this.state.spriteLng, this.state.spriteLat]
+							},
+							'properties': {
+								'rotation': 90
+							}
+						}]
+					}
+				});
 
-
+				// Add a layer to use the image to represent the data.
+				this.map.addLayer({
+					'id': 'cat-sprite',
+					'type': 'symbol',
+					'source': 'sprite', // reference the data source
+					'layout': {
+						'icon-image': 'cat', // reference the image
+						'icon-size': 0.15,
+						'icon-rotate': ['get', 'rotation']
+						
+					}
+				});
+			}
+		);
 	});
 
-	map.on('click', 'points', (e) => {
+	this.map.on('click', 'points', (e) => {
 		const coordinates = e.features[0].geometry.coordinates.slice();
 		//var ObjectArray = ['BRFBulten','Hornstull'];
 		var arrayLength = MapPolygons.length;
@@ -157,7 +209,7 @@ export default class App extends React.PureComponent {
 
 
 		
-		if (map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
+		if (this.map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
 			for (i; i < arrayLength; i++) {
 				//Turn off all but clicked highlights
 				if (e.features[0].properties.title === MapPolygons[i][0]) {
@@ -165,99 +217,73 @@ export default class App extends React.PureComponent {
 					.setLngLat(coordinates)
 					.setHTML(e.features[0].properties.description)
 					.setMaxWidth('none')
-					.addTo(map);
-					map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
+					.addTo(this.map);
+					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
 					this.setState({
 						activePoint: MapPolygons[i][0],
 						iframeURL: MapPolygons[i][5],
 						linkURL: MapPolygons[i][6],
 					  });
 				} else {
-					map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
+					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 				}
 			}
 		} else {
 			for (i; i < arrayLength; i++) {
 				//Turn off all
-				map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
+				this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 			}
 		}
-		//if (e.features[0].properties.title==='Hornstull') {
-		//	const visibility = map.getLayoutProperty(
-		//		e.features[0].properties.title,
-		//		'visibility'
-		//	);
-		//	 
-		//	// Toggle layer visibility by changing the layout object's visibility property.
-		//	if (visibility === 'visible') {
-		//		map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
-		//		map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
-		//	} else {
-		//		this.className = 'active';
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title,
-		//			'visibility',
-		//			'visible'
-		//		);
-		//		map.setLayoutProperty(
-		//			'fill-extrusion',
-		//			'visibility',
-		//			'none'
-		//		);
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title+'-outline',
-		//			'visibility',
-		//			'visible'
-		//		);
-		//	}
-        //
-		//} else if (e.features[0].properties.title==='BRFBulten') {
-		//	const visibility = map.getLayoutProperty(
-		//		e.features[0].properties.title,
-		//		'visibility'
-		//	);
-		//	 
-		//	// Toggle layer visibility by changing the layout object's visibility property.
-		//	if (visibility === 'visible') {
-		//		map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
-		//		map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
-		//		this.className = '';
-		//	} else {
-		//		this.className = 'active';
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title,
-		//			'visibility',
-		//			'visible'
-		//		);
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title+'-outline',
-		//			'visibility',
-		//			'visible'
-		//		);
-		//	}
-        //
-		//} else {
-		//}
-		//
 	});
 
-    map.on('move', () => {
+    this.map.on('move', () => {
       this.setState({
-        lng: map.getCenter().lng.toFixed(4),
-        lat: map.getCenter().lat.toFixed(4),
-        zoom: map.getZoom().toFixed(2)
+        lng: this.map.getCenter().lng.toFixed(4),
+        lat: this.map.getCenter().lat.toFixed(4),
+        zoom: this.map.getZoom().toFixed(2)
       });
     });
   }
+  
+
+  
+      handleCallback = (position,pov) =>{
+        this.setState({spriteLat: position.lat,
+					   spriteLng: position.lng,
+					   spriteBearing: pov.bearing})
+    }
+	
+		componentDidUpdate(prevProps,prevState) {
+		if (prevState.spriteLng !== this.state.spriteLng) {
+			console.log(this.map.getSource('sprite')._data.features[0].geometry.coordinates);
+					this.map.getSource('sprite').setData({
+			"type": "FeatureCollection",
+					"features": [{
+						"type": "Feature",
+						"geometry": {
+							"type": "Point",
+							"coordinates": [this.state.spriteLng, this.state.spriteLat]
+						},
+						"properties": {
+							'rotation': this.state.spriteBearing
+						}
+					}]
+		});
+			
+		}
+	}
+
+	
   render() {
-    const { lng, lat, zoom, iframeURL } = this.state;
+    const { lng, lat, zoom, iframeURL, spriteLat} = this.state;
     return (
 	<div>
-		<Street imageId={iframeURL} />
+		<Street parentCallback = {this.handleCallback.bind(this)}  imageId={iframeURL} />
 			<div ref={this.mapContainer} class="map-container" />
 			<div>
 				<div class={this.state.activePoint+"-container"}>
 				<a href='https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355' target="_blank" title="Opens in a new window">Link</a>
+				<h>{this.state.spriteBearing}</h>
 				</div>
 			</div>
 				

@@ -10,50 +10,45 @@ import {Viewer} from 'mapillary-js';
     constructor(props) {
       super(props);
 	  this.state = {
-	  imageId: this.props.imageId
     };
       this.streetContainer = React.createRef();
     }
+
 	
     componentDidMount() {
-        var mly = this.viewer = new Viewer({
+        this.viewer = new Viewer({
 		
         accessToken: 'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a',
         container: this.streetContainer.current,
 		imageId: this.props.imageId,
 		component: {cover: false}
-        //imageId: this.props.imageId,
       });
-	  //mly.setCenter([0.84, 0.52]);
-	  //  componentDidUpdate(prevProps,prevState) {
-		//if (this.props.imageId !== prevState.imageId) {
-		//  this.viewer.moveTo(this.props.imageId);
-		//}
-	  //};
+
     }
 	
 	componentDidUpdate(prevProps,prevState) {
-		if (this.props.imageId !== prevState.imageId) {
-			//document.getElementsByClassName('street-container').moveTo(this.props.imageId);
-			//this.mly.moveTo(this.props.imageId)
+		if (prevProps.imageId !== this.props.imageId) {
 			this.viewer.moveTo(this.props.imageId);
-		    //this.viewer = new Viewer({
-			//accessToken: 'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a',
-			//container: this.streetContainer.current,
-			//imageId: this.props.imageId 
-			////imageId: this.props.imageId,
-			//});
+			console.log(prevProps.imageId);
+			console.log(this.props.imageId);
+			this.viewer.on('position', async (event) => {
+				const position = await this.viewer.getPosition();
+				const pov = await this.viewer.getPointOfView();
+				console.log(pov.bearing)
+				this.props.parentCallback(position,pov);
+			});
 		}
-	}	
+	}
+	
+				
 
 
 
     render() {
       return (
 	  <div>
-	<div ref={this.streetContainer}  class="street-container" >
-	//imageId= {this.props.imageId} //man ska nog få in en force refresh på viewrn här
-
+		<div ref={this.streetContainer}  class="street-container" >
+	
 		</div>
 	</div>
 	
@@ -61,19 +56,4 @@ import {Viewer} from 'mapillary-js';
     }
 	
   }
-//	  //<App parent={this} />
-//  return (
-//  
-//    <ViewerComponent
-//      accessToken={'MLY|4745356748910970|2a48362afcc51b2c2876492e13bf157a'}
-//      imageId={'394639591619707'}
-//      style={{position: 'absolute', top: '60%',width: '40%', height: '40%'}}
-//    />
-//	
-//  );
-//}
 
-
-	//  <div class="sidebar">
-	//        Photoid: {this.props.imageId}
-	//    </div>
