@@ -7,19 +7,23 @@ import Street from './Street';
 
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
-
+var minion;
+var renderer;
+var scene;
+var camera;
+const defaultStart= [18.036,59.316] 
 export default class App extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      lng: 18.036,
-      lat: 59.316,
+      lng: defaultStart[0],
+      lat: defaultStart[1],
       zoom: 15.31,
 	  activePoint: 'default',
 	  iframeURL: '394639591619707',
 	  linkURL: '',
-	  spriteLng: 18.036,
-	  spriteLat: 59.316,
+	  spriteLng: defaultStart[0],
+	  spriteLat: defaultStart[1],
 	  spriteBearing: 1
 	  
     };
@@ -33,11 +37,13 @@ export default class App extends React.PureComponent {
     const { lng, lat, zoom } = this.state;
     this.map = new mapboxgl.Map({
       container: this.mapContainer.current,
-      style: 'mapbox://styles/jonkanx3/ckzkcsi4t002w15sekpsbw7xt',
+      //style: 'mapbox://styles/jonkanx3/ckzkcsi4t002w15sekpsbw7xt',
+	  style: 'mapbox://styles/jonkanx3/cl083pslf002714qdhi3qle09',
       center: [lng, lat],
 	  pitch: 60,
 	  bearing: 40,
-      zoom: zoom
+      zoom: zoom,
+	  antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased
     });
 	
 	this.map.getCanvas().style.cursor = 'pointer';
@@ -157,48 +163,6 @@ export default class App extends React.PureComponent {
 				}
 			}
 		});
-		
-		//Adding Mapillary sprite
-		this.map.loadImage(
-			'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png',
-			(error, image) => {
-				if (error) throw error;
-
-				// Add the image to the map style.
-				this.map.addImage('cat', image);
-
-				// Add a data source containing one point feature.
-				this.map.addSource('sprite', {
-					'type': 'geojson',
-					'data': {
-						'type': 'FeatureCollection',
-						'features': [{
-							'type': 'Feature',
-							'geometry': {
-								'type': 'Point',
-								'coordinates': [this.state.spriteLng, this.state.spriteLat]
-							},
-							'properties': {
-								'rotation': 90
-							}
-						}]
-					}
-				});
-
-				// Add a layer to use the image to represent the data.
-				this.map.addLayer({
-					'id': 'cat-sprite',
-					'type': 'symbol',
-					'source': 'sprite', // reference the data source
-					'layout': {
-						'icon-image': 'cat', // reference the image
-						'icon-size': 0.15,
-						'icon-rotate': ['get', 'rotation']
-						
-					}
-				});
-			}
-		);
 	});
 
 	this.map.on('click', 'points', (e) => {
@@ -218,6 +182,7 @@ export default class App extends React.PureComponent {
 					.setHTML(e.features[0].properties.description)
 					.setMaxWidth('none')
 					.addTo(this.map);
+					this.map.triggerRepaint();
 					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
 					this.setState({
 						activePoint: MapPolygons[i][0],
@@ -243,6 +208,126 @@ export default class App extends React.PureComponent {
         zoom: this.map.getZoom().toFixed(2)
       });
     });
+	
+	//TEST
+	
+	// parameters to ensure the model is georeferenced correctly on the map
+	const modelOrigin = [defaultStart[0], defaultStart[1]];
+	const modelAltitude = 20;
+	const modelRotate = [Math.PI / 2, 0, 0];
+	
+	const modelAsMercatorCoordinate = mapboxgl.MercatorCoordinate.fromLngLat(
+		modelOrigin,
+		modelAltitude
+	);
+	
+	// transformation parameters to position, rotate and scale the 3D model onto the map
+	const modelTransform = {
+		translateX: modelAsMercatorCoordinate.x,
+		translateY: modelAsMercatorCoordinate.y,
+		translateZ: modelAsMercatorCoordinate.z,
+		rotateX: modelRotate[0],
+		rotateY: modelRotate[1],
+		rotateZ: modelRotate[2],
+		/* Since the 3D model is in real world meters, a scale transform needs to be
+		* applied since the CustomLayerInterface expects units in MercatorCoordinates.
+		*/
+		scale: modelAsMercatorCoordinate.meterInMercatorCoordinateUnits()
+	};
+	
+	const THREE = window.THREE;
+	const map = this.map
+
+	
+	// configuration of the custom layer for a 3D model per the CustomLayerInterface
+	const customLayer = {
+		id: '3d-model',
+		type: 'custom',
+		renderingMode: '3d',
+		onAdd: function(map, gl) {
+			camera = new THREE.Camera();
+			scene = new THREE.Scene();
+	
+			// create two three.js lights to illuminate the model
+			//const directionalLight = new THREE.DirectionalLight(0xffffff);
+			//directionalLight.position.set(0, -70, 100).normalize();
+			//this.scene.add(directionalLight);
+			//
+			//const directionalLight2 = new THREE.DirectionalLight(0xffffff);
+			//directionalLight2.position.set(0, 70, 100).normalize();
+			//this.scene.add(directionalLight2);
+			
+			const light = new THREE.AmbientLight('#FFFFFF');
+			scene.add(light);
+	
+			// use the three.js GLTF loader to add the 3D model to the three.js scene
+			const loader = new THREE.GLTFLoader();
+			loader.load(
+			//'https://docs.mapbox.com/mapbox-gl-js/assets/34M_17/34M_17.gltf',
+			'penguin-old.glb',
+			(gltf) => {
+				minion=gltf.scene;
+			scene.add(minion);
+			}
+			);
+			this.map = map;
+	
+			// use the Mapbox GL JS map canvas for three.js
+			renderer = new THREE.WebGLRenderer({
+				canvas: map.getCanvas(),
+				context: gl,
+				antialias: true
+			});
+	
+			renderer.autoClear = false;
+		},
+		render: function(gl, matrix) {
+			const rotationX = new THREE.Matrix4().makeRotationAxis(
+				new THREE.Vector3(1, 0, 0),
+				modelTransform.rotateX
+			);
+			const rotationY = new THREE.Matrix4().makeRotationAxis(
+				new THREE.Vector3(0, 1, 0),
+				modelTransform.rotateY
+			);
+			const rotationZ = new THREE.Matrix4().makeRotationAxis(
+				new THREE.Vector3(0, 0, 1),
+				modelTransform.rotateZ
+			);
+	
+			const m = new THREE.Matrix4().fromArray(matrix);
+			const l = new THREE.Matrix4()
+				.makeTranslation(
+					modelTransform.translateX,
+					modelTransform.translateY,
+					modelTransform.translateZ
+				)
+				.scale(
+					new THREE.Vector3(
+						modelTransform.scale*13,
+						-modelTransform.scale*13,
+						modelTransform.scale*13
+					)
+				)
+				.multiply(rotationX)
+				.multiply(rotationY)
+				.multiply(rotationZ);
+	
+			camera.projectionMatrix = m.multiply(l);
+			renderer.resetState();
+			renderer.render(scene, camera);
+			this.map.triggerRepaint();
+		}
+	};
+	
+	map.on('load', () => {
+		map.addLayer(customLayer);
+	});
+	
+	
+	//ENDTEST
+	
+	
   }
   
 
@@ -255,27 +340,60 @@ export default class App extends React.PureComponent {
 	
 		componentDidUpdate(prevProps,prevState) {
 		if (prevState.spriteLng !== this.state.spriteLng) {
-			console.log(this.map.getSource('sprite')._data.features[0].geometry.coordinates);
-					this.map.getSource('sprite').setData({
-			"type": "FeatureCollection",
-					"features": [{
-						"type": "Feature",
-						"geometry": {
-							"type": "Point",
-							"coordinates": [this.state.spriteLng, this.state.spriteLat]
-						},
-						"properties": {
-							'rotation': this.state.spriteBearing
-						}
-					}]
-		});
+			//convert coords
+			//const modelOrigin = [this.state.spriteLng, this.state.spriteLat];
+			//const modelAltitude = 20;
+			//
+			//const modelAsMercatorCoordinate = mapboxgl.MercatorCoordinate.fromLngLat(
+			//	modelOrigin,
+			//	modelAltitude
+			//);
+			//
+			//// transformation parameters to position, rotate and scale the 3D model onto the map
+			//const modelTransform = {
+			//	translateX: modelAsMercatorCoordinate.x,
+			//	translateY: modelAsMercatorCoordinate.y,
+			//	translateZ: modelAsMercatorCoordinate.z,
+			//
+			//	/* Since the 3D model is in real world meters, a scale transform needs to be
+			//	* applied since the CustomLayerInterface expects units in MercatorCoordinates.
+			//	*/
+			//	scale: modelAsMercatorCoordinate.meterInMercatorCoordinateUnits()
+			//};
+			//
+			//console.log('x'+modelTransform.translateX);
+			//console.log('y'+modelTransform.translateY);
+			//console.log('z'+modelTransform.translateZ);
+			minion.rotation.y = -this.state.spriteBearing*(Math.PI / 180) + Math.PI/2;
+			minion.position.x = (this.state.spriteLng-defaultStart[0])*4300;		
+			minion.position.z = (defaultStart[1]-this.state.spriteLat)*9000;		
+			//minion.position.x = modelTransform.translateX*10;
+			//minion.position.z = modelTransform.translateY*10;				
+			renderer.resetState();
+			renderer.render(scene, camera);
+			this.map.triggerRepaint();
+			
+		//	console.log(this.map.getSource('sprite')._data.features[0].geometry.coordinates);
+		//			this.map.getSource('sprite').setData({
+		//	"type": "FeatureCollection",
+		//			"features": [{
+		//				"type": "Feature",
+		//				"geometry": {
+		//					"type": "Point",
+		//					"coordinates": [this.state.spriteLng, this.state.spriteLat]
+		//				},
+		//				"properties": {
+		//					'rotation': this.state.spriteBearing
+		//				}
+		//			}]
+		//});
 			
 		}
 	}
 
 	
   render() {
-    const { lng, lat, zoom, iframeURL, spriteLat} = this.state;
+    const { iframeURL, spriteLat} = this.state;
     return (
 	<div>
 		<Street parentCallback = {this.handleCallback.bind(this)}  imageId={iframeURL} />
@@ -283,7 +401,7 @@ export default class App extends React.PureComponent {
 			<div>
 				<div class={this.state.activePoint+"-container"}>
 				<a href='https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355' target="_blank" title="Opens in a new window">Link</a>
-				<h>{this.state.spriteBearing}</h>
+				<h>{}</h>
 				</div>
 			</div>
 				

@@ -6,7 +6,7 @@ a { text-decoration: none; }
 	left:0;
 	top: 0;
 	bottom: 0;
-	height: 60%;
+	height: 63%;
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -16,10 +16,10 @@ a { text-decoration: none; }
 .street-container {
 	position: absolute; 
 	z-index: -1;
-	top: 51.5%;
+	top: 54.5%;
 	left: 50%;
 	width: 50%;
-	height: 45.5%;
+	height: 48.5%;
 }
 
 .sidebar {
@@ -111,11 +111,11 @@ a { text-decoration: none; }
 .default-container {
 	position: absolute; 
 	z-index: -2;
-	top: 60%;
+	top: 63%;
 	left: 0%;
 	width: 50%;
-	height: 45.5%;
-	background-image: url('./icons/default.png');
+	height: 48.5%;
+	background-image: url('./icons/default3.png');
     background-repeat:   no-repeat;
     background-position: top center ;              /* optional, center the image */
 }
@@ -133,11 +133,11 @@ a { text-decoration: none; }
 .Hornstull-container {
 	position: absolute; 
 	z-index: -2;
-	top: 60%;
+	top: 63%;
 	left: 0%;
 	width: 50%;
-	height: 45.5%;
-	background-image: url('./icons/Hornstull.png');
+	height: 48.5%;
+	background-image: url('./icons/Hornstull3.png');
     background-repeat:   no-repeat;
     background-position: top left;              /* optional, center the image */
 }
@@ -153,11 +153,11 @@ a { text-decoration: none; }
 .BRFBulten-container {
 	position: absolute; 
 	z-index: -2;
-	top: 60%;
+	top: 63%;
 	left: 0%;
 	width: 50%;
-	height: 45.5%;
-	background-image: url('./icons/BRFBulten1.png');
+	height: 48.5%;
+	background-image: url('./icons/BRFBulten3.png');
     background-repeat:   no-repeat;
     background-position: top left;              /* optional, center the image */
 }
