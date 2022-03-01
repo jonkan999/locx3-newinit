@@ -364,14 +364,14 @@ export default class App extends React.PureComponent {
 			//console.log('x'+modelTransform.translateX);
 			//console.log('y'+modelTransform.translateY);
 			//console.log('z'+modelTransform.translateZ);
-			minion.rotation.y = -this.state.spriteBearing*(Math.PI / 180) + Math.PI/2;
-			minion.position.x = (this.state.spriteLng-defaultStart[0])*4300;		
-			minion.position.z = (defaultStart[1]-this.state.spriteLat)*9000;		
-			//minion.position.x = modelTransform.translateX*10;
-			//minion.position.z = modelTransform.translateY*10;				
-			renderer.resetState();
-			renderer.render(scene, camera);
-			this.map.triggerRepaint();
+			//minion.rotation.y = -this.state.spriteBearing*(Math.PI / 180) + Math.PI/2;
+			//minion.position.x = (this.state.spriteLng-defaultStart[0])*4300;		
+			//minion.position.z = (defaultStart[1]-this.state.spriteLat)*9000;		
+			////minion.position.x = modelTransform.translateX*10;
+			////minion.position.z = modelTransform.translateY*10;				
+			//renderer.resetState();
+			//renderer.render(scene, camera);
+			//this.map.triggerRepaint();
 			
 		//	console.log(this.map.getSource('sprite')._data.features[0].geometry.coordinates);
 		//			this.map.getSource('sprite').setData({
