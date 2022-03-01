@@ -1,161 +1,120 @@
 
 import React from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import { MapNodes } from './MapNodes.js';
+//import { MapNodes } from './MapNodes.js';
+import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
 
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
-
+var minion;
+var renderer;
+var scene;
+var camera;
+const defaultStart= [18.036,59.316] 
 export default class App extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      lng: 18.036,
-      lat: 59.317,
+      lng: defaultStart[0],
+      lat: defaultStart[1],
       zoom: 15.31,
 	  activePoint: 'default',
-	  iframeURL: '394639591619707'
+	  iframeURL: '394639591619707',
+	  linkURL: '',
+	  spriteLng: defaultStart[0],
+	  spriteLat: defaultStart[1],
+	  spriteBearing: 1
+	  
     };
     this.mapContainer = React.createRef();
   }
+  
+  
+
+	
   componentDidMount() {
     const { lng, lat, zoom } = this.state;
-    const map = new mapboxgl.Map({
+    this.map = new mapboxgl.Map({
       container: this.mapContainer.current,
-      style: 'mapbox://styles/jonkanx3/ckzkcsi4t002w15sekpsbw7xt',
+      //style: 'mapbox://styles/jonkanx3/ckzkcsi4t002w15sekpsbw7xt',
+	  style: 'mapbox://styles/jonkanx3/cl083pslf002714qdhi3qle09',
       center: [lng, lat],
-      zoom: zoom
+	  pitch: 60,
+	  bearing: 40,
+      zoom: zoom,
+	  antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased
     });
 	
-	map.on('load', () => {
-		map.addSource('Hornstull', {
-			'type': 'geojson',
-			'data': {
-				'type': 'Feature',
-				'geometry': {
-					'type': 'Polygon',
-					// These coordinates outline Hornstull.
-					'coordinates': [
-						[
-							[18.033466, 59.315227],
-							[18.034969, 59.315230],
-							[18.033320, 59.317945],
-							[18.031628, 59.317828],
-							[18.033466, 59.315227]
-						]
-					]
-				}
-			}
-		});
-		map.addSource('BRFBulten', {
-			'type': 'geojson',
-			'data': {
-				'type': 'Feature',
-				'geometry': {
-					'type': 'Polygon',
-					// These coordinates outline Hornstull.
-					'coordinates': [
-						[
-							
-							[18.033901, 59.316236],
-							[18.034647, 59.316325],
-							[18.034257, 59.316970],
-							[18.034698, 59.316986],
-							[18.035178, 59.316137],
-							[18.034012, 59.316037],
-							[18.033901, 59.316236]
-						]
-					]
-				}
-			}
-		});
+	this.map.getCanvas().style.cursor = 'pointer';
+	
 
-		map.addSource('points', {
-			'type': 'geojson',
-			'data': {
-				'type': 'FeatureCollection',
-				'features': [
-					{
-						// feature for point Hornstull
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [18.033153, 59.316858]
-						},
-						'properties': {
-							'title': 'Hornstull',
-							'color': '#CF9FFF',
-							'description':
-								'<h1>Hornstull</h1>'
-						}
-						
-					},
-					{
-						// feature for BRF Bulten
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [18.034865, 59.316240]
-						},
-						'properties': {
-							'title': 'BRFBulten',
-							'color': '#A34646',
-							'description':
-							'<h1>BRF Bulten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62'+
-							'/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>'
+	
+
+	
+	this.map.on('load', () => {
+
+		var arrayLength = MapPolygons.length;
+		var i = 0;
+		for (i; i < arrayLength; i++) {
+			this.map.addSource(MapPolygons[i][0], {
+				'type': 'geojson',
+				'data': {
+					'type': 'Feature',
+					'geometry': {
+						'type': 'Polygon',
+						// These coordinates outline Hornstull.
+						'coordinates': [
 							
-						}
+							MapPolygons[i][1]
+							
+						]
 					}
-				]
+				}
+			});
+		}
+		
+		i=0;
+		var pointsData = {};
+		pointsData['type'] = 'FeatureCollection';
+		pointsData['features'] = [];
+		
+		for (i; i < arrayLength; i++) {
+			//points
+			var newFeature = {
+				"type": "Feature",
+				"geometry": {
+					"type": "Point",
+					"coordinates": MapPolygons[i][2]
+				},
+				"properties": {
+					"title": MapPolygons[i][0],
+					'color': MapPolygons[i][3],
+					"description": MapPolygons[i][7]
+				}
 			}
-		});
-		// Add a point layer
-		map.addLayer({
-			'id': 'Hornstull',
-			'type': 'fill-extrusion',
-			'source': 'Hornstull', // reference the data source
-			'layout': {
-				'visibility': 'none'
-			},
-			'paint': {
-				'fill-extrusion-color': '#CF9FFF', // blue color fill
-				'fill-extrusion-opacity': 0.4,
-				'fill-extrusion-height': 10
-			}
-		});
-		//// Add a black outline around the polygon.
-		//map.addLayer({
-		//	'id': 'Hornstull-outline',
-		//	'type': 'line',
-		//	'source': 'Hornstull',
-		//	'layout': {
-		//		'visibility': 'none'
-		//	},
-		//	'paint': {
-		//		'line-color': '#000',
-		//		'line-width': {
-		//			'type': 'exponential',
-		//			'base': 1,
-		//			'stops': [
-		//				[0, 1 * Math.pow(1, (0 - zoom))],
-		//				[24, 1 * Math.pow(1, (24 - zoom))]
-		//			]
-		//		}
-		//	}
-		//});
-		map.addLayer({
-			'id': 'BRFBulten',
-			'type': 'fill-extrusion',
-			'source': 'BRFBulten', // reference the data source
-			'layout': {
-				'visibility': 'none'
-			},
-			'paint': {
-				'fill-extrusion-color': '#A34646', // blue color fill
-				'fill-extrusion-opacity': 0.4,
-				'fill-extrusion-height': 35
-			}
+			pointsData['features'].push(newFeature);
+			
+			//extrusions
+			this.map.addLayer({
+				'id': MapPolygons[i][0],
+				'type': 'fill-extrusion',
+				'source': MapPolygons[i][0], // reference the data source
+				'layout': {
+					'visibility': 'none'
+				},
+				'paint': {
+					'fill-extrusion-color': MapPolygons[i][3], // blue color fill
+					'fill-extrusion-opacity': 0.4,
+					'fill-extrusion-height': MapPolygons[i][4]
+				}
+			});
+
+			
+		}
+		this.map.addSource('points', {
+			'type': 'geojson',
+			'data': pointsData
 		});
 		//map.addLayer({
 		//	'id': 'BRFBulten-outline',
@@ -176,7 +135,7 @@ export default class App extends React.PureComponent {
 		//		}
 		//	}
 		//});
-		map.addLayer({
+		this.map.addLayer({
 			'id': 'points',
 			'type': 'circle',
 			'source': 'points',
@@ -191,133 +150,259 @@ export default class App extends React.PureComponent {
 				'circle-radius': {
 					'base': 2,
 					'stops': [
-						[0, 10 * Math.pow(2, (0 - zoom))],
-						[24, 10 * Math.pow(2, (24 - zoom))]
+						[0, 150 * Math.pow(1.5, (0 - zoom))],
+						[24, 150 * Math.pow(1.5, (24 - zoom))]
 					]
 				},
 				'circle-stroke-width': {
 					'base': 2,
 					'stops': [
-						[0, 0.5 * Math.pow(2, (0 - zoom))],
-						[24, 0.5 * Math.pow(2, (24 - zoom))]
+						[0, 15 * Math.pow(1.5, (0 - zoom))],
+						[24, 15 * Math.pow(1.5, (24 - zoom))]
 					]
 				}
 			}
 		});
-
-
-
-
 	});
 
-	map.on('click', 'points', (e) => {
+	this.map.on('click', 'points', (e) => {
 		const coordinates = e.features[0].geometry.coordinates.slice();
 		//var ObjectArray = ['BRFBulten','Hornstull'];
-		var arrayLength = MapNodes.length;
+		var arrayLength = MapPolygons.length;
 		var i = 0;
 
 
 		
-		if (map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
+		if (this.map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
 			for (i; i < arrayLength; i++) {
 				//Turn off all but clicked highlights
-				if (e.features[0].properties.title === MapNodes[i][0]) {
+				if (e.features[0].properties.title === MapPolygons[i][0]) {
 					var popup = new mapboxgl.Popup({closeButton: false, className: e.features[0].properties.title, 'border-top-color': 'rgba(205, 205, 205,0)' })
 					.setLngLat(coordinates)
 					.setHTML(e.features[0].properties.description)
 					.setMaxWidth('none')
-					.addTo(map);
-					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'visible');
+					.addTo(this.map);
+					this.map.triggerRepaint();
+					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
 					this.setState({
-						activePoint: MapNodes[i][0],
-						iframeURL: MapNodes[i][1]
+						activePoint: MapPolygons[i][0],
+						iframeURL: MapPolygons[i][5],
+						linkURL: MapPolygons[i][6],
 					  });
 				} else {
-					map.setLayoutProperty(MapNodes[i][0], 'visibility', 'none');
+					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 				}
 			}
 		} else {
 			for (i; i < arrayLength; i++) {
 				//Turn off all
-				map.setLayoutProperty(MapNodes[i][0], 'visibility', 'none');
+				this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 			}
 		}
-		//if (e.features[0].properties.title==='Hornstull') {
-		//	const visibility = map.getLayoutProperty(
-		//		e.features[0].properties.title,
-		//		'visibility'
-		//	);
-		//	 
-		//	// Toggle layer visibility by changing the layout object's visibility property.
-		//	if (visibility === 'visible') {
-		//		map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
-		//		map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
-		//	} else {
-		//		this.className = 'active';
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title,
-		//			'visibility',
-		//			'visible'
-		//		);
-		//		map.setLayoutProperty(
-		//			'fill-extrusion',
-		//			'visibility',
-		//			'none'
-		//		);
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title+'-outline',
-		//			'visibility',
-		//			'visible'
-		//		);
-		//	}
-        //
-		//} else if (e.features[0].properties.title==='BRFBulten') {
-		//	const visibility = map.getLayoutProperty(
-		//		e.features[0].properties.title,
-		//		'visibility'
-		//	);
-		//	 
-		//	// Toggle layer visibility by changing the layout object's visibility property.
-		//	if (visibility === 'visible') {
-		//		map.setLayoutProperty(e.features[0].properties.title, 'visibility', 'none');
-		//		map.setLayoutProperty(e.features[0].properties.title+'-outline', 'visibility', 'none');
-		//		this.className = '';
-		//	} else {
-		//		this.className = 'active';
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title,
-		//			'visibility',
-		//			'visible'
-		//		);
-		//		map.setLayoutProperty(
-		//			e.features[0].properties.title+'-outline',
-		//			'visibility',
-		//			'visible'
-		//		);
-		//	}
-        //
-		//} else {
-		//}
-		//
 	});
 
-    map.on('move', () => {
+    this.map.on('move', () => {
       this.setState({
-        lng: map.getCenter().lng.toFixed(4),
-        lat: map.getCenter().lat.toFixed(4),
-        zoom: map.getZoom().toFixed(2)
+        lng: this.map.getCenter().lng.toFixed(4),
+        lat: this.map.getCenter().lat.toFixed(4),
+        zoom: this.map.getZoom().toFixed(2)
       });
     });
+	
+	//TEST
+	
+	// parameters to ensure the model is georeferenced correctly on the map
+	const modelOrigin = [defaultStart[0], defaultStart[1]];
+	const modelAltitude = 20;
+	const modelRotate = [Math.PI / 2, 0, 0];
+	
+	const modelAsMercatorCoordinate = mapboxgl.MercatorCoordinate.fromLngLat(
+		modelOrigin,
+		modelAltitude
+	);
+	
+	// transformation parameters to position, rotate and scale the 3D model onto the map
+	const modelTransform = {
+		translateX: modelAsMercatorCoordinate.x,
+		translateY: modelAsMercatorCoordinate.y,
+		translateZ: modelAsMercatorCoordinate.z,
+		rotateX: modelRotate[0],
+		rotateY: modelRotate[1],
+		rotateZ: modelRotate[2],
+		/* Since the 3D model is in real world meters, a scale transform needs to be
+		* applied since the CustomLayerInterface expects units in MercatorCoordinates.
+		*/
+		scale: modelAsMercatorCoordinate.meterInMercatorCoordinateUnits()
+	};
+	
+	const THREE = window.THREE;
+	const map = this.map
+
+	
+	// configuration of the custom layer for a 3D model per the CustomLayerInterface
+	const customLayer = {
+		id: '3d-model',
+		type: 'custom',
+		renderingMode: '3d',
+		onAdd: function(map, gl) {
+			camera = new THREE.Camera();
+			scene = new THREE.Scene();
+	
+			// create two three.js lights to illuminate the model
+			//const directionalLight = new THREE.DirectionalLight(0xffffff);
+			//directionalLight.position.set(0, -70, 100).normalize();
+			//this.scene.add(directionalLight);
+			//
+			//const directionalLight2 = new THREE.DirectionalLight(0xffffff);
+			//directionalLight2.position.set(0, 70, 100).normalize();
+			//this.scene.add(directionalLight2);
+			
+			const light = new THREE.AmbientLight('#FFFFFF');
+			scene.add(light);
+	
+			// use the three.js GLTF loader to add the 3D model to the three.js scene
+			const loader = new THREE.GLTFLoader();
+			loader.load(
+			//'https://docs.mapbox.com/mapbox-gl-js/assets/34M_17/34M_17.gltf',
+			'penguin-old.glb',
+			(gltf) => {
+				minion=gltf.scene;
+			scene.add(minion);
+			}
+			);
+			this.map = map;
+	
+			// use the Mapbox GL JS map canvas for three.js
+			renderer = new THREE.WebGLRenderer({
+				canvas: map.getCanvas(),
+				context: gl,
+				antialias: true
+			});
+	
+			renderer.autoClear = false;
+		},
+		render: function(gl, matrix) {
+			const rotationX = new THREE.Matrix4().makeRotationAxis(
+				new THREE.Vector3(1, 0, 0),
+				modelTransform.rotateX
+			);
+			const rotationY = new THREE.Matrix4().makeRotationAxis(
+				new THREE.Vector3(0, 1, 0),
+				modelTransform.rotateY
+			);
+			const rotationZ = new THREE.Matrix4().makeRotationAxis(
+				new THREE.Vector3(0, 0, 1),
+				modelTransform.rotateZ
+			);
+	
+			const m = new THREE.Matrix4().fromArray(matrix);
+			const l = new THREE.Matrix4()
+				.makeTranslation(
+					modelTransform.translateX,
+					modelTransform.translateY,
+					modelTransform.translateZ
+				)
+				.scale(
+					new THREE.Vector3(
+						modelTransform.scale*13,
+						-modelTransform.scale*13,
+						modelTransform.scale*13
+					)
+				)
+				.multiply(rotationX)
+				.multiply(rotationY)
+				.multiply(rotationZ);
+	
+			camera.projectionMatrix = m.multiply(l);
+			renderer.resetState();
+			renderer.render(scene, camera);
+			this.map.triggerRepaint();
+		}
+	};
+	
+	map.on('load', () => {
+		map.addLayer(customLayer);
+	});
+	
+	
+	//ENDTEST
+	
+	
   }
+  
+
+  
+      handleCallback = (position,pov) =>{
+        this.setState({spriteLat: position.lat,
+					   spriteLng: position.lng,
+					   spriteBearing: pov.bearing})
+    }
+	
+		componentDidUpdate(prevProps,prevState) {
+		if (prevState.spriteLng !== this.state.spriteLng) {
+			//convert coords
+			//const modelOrigin = [this.state.spriteLng, this.state.spriteLat];
+			//const modelAltitude = 20;
+			//
+			//const modelAsMercatorCoordinate = mapboxgl.MercatorCoordinate.fromLngLat(
+			//	modelOrigin,
+			//	modelAltitude
+			//);
+			//
+			//// transformation parameters to position, rotate and scale the 3D model onto the map
+			//const modelTransform = {
+			//	translateX: modelAsMercatorCoordinate.x,
+			//	translateY: modelAsMercatorCoordinate.y,
+			//	translateZ: modelAsMercatorCoordinate.z,
+			//
+			//	/* Since the 3D model is in real world meters, a scale transform needs to be
+			//	* applied since the CustomLayerInterface expects units in MercatorCoordinates.
+			//	*/
+			//	scale: modelAsMercatorCoordinate.meterInMercatorCoordinateUnits()
+			//};
+			//
+			//console.log('x'+modelTransform.translateX);
+			//console.log('y'+modelTransform.translateY);
+			//console.log('z'+modelTransform.translateZ);
+			minion.rotation.y = -this.state.spriteBearing*(Math.PI / 180) + Math.PI/2;
+			minion.position.x = (this.state.spriteLng-defaultStart[0])*4300;		
+			minion.position.z = (defaultStart[1]-this.state.spriteLat)*9000;		
+			//minion.position.x = modelTransform.translateX*10;
+			//minion.position.z = modelTransform.translateY*10;				
+			renderer.resetState();
+			renderer.render(scene, camera);
+			this.map.triggerRepaint();
+			
+		//	console.log(this.map.getSource('sprite')._data.features[0].geometry.coordinates);
+		//			this.map.getSource('sprite').setData({
+		//	"type": "FeatureCollection",
+		//			"features": [{
+		//				"type": "Feature",
+		//				"geometry": {
+		//					"type": "Point",
+		//					"coordinates": [this.state.spriteLng, this.state.spriteLat]
+		//				},
+		//				"properties": {
+		//					'rotation': this.state.spriteBearing
+		//				}
+		//			}]
+		//});
+			
+		}
+	}
+
+	
   render() {
-    const { lng, lat, zoom, iframeURL } = this.state;
+    const { iframeURL, spriteLat} = this.state;
     return (
 	<div>
-		<Street imageId={iframeURL} />
+		<Street parentCallback = {this.handleCallback.bind(this)}  imageId={iframeURL} />
 			<div ref={this.mapContainer} class="map-container" />
 			<div>
-				<div class={this.state.activePoint+"-container"}/>
-				<a href="https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355" target="_blank" title="Opens in a new window">bleble</a>
+				<div class={this.state.activePoint+"-container"}>
+				<a href='https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355' target="_blank" title="Opens in a new window">Link</a>
+				<h>{}</h>
+				</div>
 			</div>
 				
 		
