@@ -192,7 +192,8 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+			font: 4vw 'Verdana';
+            /*font: 4vw 'Verdana';*/
 
             }
 
@@ -206,7 +207,7 @@ a { text-decoration: none; }
 
             .bergsgruvan-storre-33-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -214,7 +215,7 @@ a { text-decoration: none; }
 
             .bergsgruvan-storre-33-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -239,7 +240,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -253,7 +254,7 @@ a { text-decoration: none; }
 
             .bergsunds-strand-34-38-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -261,7 +262,7 @@ a { text-decoration: none; }
 
             .bergsunds-strand-34-38-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -286,7 +287,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -300,7 +301,7 @@ a { text-decoration: none; }
 
             .bonden-13-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -308,7 +309,7 @@ a { text-decoration: none; }
 
             .bonden-13-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -333,7 +334,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -347,7 +348,7 @@ a { text-decoration: none; }
 
             .bonden-storre-29-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -355,7 +356,7 @@ a { text-decoration: none; }
 
             .bonden-storre-29-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -380,7 +381,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -394,7 +395,7 @@ a { text-decoration: none; }
 
             .bondesonen-22-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -402,7 +403,7 @@ a { text-decoration: none; }
 
             .bondesonen-22-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -427,7 +428,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -441,7 +442,7 @@ a { text-decoration: none; }
 
             .bondesonen-fyrtiosexan-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -449,7 +450,7 @@ a { text-decoration: none; }
 
             .bondesonen-fyrtiosexan-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -474,7 +475,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -488,7 +489,7 @@ a { text-decoration: none; }
 
             .bondetorpet-80-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -496,7 +497,7 @@ a { text-decoration: none; }
 
             .bondetorpet-80-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -521,7 +522,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -535,7 +536,7 @@ a { text-decoration: none; }
 
             .brinckan-1-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -543,7 +544,7 @@ a { text-decoration: none; }
 
             .brinckan-1-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -568,7 +569,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -582,7 +583,7 @@ a { text-decoration: none; }
 
             .buketten-3-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -590,7 +591,7 @@ a { text-decoration: none; }
 
             .buketten-3-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -615,7 +616,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -629,7 +630,7 @@ a { text-decoration: none; }
 
             .batsmannen-25-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -637,7 +638,7 @@ a { text-decoration: none; }
 
             .batsmannen-25-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -662,7 +663,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -676,7 +677,7 @@ a { text-decoration: none; }
 
             .dagakarlen-20-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -684,7 +685,7 @@ a { text-decoration: none; }
 
             .dagakarlen-20-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -709,7 +710,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -723,7 +724,7 @@ a { text-decoration: none; }
 
             .designationen-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -731,7 +732,7 @@ a { text-decoration: none; }
 
             .designationen-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -756,7 +757,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -770,7 +771,7 @@ a { text-decoration: none; }
 
             .draken-12-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -778,7 +779,7 @@ a { text-decoration: none; }
 
             .draken-12-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -803,7 +804,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -817,7 +818,7 @@ a { text-decoration: none; }
 
             .droskhasten-17-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -825,7 +826,7 @@ a { text-decoration: none; }
 
             .droskhasten-17-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -850,7 +851,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -864,7 +865,7 @@ a { text-decoration: none; }
 
             .erstagatan-28-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -872,7 +873,7 @@ a { text-decoration: none; }
 
             .erstagatan-28-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -897,7 +898,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -911,7 +912,7 @@ a { text-decoration: none; }
 
             .fabriken-26-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -919,7 +920,7 @@ a { text-decoration: none; }
 
             .fabriken-26-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -944,7 +945,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -958,7 +959,7 @@ a { text-decoration: none; }
 
             .fatbursviken-2-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -966,7 +967,7 @@ a { text-decoration: none; }
 
             .fatbursviken-2-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -991,7 +992,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1005,7 +1006,7 @@ a { text-decoration: none; }
 
             .fardknappen-2-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1013,7 +1014,7 @@ a { text-decoration: none; }
 
             .fardknappen-2-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1038,7 +1039,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1052,7 +1053,7 @@ a { text-decoration: none; }
 
             .gnejsen-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1060,7 +1061,7 @@ a { text-decoration: none; }
 
             .gnejsen-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1085,7 +1086,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1099,7 +1100,7 @@ a { text-decoration: none; }
 
             .grindsgatan-33-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1107,7 +1108,7 @@ a { text-decoration: none; }
 
             .grindsgatan-33-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1132,7 +1133,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1146,7 +1147,7 @@ a { text-decoration: none; }
 
             .gropen-28-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1154,7 +1155,7 @@ a { text-decoration: none; }
 
             .gropen-28-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1179,7 +1180,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1193,7 +1194,7 @@ a { text-decoration: none; }
 
             .gruvan-8-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1201,7 +1202,7 @@ a { text-decoration: none; }
 
             .gruvan-8-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1226,7 +1227,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1240,7 +1241,7 @@ a { text-decoration: none; }
 
             .halvmilen-2-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1248,7 +1249,7 @@ a { text-decoration: none; }
 
             .halvmilen-2-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1273,7 +1274,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1287,7 +1288,7 @@ a { text-decoration: none; }
 
             .halvmilen-nr-3-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1295,7 +1296,7 @@ a { text-decoration: none; }
 
             .halvmilen-nr-3-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1320,7 +1321,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1334,7 +1335,7 @@ a { text-decoration: none; }
 
             .harpalten-1-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1342,7 +1343,7 @@ a { text-decoration: none; }
 
             .harpalten-1-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1367,7 +1368,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1381,7 +1382,7 @@ a { text-decoration: none; }
 
             .heleneborgsparken-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1389,7 +1390,7 @@ a { text-decoration: none; }
 
             .heleneborgsparken-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1414,7 +1415,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1428,7 +1429,7 @@ a { text-decoration: none; }
 
             .helgalunden-1-9-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1436,7 +1437,7 @@ a { text-decoration: none; }
 
             .helgalunden-1-9-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1461,7 +1462,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1475,7 +1476,7 @@ a { text-decoration: none; }
 
             .hembryggeriet-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1483,7 +1484,7 @@ a { text-decoration: none; }
 
             .hembryggeriet-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1508,7 +1509,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1522,7 +1523,7 @@ a { text-decoration: none; }
 
             .hornstulls-strand-1-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1530,7 +1531,7 @@ a { text-decoration: none; }
 
             .hornstulls-strand-1-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1555,7 +1556,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1569,7 +1570,7 @@ a { text-decoration: none; }
 
             .huggjarnet-18-19-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1577,7 +1578,7 @@ a { text-decoration: none; }
 
             .huggjarnet-18-19-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1602,7 +1603,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1616,7 +1617,7 @@ a { text-decoration: none; }
 
             .hogalidsgatan-33-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1624,7 +1625,7 @@ a { text-decoration: none; }
 
             .hogalidsgatan-33-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1649,7 +1650,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1663,7 +1664,7 @@ a { text-decoration: none; }
 
             .hornhuset-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1671,7 +1672,7 @@ a { text-decoration: none; }
 
             .hornhuset-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1696,7 +1697,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1710,7 +1711,7 @@ a { text-decoration: none; }
 
             .ingenjoren-10-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1718,7 +1719,7 @@ a { text-decoration: none; }
 
             .ingenjoren-10-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1743,7 +1744,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1757,7 +1758,7 @@ a { text-decoration: none; }
 
             .ingenjoren-14-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1765,7 +1766,7 @@ a { text-decoration: none; }
 
             .ingenjoren-14-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1790,7 +1791,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1804,7 +1805,7 @@ a { text-decoration: none; }
 
             .ingenjoren-nr-4-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1812,7 +1813,7 @@ a { text-decoration: none; }
 
             .ingenjoren-nr-4-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1837,7 +1838,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1851,7 +1852,7 @@ a { text-decoration: none; }
 
             .kajplatsen-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1859,7 +1860,7 @@ a { text-decoration: none; }
 
             .kajplatsen-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1884,7 +1885,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1898,7 +1899,7 @@ a { text-decoration: none; }
 
             .kejsaren-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1906,7 +1907,7 @@ a { text-decoration: none; }
 
             .kejsaren-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1931,7 +1932,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1945,7 +1946,7 @@ a { text-decoration: none; }
 
             .kejsaren-26-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1953,7 +1954,7 @@ a { text-decoration: none; }
 
             .kejsaren-26-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -1978,7 +1979,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -1992,7 +1993,7 @@ a { text-decoration: none; }
 
             .kroken-24-7-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2000,7 +2001,7 @@ a { text-decoration: none; }
 
             .kroken-24-7-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2025,7 +2026,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2039,7 +2040,7 @@ a { text-decoration: none; }
 
             .kolhalningen-2-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2047,7 +2048,7 @@ a { text-decoration: none; }
 
             .kolhalningen-2-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2072,7 +2073,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2086,7 +2087,7 @@ a { text-decoration: none; }
 
             .lappskon-mindre-2-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2094,7 +2095,7 @@ a { text-decoration: none; }
 
             .lappskon-mindre-2-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2119,7 +2120,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2133,7 +2134,7 @@ a { text-decoration: none; }
 
             .leporiden-1-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2141,7 +2142,7 @@ a { text-decoration: none; }
 
             .leporiden-1-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2166,7 +2167,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2180,7 +2181,7 @@ a { text-decoration: none; }
 
             .lingonet-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2188,7 +2189,7 @@ a { text-decoration: none; }
 
             .lingonet-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2213,7 +2214,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2227,7 +2228,7 @@ a { text-decoration: none; }
 
             .mallen-1-3-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2235,7 +2236,7 @@ a { text-decoration: none; }
 
             .mallen-1-3-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2260,7 +2261,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2274,7 +2275,7 @@ a { text-decoration: none; }
 
             .mandeln-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2282,7 +2283,7 @@ a { text-decoration: none; }
 
             .mandeln-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2307,7 +2308,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2321,7 +2322,7 @@ a { text-decoration: none; }
 
             .monumentet-27-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2329,7 +2330,7 @@ a { text-decoration: none; }
 
             .monumentet-27-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2354,7 +2355,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2368,7 +2369,7 @@ a { text-decoration: none; }
 
             .mullvaden-andra-30-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2376,7 +2377,7 @@ a { text-decoration: none; }
 
             .mullvaden-andra-30-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2401,7 +2402,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2415,7 +2416,7 @@ a { text-decoration: none; }
 
             .mullvaden-forsta-19-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2423,7 +2424,7 @@ a { text-decoration: none; }
 
             .mullvaden-forsta-19-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2448,7 +2449,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2462,7 +2463,7 @@ a { text-decoration: none; }
 
             .muttern-16-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2470,7 +2471,7 @@ a { text-decoration: none; }
 
             .muttern-16-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2495,7 +2496,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2509,7 +2510,7 @@ a { text-decoration: none; }
 
             .muttern-17-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2517,7 +2518,7 @@ a { text-decoration: none; }
 
             .muttern-17-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2542,7 +2543,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2556,7 +2557,7 @@ a { text-decoration: none; }
 
             .neptunus-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2564,7 +2565,7 @@ a { text-decoration: none; }
 
             .neptunus-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2589,7 +2590,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2603,7 +2604,7 @@ a { text-decoration: none; }
 
             .nya-plogen-12-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2611,7 +2612,7 @@ a { text-decoration: none; }
 
             .nya-plogen-12-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2636,7 +2637,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2650,7 +2651,7 @@ a { text-decoration: none; }
 
             .nybygget-20-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2658,7 +2659,7 @@ a { text-decoration: none; }
 
             .nybygget-20-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2683,7 +2684,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2697,7 +2698,7 @@ a { text-decoration: none; }
 
             .nyasbo-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2705,7 +2706,7 @@ a { text-decoration: none; }
 
             .nyasbo-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2730,7 +2731,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2744,7 +2745,7 @@ a { text-decoration: none; }
 
             .obelisken-10-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2752,7 +2753,7 @@ a { text-decoration: none; }
 
             .obelisken-10-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2777,7 +2778,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2791,7 +2792,7 @@ a { text-decoration: none; }
 
             .pahl-nr-10-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2799,7 +2800,7 @@ a { text-decoration: none; }
 
             .pahl-nr-10-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2824,7 +2825,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2838,7 +2839,7 @@ a { text-decoration: none; }
 
             .pelarbacken-storre-20-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2846,7 +2847,7 @@ a { text-decoration: none; }
 
             .pelarbacken-storre-20-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2871,7 +2872,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2885,7 +2886,7 @@ a { text-decoration: none; }
 
             .pinnpojken-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2893,7 +2894,7 @@ a { text-decoration: none; }
 
             .pinnpojken-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2918,7 +2919,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2932,7 +2933,7 @@ a { text-decoration: none; }
 
             .plogen-7-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2940,7 +2941,7 @@ a { text-decoration: none; }
 
             .plogen-7-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2965,7 +2966,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -2979,7 +2980,7 @@ a { text-decoration: none; }
 
             .postiljonen-9-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -2987,7 +2988,7 @@ a { text-decoration: none; }
 
             .postiljonen-9-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3012,7 +3013,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3026,7 +3027,7 @@ a { text-decoration: none; }
 
             .postsacken-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3034,7 +3035,7 @@ a { text-decoration: none; }
 
             .postsacken-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3059,7 +3060,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3073,7 +3074,7 @@ a { text-decoration: none; }
 
             .propellern-9-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3081,7 +3082,7 @@ a { text-decoration: none; }
 
             .propellern-9-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3106,7 +3107,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3120,7 +3121,7 @@ a { text-decoration: none; }
 
             .pyramiden-19-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3128,7 +3129,7 @@ a { text-decoration: none; }
 
             .pyramiden-19-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3153,7 +3154,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3167,7 +3168,7 @@ a { text-decoration: none; }
 
             .rafsan-10-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3175,7 +3176,7 @@ a { text-decoration: none; }
 
             .rafsan-10-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3200,7 +3201,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3214,7 +3215,7 @@ a { text-decoration: none; }
 
             .rattan-11-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3222,7 +3223,7 @@ a { text-decoration: none; }
 
             .rattan-11-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3247,7 +3248,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3261,7 +3262,7 @@ a { text-decoration: none; }
 
             .samaritgrand-1-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3269,7 +3270,7 @@ a { text-decoration: none; }
 
             .samaritgrand-1-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3294,7 +3295,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3308,7 +3309,7 @@ a { text-decoration: none; }
 
             .skinnarviksberget-nr-2-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3316,7 +3317,7 @@ a { text-decoration: none; }
 
             .skinnarviksberget-nr-2-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3341,7 +3342,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3355,7 +3356,7 @@ a { text-decoration: none; }
 
             .skruven-11-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3363,7 +3364,7 @@ a { text-decoration: none; }
 
             .skruven-11-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3388,7 +3389,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3402,7 +3403,7 @@ a { text-decoration: none; }
 
             .slipen-40-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3410,7 +3411,7 @@ a { text-decoration: none; }
 
             .slipen-40-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3435,7 +3436,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3449,7 +3450,7 @@ a { text-decoration: none; }
 
             .slipgatan-12-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3457,7 +3458,7 @@ a { text-decoration: none; }
 
             .slipgatan-12-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3482,7 +3483,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3496,7 +3497,7 @@ a { text-decoration: none; }
 
             .slaggan-12-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3504,7 +3505,7 @@ a { text-decoration: none; }
 
             .slaggan-12-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3529,7 +3530,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3543,7 +3544,7 @@ a { text-decoration: none; }
 
             .smalanningen-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3551,7 +3552,7 @@ a { text-decoration: none; }
 
             .smalanningen-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3576,7 +3577,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3590,7 +3591,7 @@ a { text-decoration: none; }
 
             .spettet-2000-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3598,7 +3599,7 @@ a { text-decoration: none; }
 
             .spettet-2000-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3623,7 +3624,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3637,7 +3638,7 @@ a { text-decoration: none; }
 
             .stammen-23-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3645,7 +3646,7 @@ a { text-decoration: none; }
 
             .stammen-23-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3670,7 +3671,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3684,7 +3685,7 @@ a { text-decoration: none; }
 
             .strandslipen-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3692,7 +3693,7 @@ a { text-decoration: none; }
 
             .strandslipen-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3717,7 +3718,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3731,7 +3732,7 @@ a { text-decoration: none; }
 
             .svejk-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3739,7 +3740,7 @@ a { text-decoration: none; }
 
             .svejk-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3764,7 +3765,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3778,7 +3779,7 @@ a { text-decoration: none; }
 
             .swedenborg-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3786,7 +3787,7 @@ a { text-decoration: none; }
 
             .swedenborg-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3811,7 +3812,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3825,7 +3826,7 @@ a { text-decoration: none; }
 
             .syrenen-1908-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3833,7 +3834,7 @@ a { text-decoration: none; }
 
             .syrenen-1908-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3858,7 +3859,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3872,7 +3873,7 @@ a { text-decoration: none; }
 
             .sodermalm-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3880,7 +3881,7 @@ a { text-decoration: none; }
 
             .sodermalm-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3905,7 +3906,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3919,7 +3920,7 @@ a { text-decoration: none; }
 
             .soders-hjarta-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3927,7 +3928,7 @@ a { text-decoration: none; }
 
             .soders-hjarta-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3952,7 +3953,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -3966,7 +3967,7 @@ a { text-decoration: none; }
 
             .tullstugan-3-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3974,7 +3975,7 @@ a { text-decoration: none; }
 
             .tullstugan-3-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -3999,7 +4000,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4013,7 +4014,7 @@ a { text-decoration: none; }
 
             .turbinen-25-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4021,7 +4022,7 @@ a { text-decoration: none; }
 
             .turbinen-25-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4046,7 +4047,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4060,7 +4061,7 @@ a { text-decoration: none; }
 
             .tangen-10-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4068,7 +4069,7 @@ a { text-decoration: none; }
 
             .tangen-10-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4093,7 +4094,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4107,7 +4108,7 @@ a { text-decoration: none; }
 
             .tangen-12-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4115,7 +4116,7 @@ a { text-decoration: none; }
 
             .tangen-12-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4140,7 +4141,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4154,7 +4155,7 @@ a { text-decoration: none; }
 
             .tangen-9-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4162,7 +4163,7 @@ a { text-decoration: none; }
 
             .tangen-9-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4187,7 +4188,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4201,7 +4202,7 @@ a { text-decoration: none; }
 
             .urvadersklippan-mindre-10-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4209,7 +4210,7 @@ a { text-decoration: none; }
 
             .urvadersklippan-mindre-10-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4234,7 +4235,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4248,7 +4249,7 @@ a { text-decoration: none; }
 
             .uven-storre-22-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4256,7 +4257,7 @@ a { text-decoration: none; }
 
             .uven-storre-22-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4281,7 +4282,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4295,7 +4296,7 @@ a { text-decoration: none; }
 
             .viggen-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4303,7 +4304,7 @@ a { text-decoration: none; }
 
             .viggen-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4328,7 +4329,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4342,7 +4343,7 @@ a { text-decoration: none; }
 
             .vitbetan-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4350,7 +4351,7 @@ a { text-decoration: none; }
 
             .vitbetan-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4375,7 +4376,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4389,7 +4390,7 @@ a { text-decoration: none; }
 
             .vitbetan-18-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4397,7 +4398,7 @@ a { text-decoration: none; }
 
             .vitbetan-18-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4422,7 +4423,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4436,7 +4437,7 @@ a { text-decoration: none; }
 
             .vitbetan-27-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4444,7 +4445,7 @@ a { text-decoration: none; }
 
             .vitbetan-27-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4469,7 +4470,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4483,7 +4484,7 @@ a { text-decoration: none; }
 
             .vitbetan-3-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4491,7 +4492,7 @@ a { text-decoration: none; }
 
             .vitbetan-3-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4516,7 +4517,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4530,7 +4531,7 @@ a { text-decoration: none; }
 
             .vastergotland-13-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4538,7 +4539,7 @@ a { text-decoration: none; }
 
             .vastergotland-13-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4563,7 +4564,7 @@ a { text-decoration: none; }
             position: absolute; 
             top: min(25vw,180px);
             left: 5px;
-            font: min(4vw,18px) 'Verdana';
+            font: 4vw 'Verdana';
 
             }
 
@@ -4577,7 +4578,7 @@ a { text-decoration: none; }
 
             .zinken-container a.hnet {
             position: absolute; 
-            top: min(60vw,281px);
+            top: min(55vw,281px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
@@ -4585,7 +4586,7 @@ a { text-decoration: none; }
 
             .zinken-container a.realtor {
             position: absolute; 
-            top: min(65vw,300px);
+            top: min(60vw,300px);
             left: 5px;
             font: min(3vw,12px) 'Verdana';
 
