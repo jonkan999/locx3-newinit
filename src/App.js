@@ -4,14 +4,23 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 //import { MapNodes } from './MapNodes.js';
 import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
+import useCollapse from 'react-collapsed';
+import CollapsibleHornstull from './CollapsibleHornstull';
+import listing_icon from './icons/listing_icon.png';
+import drink_icon from './icons/drink_icon.png';
 
-
+	
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
+
 var minion;
 var renderer;
 var scene;
 var camera;
 const defaultStart= [18.036,59.316] 
+ const handleResize = (e) => {
+  this.setState({ windowWidth: window.innerWidth,windowHeight: window.innerHeight });
+ };
+
 export default class App extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -20,7 +29,7 @@ export default class App extends React.PureComponent {
       lat: defaultStart[1],
       zoom: 15.31,
 	  activeCSS: 'default',
-	  iframeURL: '394639591619707',
+	  iframeURL: '301208651534614',
 	  hnetURL: '',
 	  realtorURL: '',
 	  spriteLng: defaultStart[0],
@@ -31,9 +40,14 @@ export default class App extends React.PureComponent {
 	  hnetBody2: '',
 	  hnetBody3: ''
 	  
+	  
+	  
     };
     this.mapContainer = React.createRef();
   }
+  
+
+  
   
   
 
@@ -78,6 +92,24 @@ export default class App extends React.PureComponent {
 				}
 			});
 		}
+		this.map.addSource('Hornstull', {
+			'type': 'geojson',
+			'data': {
+				'type': 'Feature',
+				'geometry': {
+					'type': 'Polygon',
+					// These coordinates outline Hornstull.
+					'coordinates': [
+						[[18.033466, 59.315227],
+					   [18.034969, 59.315230],
+					   [18.033320, 59.317945],
+					   [18.031628, 59.317828],
+					   [18.033466, 59.315227]]
+						
+					]
+				}
+			}
+		});
 		
 		i=0;
 		var pointsData = {};
@@ -99,6 +131,7 @@ export default class App extends React.PureComponent {
 				}
 			}
 			pointsData['features'].push(newFeature);
+
 			
 			//extrusions
 			this.map.addLayer({
@@ -117,9 +150,41 @@ export default class App extends React.PureComponent {
 
 			
 		}
+		
+
+		
+		this.map.addLayer({
+			'id': 'Hornstull',
+			'type': 'fill-extrusion',
+			'source': 'Hornstull', // reference the data source
+			'layout': {
+				'visibility': 'none'
+			},
+			'paint': {
+				'fill-extrusion-color': '#CF9FFF', // blue color fill
+				'fill-extrusion-opacity': 0.4,
+				'fill-extrusion-height': 10
+			}
+		});
+		
 		this.map.addSource('points', {
 			'type': 'geojson',
 			'data': pointsData
+		});
+		
+		this.map.addSource('drinks', {
+			'type': 'geojson',
+			'data': {
+				"type": "Feature",
+				"geometry": {
+					"type": "Point",
+					"coordinates": [18.033153, 59.316858]
+				},
+				"properties": {
+					"title": 'Hornstull',
+					"description": '<h1>Hornstull</h1>'
+				}
+			}
 		});
 		//map.addLayer({
 		//	'id': 'BRFBulten-outline',
@@ -140,33 +205,65 @@ export default class App extends React.PureComponent {
 		//		}
 		//	}
 		//});
-		this.map.addLayer({
-			'id': 'points',
-			'type': 'circle',
-			'source': 'points',
-			'paint': {
-				// Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
-				// with three steps to implement three types of circles:
-				//   * Blue, 20px circles when point count is less than 100
-				//   * Yellow, 30px circles when point count is between 100 and 750
-				//   * Pink, 40px circles when point count is greater than or equal to 750
-				'circle-color': ['get', 'color'],
-				//'#16DF35',
-				'circle-radius': {
-					'base': 2,
-					'stops': [
-						[0, 150 * Math.pow(1.5, (0 - zoom))],
-						[24, 150 * Math.pow(1.5, (24 - zoom))]
-					]
-				},
-				'circle-stroke-width': {
-					'base': 2,
-					'stops': [
-						[0, 15 * Math.pow(1.5, (0 - zoom))],
-						[24, 15 * Math.pow(1.5, (24 - zoom))]
-					]
+		//this.map.addLayer({
+		//	'id': 'points',
+		//	'type': 'circle',
+		//	'source': 'points',
+		//	'paint': {
+		//		// Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
+		//		// with three steps to implement three types of circles:
+		//		//   * Blue, 20px circles when point count is less than 100
+		//		//   * Yellow, 30px circles when point count is between 100 and 750
+		//		//   * Pink, 40px circles when point count is greater than or equal to 750
+		//		'circle-color': ['get', 'color'],
+		//		//'#16DF35',
+		//		'circle-radius': {
+		//			'base': 2,
+		//			'stops': [
+		//				[0, 150 * Math.pow(1.5, (0 - zoom))],
+		//				[24, 150 * Math.pow(1.5, (24 - zoom))]
+		//			]
+		//		},
+		//		'circle-stroke-width': {
+		//			'base': 2,
+		//			'stops': [
+		//				[0, 15 * Math.pow(1.5, (0 - zoom))],
+		//				[24, 15 * Math.pow(1.5, Math.max((24 - zoom),2)]
+		//			]
+		//		}
+		//	}
+		//});
+		map.loadImage(
+		listing_icon,
+		(error, image) => {
+			if (error) throw error;
+			this.map.addImage('listing_icon', image);
+			this.map.addLayer({
+				'id': 'points',
+				'type': 'symbol',
+				'source': 'points', // reference the data source
+				'layout': {
+					'icon-image': 'listing_icon', // reference the image
+					'icon-size': 0.02 * Math.pow(1.5, Math.max((24 - zoom),2)),
+      'icon-allow-overlap': true
 				}
-			}
+			});
+		});
+		map.loadImage(
+		drink_icon,
+		(error, image) => {
+			if (error) throw error;
+			this.map.addImage('drink_icon', image);
+			this.map.addLayer({
+				'id': 'drinks',
+				'type': 'symbol',
+				'source': 'drinks', // reference the data source
+				'layout': {
+					'icon-image': 'drink_icon', // reference the image
+					'icon-size': 0.02 * Math.pow(1.5, Math.max((24 - zoom),2)),
+					'icon-allow-overlap': true
+				}
+			});
 		});
 	});
 
@@ -214,6 +311,52 @@ export default class App extends React.PureComponent {
 				//Turn off all
 				this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 			}
+		}
+	});
+	
+	this.map.on('click', 'drinks', (e) => {
+		const coordinates = e.features[0].geometry.coordinates.slice();
+		//var ObjectArray = ['BRFBulten','Hornstull'];
+		var arrayLength = MapPolygons.length;
+		var i = 0;
+
+
+		
+		if (this.map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
+			
+			//Turn off all but clicked highlights
+			if (e.features[0].properties.title === 'Hornstull') {
+				let popup_cont;//just for handling new polygons
+				if (e.features[0].properties.title==='Hornstull' || e.features[0].properties.title==='BRFBulten') {
+				  popup_cont=e.features[0].properties.title;
+				} else {
+				  popup_cont='BRFBulten';
+				}
+				var popup = new mapboxgl.Popup({closeButton: false, className: popup_cont, 'border-top-color': 'rgba(205, 205, 205,0)' })
+				.setLngLat(coordinates)
+				.setHTML(e.features[0].properties.description)
+				.setMaxWidth('none')
+				.addTo(this.map);
+				this.map.triggerRepaint();
+				this.map.setLayoutProperty('Hornstull', 'visibility', 'visible');
+				this.setState({
+					activeCSS: 'Hornstull',
+					iframeURL: '3022856907944008',
+					hnetURL: '',
+					realtorURL: '',
+					hnetHeader: '',
+					hnetBody1: '',
+					hnetBody2: '',
+					hnetBody3: '',
+				  });
+			} else {
+				this.map.setLayoutProperty('Hornstull', 'visibility', 'none');
+			}
+			
+		} else {
+
+				this.map.setLayoutProperty('Hornstull', 'visibility', 'none');
+			
 		}
 	});
 
@@ -416,18 +559,29 @@ export default class App extends React.PureComponent {
 	} else {
 	  left_cont="default-container";
 	}
-    return (
-	<div>
-		<Street parentCallback = {this.handleCallback.bind(this)}  imageId={iframeURL} />
-			<div ref={this.mapContainer} class="map-container"   />
+	
+	let exp_ind;
+	if (this.state.activeCSS==='Hornstull') {
+		exp_ind=
+		<CollapsibleHornstull>
 
-			<div>
-				<div class={this.state.activeCSS+"-container"}>
+				</CollapsibleHornstull>;
+	} else {
+	  exp_ind=<div class={this.state.activeCSS+"-container"}>
 					<h1>{this.state.hnetHeader}</h1>
 					<p> {this.state.hnetBody1} <br/> {this.state.hnetBody2} <br/> {this.state.hnetBody3} </p> 
 					<a class='hnet' href={this.state.hnetURL} target="_blank" title="Opens in a new window">Hemnet</a>
 					<a class='realtor' href={this.state.realtorURL} target="_blank" title="Opens in a new window">Mäklare</a>
-				</div>
+				</div>;
+	}
+	
+    return (
+	<div>
+		<Street parentCallback = {this.handleCallback.bind(this)}  imageId={iframeURL} />
+			<div ref={this.mapContainer} class="map-container" />
+
+			<div>
+				{exp_ind}
 			</div>
 				
 		

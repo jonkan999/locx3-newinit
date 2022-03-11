@@ -6,22 +6,26 @@ a { text-decoration: none; }
 	left:0;
 	top: 0;
 	bottom: 0;
-	height: 63%;
-	width: 100%;
+	height: 63vh;
+	width: 100vw;
 	padding: 0;
 	margin: 0;
 
 }
 
+
+
 .street-container {
 	position: absolute; 
 	z-index: -1;
-	top: 54.5%;
-	left: 50%;
-	width: 50%;
-	height: 48.5%;
+	top: 54.5vh;
+	left: 50vw;
+	width: 50vw;
+	height: 48.5vh;
+	-webkit-filter: saturate(1.4) contrast(1.1);
+	filter: saturate(1.4) contrast(1.1);
 }
-
+/*
 .sidebar {
 	background-color: rgba(35, 55, 75, 0.9);
 	color: #fff;
@@ -42,7 +46,7 @@ a { text-decoration: none; }
     width: 40%;
     height: 100%;
 	border: 0;
-}
+}*/
 
 
 .BRFBulten .mapboxgl-popup-content {
@@ -125,11 +129,11 @@ a { text-decoration: none; }
 	z-index: -3;
 	top: 218px;
 	left: 460px;
-  font: 1px 'Verdana';
+	font: 1px 'Verdana';
 
 }
 
-
+/*
 .Hornstull-container {
 	position: absolute; 
 	z-index: -2;
@@ -137,18 +141,33 @@ a { text-decoration: none; }
 	left: 0%;
 	width: 50%;
 	height: 48.5%;
-	background-image: url('./icons/Hornstull3.png');
-    background-repeat:   no-repeat;
-    background-position: top left;              /* optional, center the image */
-}
-.Hornstull-container a {
-	position: absolute; 
-	z-index: -3;
-	top: 218px;
-	left: 460px;
-  font: 1px 'Verdana';
+}*/
+
+.Hornstull-container .content {	
+position: relative;
+top: -66vh; 
+left: -1vw; 
+width: 101vw; 
+height: 150vh;
+background-color: #ffeeec;
 
 }
+
+
+.Hornstull-container .header {	
+
+	position: relative; 
+	z-index: 2;
+	top: 63vh;
+	left: 0vh;
+	width: 50vw;
+	height: 48.5vh;
+    background-color: #ffeeec;
+    padding: 0;
+	margin: 0;
+    cursor: pointer;
+}
+
 
 .BRFBulten-container {
 	position: absolute; 
@@ -168,7 +187,7 @@ a { text-decoration: none; }
 	position: absolute; 
 	top: 218px;
 	left: 460px;
-  font: 23px 'Verdana';
+	font: 23px 'Verdana';
 
 
 }
