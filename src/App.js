@@ -6,6 +6,8 @@ import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
 import useCollapse from 'react-collapsed';
 import CollapsibleHornstull from './CollapsibleHornstull';
+import addSymbolLayer from './addSymbolLayer.js';
+
 import listing_icon from './icons/listing_icon.png';
 import drink_icon from './icons/drink_icon.png';
 
@@ -67,125 +69,23 @@ export default class App extends React.PureComponent {
 	
 	this.map.getCanvas().style.cursor = 'pointer';
 	
+	
 
 	
 
 	
 	this.map.on('load', () => {
 
-		var arrayLength = MapPolygons.length;
-		var i = 0;
-		for (i; i < arrayLength; i++) {
-			this.map.addSource(MapPolygons[i][0], {
-				'type': 'geojson',
-				'data': {
-					'type': 'Feature',
-					'geometry': {
-						'type': 'Polygon',
-						// These coordinates outline Hornstull.
-						'coordinates': [
-							
-							MapPolygons[i][2]
-							
-						]
-					}
-				}
-			});
-		}
-		this.map.addSource('Hornstull', {
-			'type': 'geojson',
-			'data': {
-				'type': 'Feature',
-				'geometry': {
-					'type': 'Polygon',
-					// These coordinates outline Hornstull.
-					'coordinates': [
-						[[18.033466, 59.315227],
-					   [18.034969, 59.315230],
-					   [18.033320, 59.317945],
-					   [18.031628, 59.317828],
-					   [18.033466, 59.315227]]
-						
-					]
-				}
-			}
-		});
-		
-		i=0;
-		var pointsData = {};
-		pointsData['type'] = 'FeatureCollection';
-		pointsData['features'] = [];
-		
-		for (i; i < arrayLength; i++) {
-			//points
-			var newFeature = {
-				"type": "Feature",
-				"geometry": {
-					"type": "Point",
-					"coordinates": MapPolygons[i][3]
-				},
-				"properties": {
-					"title": MapPolygons[i][0],
-					'color': MapPolygons[i][4],
-					"description": MapPolygons[i][8]
-				}
-			}
-			pointsData['features'].push(newFeature);
 
-			
-			//extrusions
-			this.map.addLayer({
-				'id': MapPolygons[i][0],
-				'type': 'fill-extrusion',
-				'source': MapPolygons[i][0], // reference the data source
-				'layout': {
-					'visibility': 'none'
-				},
-				'paint': {
-					'fill-extrusion-color': MapPolygons[i][4], // blue color fill
-					'fill-extrusion-opacity': 0.4,
-					'fill-extrusion-height': MapPolygons[i][5]
-				}
-			});
-
-			
-		}
+		
+		addSymbolLayer('points',this.map,MapPolygons,listing_icon,'listing_icon',zoom)
+		addSymbolLayer('drinks',this.map,MapPolygons,drink_icon,'drinks_icon',zoom)
 		
 
 		
-		this.map.addLayer({
-			'id': 'Hornstull',
-			'type': 'fill-extrusion',
-			'source': 'Hornstull', // reference the data source
-			'layout': {
-				'visibility': 'none'
-			},
-			'paint': {
-				'fill-extrusion-color': '#CF9FFF', // blue color fill
-				'fill-extrusion-opacity': 0.4,
-				'fill-extrusion-height': 10
-			}
-		});
-		
-		this.map.addSource('points', {
-			'type': 'geojson',
-			'data': pointsData
-		});
-		
-		this.map.addSource('drinks', {
-			'type': 'geojson',
-			'data': {
-				"type": "Feature",
-				"geometry": {
-					"type": "Point",
-					"coordinates": [18.033153, 59.316858]
-				},
-				"properties": {
-					"title": 'Hornstull',
-					"description": '<h1>Hornstull</h1>'
-				}
-			}
-		});
+
+
+
 		//map.addLayer({
 		//	'id': 'BRFBulten-outline',
 		//	'type': 'line',
@@ -233,38 +133,7 @@ export default class App extends React.PureComponent {
 		//		}
 		//	}
 		//});
-		map.loadImage(
-		listing_icon,
-		(error, image) => {
-			if (error) throw error;
-			this.map.addImage('listing_icon', image);
-			this.map.addLayer({
-				'id': 'points',
-				'type': 'symbol',
-				'source': 'points', // reference the data source
-				'layout': {
-					'icon-image': 'listing_icon', // reference the image
-					'icon-size': 0.02 * Math.pow(1.5, Math.max((24 - zoom),2)),
-      'icon-allow-overlap': true
-				}
-			});
-		});
-		map.loadImage(
-		drink_icon,
-		(error, image) => {
-			if (error) throw error;
-			this.map.addImage('drink_icon', image);
-			this.map.addLayer({
-				'id': 'drinks',
-				'type': 'symbol',
-				'source': 'drinks', // reference the data source
-				'layout': {
-					'icon-image': 'drink_icon', // reference the image
-					'icon-size': 0.02 * Math.pow(1.5, Math.max((24 - zoom),2)),
-					'icon-allow-overlap': true
-				}
-			});
-		});
+
 	});
 
 	this.map.on('click', 'points', (e) => {
@@ -482,7 +351,7 @@ export default class App extends React.PureComponent {
 	map.on('load', () => {
 		map.addLayer(customLayer);
 	});
-	
+	map.doubleClickZoom.disable();
 	
 	//ENDTEST
 	
@@ -496,6 +365,7 @@ export default class App extends React.PureComponent {
 					   spriteLng: position.lng,
 					   spriteBearing: pov.bearing})
     }
+	
 	
 		componentDidUpdate(prevProps,prevState) {
 		if (prevState.spriteLng !== this.state.spriteLng) {
@@ -549,7 +419,7 @@ export default class App extends React.PureComponent {
 			
 		}
 	}
-
+	
 	
   render() {
     const { iframeURL, spriteLat} = this.state;

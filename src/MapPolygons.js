@@ -1,5 +1,7 @@
 export const MapPolygons = 
 [
+['Hornstull','Hornstull',[[[18.032960117214117,59.31404968464406],[18.034616993124757,59.315031082350316],[18.034029312755592,59.316050278765886],[18.03270937759376,59.317947643611916],[18.030465430556177,59.318551700023164],[18.026539517657085,59.31857582275049],[18.02593845411613,59.317456731826866],[18.026817629276678,59.31599903163391],[18.032960117214117,59.31404968464406]],[18.030509604036787,59.31670774695082],'#CF9FFF',10,'3022856907944008','','<h1>Hornstull</h1>', '', '', '', '', '','drinks_icon'
+			   ],
 ['Alnmåttet', 'BRFBulten', [
         [18.064951699999998, 59.311196299980004],
         [18.065367925432636, 59.31109816599718],
@@ -16,7 +18,7 @@ export const MapPolygons =
         [18.064951699999998, 59.311196299980004]
     ],
     [18.064676800000004, 59.31075089331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Alnmåttet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Anaconda', 'BRFBulten', [
         [18.060553199999998, 59.31893879998],
@@ -26,7 +28,7 @@ export const MapPolygons =
         [18.060553199999998, 59.31893879998]
     ],
     [18.06058565, 59.31878864998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Anaconda <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Aquarius nr 1', 'BRFBulten', [
         [18.0622079, 59.31688349998],
@@ -40,7 +42,7 @@ export const MapPolygons =
         [18.0622079, 59.31688349998]
     ],
     [18.0619229, 59.31688349998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Aquarius nr 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Barnängen', 'BRFBulten', [
         [18.0937458, 59.309366099980004],
@@ -54,7 +56,7 @@ export const MapPolygons =
         [18.0937458, 59.309366099980004]
     ],
     [18.0934608, 59.309366099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Barnängen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Barnängshusen', 'BRFBulten', [
         [18.0965947, 59.31058929998],
@@ -71,7 +73,7 @@ export const MapPolygons =
         [18.0965947, 59.31058929998]
     ],
     [18.096750827272725, 59.310215636343635], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Barnängshusen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Barnängsstugan', 'BRFBulten', [
         [18.0969519, 59.30883059998],
@@ -83,7 +85,7 @@ export const MapPolygons =
         [18.0969519, 59.30883059998]
     ],
     [18.0969433, 59.30858254998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Barnängsstugan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bastugatan 41', 'BRFBulten', [
         [18.0588784, 59.31996569998],
@@ -97,7 +99,7 @@ export const MapPolygons =
         [18.0588784, 59.31996569998]
     ],
     [18.0585934, 59.31996569998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bastugatan 41 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bastukatten 13', 'BRFBulten', [
         [18.0603942, 59.32007249998001],
@@ -111,7 +113,7 @@ export const MapPolygons =
         [18.0603942, 59.32007249998001]
     ],
     [18.0601092, 59.32007249998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bastukatten 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Beckbrännaren Mindre 27', 'BRFBulten', [
         [18.0859415, 59.315475699980006],
@@ -125,7 +127,7 @@ export const MapPolygons =
         [18.0859415, 59.315475699980006]
     ],
     [18.0856565, 59.315475699980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Beckbrännaren Mindre 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Beckbrännaren Mindre 29', 'BRFBulten', [
         [18.0850799, 59.315613599980004],
@@ -141,7 +143,7 @@ export const MapPolygons =
         [18.0850799, 59.315613599980004]
     ],
     [18.08526078, 59.31519973998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Beckbrännaren Mindre 29 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Beckbrännaren Mindre 30', 'BRFBulten', [
         [18.0851253, 59.31513589998001],
@@ -155,7 +157,7 @@ export const MapPolygons =
         [18.0851253, 59.31513589998001]
     ],
     [18.0848403, 59.31513589998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Beckbrännaren Mindre 30 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Beda', 'BRFBulten', [
         [18.0879486, 59.30936029998001],
@@ -169,7 +171,7 @@ export const MapPolygons =
         [18.0879486, 59.30936029998001]
     ],
     [18.0876636, 59.30936029998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Beda <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bellman', 'BRFBulten', [
         [18.0648193, 59.32039799998],
@@ -183,7 +185,7 @@ export const MapPolygons =
         [18.0648193, 59.32039799998]
     ],
     [18.0645343, 59.32039799998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bellman <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bellman 28', 'BRFBulten', [
         [18.0656282, 59.31802649998],
@@ -197,7 +199,7 @@ export const MapPolygons =
         [18.0656282, 59.31802649998]
     ],
     [18.0657942, 59.31783916664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bellman 28 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsgruvan', 'BRFBulten', [
         [18.058738299999998, 59.31559749998],
@@ -211,7 +213,7 @@ export const MapPolygons =
         [18.058738299999998, 59.31559749998]
     ],
     [18.058631225, 59.31537534998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsgruvan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsgruvan Större 33', 'bergsgruvan-storre-33', [
         [18.0614473, 59.315481199980006],
@@ -225,7 +227,7 @@ export const MapPolygons =
         [18.0614473, 59.315481199980006]
     ],
     [18.0611623, 59.315481199980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-maria-stockholms-kommun-timmermansgatan-38b-18389975', '<h1>Bergsgruvan Större 33 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2495234&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Timmermansgatan 38B', '2 rum', 'om 50 m²', 'med 2822 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2495234&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Timmermansgatan 38B', '2 rum', 'om 50 m²', 'med 2822 kr i månadsavgift','listing_icon'
 ],
 ['Bergsgruvan Större 39', 'BRFBulten', [
         [18.0602394, 59.31524099998],
@@ -239,7 +241,7 @@ export const MapPolygons =
         [18.0602394, 59.31524099998]
     ],
     [18.059951133333332, 59.31505206664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsgruvan Större 39 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsund 37', 'BRFBulten', [
         [18.029503000000002, 59.31618189998],
@@ -253,7 +255,7 @@ export const MapPolygons =
         [18.029503000000002, 59.31618189998]
     ],
     [18.029218, 59.31618189998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsund 37 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsund 75', 'BRFBulten', [
         [18.0287376, 59.31622319998],
@@ -267,7 +269,7 @@ export const MapPolygons =
         [18.0287376, 59.31622319998]
     ],
     [18.028452599999998, 59.31622319998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsund 75 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsund 77', 'BRFBulten', [
         [18.0288774, 59.315754099980005],
@@ -281,7 +283,7 @@ export const MapPolygons =
         [18.0288774, 59.315754099980005]
     ],
     [18.028592399999997, 59.315754099980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsund 77 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsund nr 1', 'BRFBulten', [
         [18.0269266, 59.317302699980004],
@@ -295,7 +297,7 @@ export const MapPolygons =
         [18.0269266, 59.317302699980004]
     ],
     [18.026641599999998, 59.317302699980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsund nr 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsunds Strand 27', 'BRFBulten', [
         [18.0291419, 59.315675799980006],
@@ -309,7 +311,7 @@ export const MapPolygons =
         [18.0291419, 59.315675799980006]
     ],
     [18.028856899999997, 59.315675799980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsunds Strand 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsunds Strand 34-38', 'bergsunds-strand-34-38', [
         [18.031935999999998, 59.315805199980005],
@@ -323,7 +325,7 @@ export const MapPolygons =
         [18.031935999999998, 59.315805199980005]
     ],
     [18.031688499999998, 59.31561316664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-bergsunds-strand-38,-2-tr-18356235', '<h1>Bergsunds Strand 34-38 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1584757", 'Bergsunds strand 38, 2 tr', '2 rum', 'om 48 m²', 'med 2271 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1584757", 'Bergsunds strand 38, 2 tr', '2 rum', 'om 48 m²', 'med 2271 kr i månadsavgift','listing_icon'
 ],
 ['Bergsundsgatan 12', 'BRFBulten', [
         [18.028923900000002, 59.31719559998],
@@ -337,7 +339,7 @@ export const MapPolygons =
         [18.028923900000002, 59.31719559998]
     ],
     [18.0286389, 59.31719559998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsundsgatan 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bergsundsklippan', 'BRFBulten', [
         [18.028994400000002, 59.31703559998],
@@ -351,7 +353,7 @@ export const MapPolygons =
         [18.028994400000002, 59.31703559998]
     ],
     [18.0287094, 59.31703559998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bergsundsklippan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bjelken 10', 'BRFBulten', [
         [18.0486, 59.318573599980006],
@@ -365,7 +367,7 @@ export const MapPolygons =
         [18.0486, 59.318573599980006]
     ],
     [18.048315, 59.318573599980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bjelken 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bjurholmsparken', 'BRFBulten', [
         [18.081363, 59.30986249998001],
@@ -379,7 +381,7 @@ export const MapPolygons =
         [18.081363, 59.30986249998001]
     ],
     [18.081077999999998, 59.30986249998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bjurholmsparken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bjälken 7', 'BRFBulten', [
         [18.0468396, 59.31849369998],
@@ -389,7 +391,7 @@ export const MapPolygons =
         [18.0468396, 59.31849369998]
     ],
     [18.046760749999997, 59.31828499998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bjälken 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bjälken nr 19', 'BRFBulten', [
         [18.048080600000002, 59.31843949998],
@@ -403,7 +405,7 @@ export const MapPolygons =
         [18.048080600000002, 59.31843949998]
     ],
     [18.0477956, 59.31843949998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bjälken nr 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Blecktornet 15', 'BRFBulten', [
         [18.0873022, 59.308661599980006],
@@ -417,7 +419,7 @@ export const MapPolygons =
         [18.0873022, 59.308661599980006]
     ],
     [18.0870172, 59.308661599980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Blecktornet 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden 13', 'bonden-13', [
         [18.0793128, 59.31310899998],
@@ -431,7 +433,7 @@ export const MapPolygons =
         [18.0793128, 59.31310899998]
     ],
     [18.0790278, 59.31310899998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sofo-sodermalm-stockholms-kommun-bondegatan-13-18380813', '<h1>Bonden 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://ambassadormakleri.se/objekt/1591955", 'Bondegatan 13', '2 rum', 'om 31 m²', 'med 2019 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://ambassadormakleri.se/objekt/1591955", 'Bondegatan 13', '2 rum', 'om 31 m²', 'med 2019 kr i månadsavgift','listing_icon'
 ],
 ['Bonden 18', 'BRFBulten', [
         [18.0813273, 59.312071799980004],
@@ -445,7 +447,7 @@ export const MapPolygons =
         [18.0813273, 59.312071799980004]
     ],
     [18.0810423, 59.312071799980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden 8', 'BRFBulten', [
         [18.0769731, 59.312492599980004],
@@ -459,7 +461,7 @@ export const MapPolygons =
         [18.0769731, 59.312492599980004]
     ],
     [18.0766881, 59.312492599980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden Mindre 15', 'BRFBulten', [
         [18.081400600000002, 59.312833099980004],
@@ -473,7 +475,7 @@ export const MapPolygons =
         [18.081400600000002, 59.312833099980004]
     ],
     [18.0811156, 59.312833099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden Mindre 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden Större 28', 'BRFBulten', [
         [18.0790163, 59.31270399998],
@@ -487,7 +489,7 @@ export const MapPolygons =
         [18.0790163, 59.31270399998]
     ],
     [18.079090166666663, 59.312453333313336], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden Större 28 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden Större 29', 'bonden-storre-29', [
         [18.0788171, 59.31268339998],
@@ -499,7 +501,7 @@ export const MapPolygons =
         [18.0788171, 59.31268339998]
     ],
     [18.0787643, 59.31244429998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-sofo-stockholms-kommun-skanegatan-57a,-3-4-tr-vindsetage,-18355069', '<h1>Bonden Större 29 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1622156158?utm_source=hemnet&amp;utm_medium=hemnet", 'Skånegatan 57A, 3-4 tr vindsetage.', '3 rum', 'om 90 m²', 'med 3479 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1622156158?utm_source=hemnet&amp;utm_medium=hemnet", 'Skånegatan 57A, 3-4 tr vindsetage.', '3 rum', 'om 90 m²', 'med 3479 kr i månadsavgift','listing_icon'
 ],
 ['Bonden Större 31', 'BRFBulten', [
         [18.0785053, 59.31295259998],
@@ -513,7 +515,7 @@ export const MapPolygons =
         [18.0785053, 59.31295259998]
     ],
     [18.078412649999997, 59.31267624998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden Större 31 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden Större 36', 'BRFBulten', [
         [18.0780474, 59.31288869998],
@@ -527,7 +529,7 @@ export const MapPolygons =
         [18.0780474, 59.31288869998]
     ],
     [18.077874233333333, 59.31262743331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden Större 36 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden Större 37', 'BRFBulten', [
         [18.0799364, 59.31290629998001],
@@ -541,7 +543,7 @@ export const MapPolygons =
         [18.0799364, 59.31290629998001]
     ],
     [18.0796514, 59.31290629998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden Större 37 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bonden Större 41', 'BRFBulten', [
         [18.078860499999998, 59.312964399980004],
@@ -551,7 +553,7 @@ export const MapPolygons =
         [18.078860499999998, 59.312964399980004]
     ],
     [18.07899425, 59.31281074998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bonden Större 41 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bondesonen 22', 'bondesonen-22', [
         [18.0849832, 59.31346869998001],
@@ -565,7 +567,7 @@ export const MapPolygons =
         [18.0849832, 59.31346869998001]
     ],
     [18.0846982, 59.31346869998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-nytorget-stockholms-kommun-renstiernas-gata-30,-5-tr-18355211', '<h1>Bondesonen 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1910969639/Hemnet", 'Renstiernas gata 30, 5 tr', '1 rum', 'om 24 m²', 'med 1454 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1910969639/Hemnet", 'Renstiernas gata 30, 5 tr', '1 rum', 'om 24 m²', 'med 1454 kr i månadsavgift','listing_icon'
 ],
 ['Bondesonen 50', 'BRFBulten', [
         [18.0843423, 59.313434599980006],
@@ -579,7 +581,7 @@ export const MapPolygons =
         [18.0843423, 59.313434599980006]
     ],
     [18.084057299999998, 59.313434599980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bondesonen 50 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bondesonen fyrtiosexan', 'bondesonen-fyrtiosexan', [
         [18.0835317, 59.31331819998],
@@ -593,7 +595,7 @@ export const MapPolygons =
         [18.0835317, 59.31331819998]
     ],
     [18.0832467, 59.31331819998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-katarina-stockholms-kommun-bondegatan-46-18355054', '<h1>Bondesonen fyrtiosexan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58K44PM6U7VQ4UBK&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Bondegatan 46', '2 rum', 'om 42 m²', 'med 2409 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58K44PM6U7VQ4UBK&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Bondegatan 46', '2 rum', 'om 42 m²', 'med 2409 kr i månadsavgift','listing_icon'
 ],
 ['Bondetorpet 80', 'bondetorpet-80', [
         [18.0797739, 59.312315099980005],
@@ -605,7 +607,7 @@ export const MapPolygons =
         [18.0797739, 59.312315099980005]
     ],
     [18.0797619, 59.312102749980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-katarina-stockholms-kommun-skanegatan-80,-2-tr-18380972', '<h1>Bondetorpet 80 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2484310&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Skånegatan 80, 2 tr', '2 rum', 'om 46 m²', 'med 1818 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2484310&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Skånegatan 80, 2 tr', '2 rum', 'om 46 m²', 'med 1818 kr i månadsavgift','listing_icon'
 ],
 ['Bondetorpet Söder', 'BRFBulten', [
         [18.0791647, 59.311828199980006],
@@ -619,7 +621,7 @@ export const MapPolygons =
         [18.0791647, 59.311828199980006]
     ],
     [18.078879699999998, 59.311828199980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bondetorpet Söder <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 27', 'BRFBulten', [
         [18.035313199999997, 59.31965959998],
@@ -629,7 +631,7 @@ export const MapPolygons =
         [18.035313199999997, 59.31965959998]
     ],
     [18.035358099999996, 59.319489549980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 350', 'BRFBulten', [
         [18.0360379, 59.31963729998],
@@ -641,7 +643,7 @@ export const MapPolygons =
         [18.0360379, 59.31963729998]
     ],
     [18.0360479, 59.31945969998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 350 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 36', 'BRFBulten', [
         [18.0362698, 59.31926759998],
@@ -655,7 +657,7 @@ export const MapPolygons =
         [18.0362698, 59.31926759998]
     ],
     [18.035984799999998, 59.31926759998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 36 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 37', 'BRFBulten', [
         [18.0372356, 59.319510499980005],
@@ -665,7 +667,7 @@ export const MapPolygons =
         [18.0372356, 59.319510499980005]
     ],
     [18.03718955, 59.319355649980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 37 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 38', 'BRFBulten', [
         [18.0375225, 59.319615699980005],
@@ -679,7 +681,7 @@ export const MapPolygons =
         [18.0375225, 59.319615699980005]
     ],
     [18.0372375, 59.319615699980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 38 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 39', 'BRFBulten', [
         [18.0372261, 59.319588399980006],
@@ -693,7 +695,7 @@ export const MapPolygons =
         [18.0372261, 59.319588399980006]
     ],
     [18.0369411, 59.319588399980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 39 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borren 42', 'BRFBulten', [
         [18.0386658, 59.31952429998],
@@ -707,7 +709,7 @@ export const MapPolygons =
         [18.0386658, 59.31952429998]
     ],
     [18.0383808, 59.31952429998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borren 42 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Borätten 14', 'BRFBulten', [
         [18.062660599999997, 59.317160399980004],
@@ -717,7 +719,7 @@ export const MapPolygons =
         [18.062660599999997, 59.317160399980004]
     ],
     [18.06248395, 59.31698919998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Borätten 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Brinckan 1', 'brinckan-1', [
         [18.058697799999997, 59.31328749998],
@@ -732,7 +734,7 @@ export const MapPolygons =
         [18.058697799999997, 59.31328749998]
     ],
     [18.05838455, 59.31301272498], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-fatburs-kvarngata-3-18283208', '<h1>Brinckan 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://bostad.skandiamaklarna.se/till-salu/default/MDMwM3wwMDAwMDI4MTkzMHw1OA../objekt?utm_source=hemnet&amp;utm_medium=referral", 'Fatburs kvarngata 3', '1 rum', 'om 39 m²', 'med 2641 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://bostad.skandiamaklarna.se/till-salu/default/MDMwM3wwMDAwMDI4MTkzMHw1OA../objekt?utm_source=hemnet&amp;utm_medium=referral", 'Fatburs kvarngata 3', '1 rum', 'om 39 m²', 'med 2641 kr i månadsavgift','listing_icon'
 ],
 ['Brinckan-Lehusen', 'BRFBulten', [
         [18.0603107, 59.31353069998],
@@ -747,7 +749,7 @@ export const MapPolygons =
         [18.0603107, 59.31353069998]
     ],
     [18.05990273333333, 59.31315704998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Brinckan-Lehusen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bryggerihusen 14', 'BRFBulten', [
         [18.0660688, 59.31574769998],
@@ -759,7 +761,7 @@ export const MapPolygons =
         [18.0660688, 59.31574769998]
     ],
     [18.06612865, 59.31548584998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bryggerihusen 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Brännis 92', 'BRFBulten', [
         [18.0481797, 59.31834859998],
@@ -771,7 +773,7 @@ export const MapPolygons =
         [18.0481797, 59.31834859998]
     ],
     [18.048247149999998, 59.31807269998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Brännis 92 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Buketten 3', 'buketten-3', [
         [18.0847902, 59.31608369998],
@@ -783,7 +785,7 @@ export const MapPolygons =
         [18.0847902, 59.31608369998]
     ],
     [18.0848055, 59.31584514998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-sofia-stockholms-kommun-folkungagatan-103-18330081', '<h1>Buketten 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=4IKIPM2PEDTE5L6I&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Folkungagatan 103', '3 rum', 'om 88 m²', 'med 2630 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=4IKIPM2PEDTE5L6I&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Folkungagatan 103', '3 rum', 'om 88 m²', 'med 2630 kr i månadsavgift','listing_icon'
 ],
 ['Bulten 12', 'BRFBulten', [
         [18.0338232, 59.31816499998],
@@ -797,7 +799,7 @@ export const MapPolygons =
         [18.0338232, 59.31816499998]
     ],
     [18.033873566666667, 59.317946833313336], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bulten 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bulten 14', 'BRFBulten', [
         [18.034513, 59.317496099980005],
@@ -811,7 +813,7 @@ export const MapPolygons =
         [18.034513, 59.317496099980005]
     ],
     [18.034228, 59.317496099980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bulten 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bulten 15', 'BRFBulten', [
         [18.034565, 59.31734919998],
@@ -825,7 +827,7 @@ export const MapPolygons =
         [18.034565, 59.31734919998]
     ],
     [18.03428, 59.31734919998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bulten 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bulten 2', 'BRFBulten', [
         [18.033573999999998, 59.317693599980004],
@@ -840,7 +842,7 @@ export const MapPolygons =
         [18.033573999999998, 59.317693599980004]
     ],
     [18.033308899999998, 59.31744444998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bulten 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bulten 21', 'BRFBulten', [
         [18.0334914, 59.31780939998],
@@ -850,7 +852,7 @@ export const MapPolygons =
         [18.0334914, 59.31780939998]
     ],
     [18.03328735, 59.31762159998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bulten 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bulten 22', 'BRFBulten', [
         [18.0332571, 59.317441899980004],
@@ -862,7 +864,7 @@ export const MapPolygons =
         [18.0332571, 59.317441899980004]
     ],
     [18.03325945, 59.31723054998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bulten 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen 25', 'batsmannen-25', [
         [18.0785256, 59.314267999980004],
@@ -876,7 +878,7 @@ export const MapPolygons =
         [18.0785256, 59.314267999980004]
     ],
     [18.078240599999997, 59.314267999980004], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-kocksgatan-23,-4-tr-18382456', '<h1>Båtsmannen 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1586487", 'Kocksgatan 23, 4 tr', '1 rum', 'om 25 m²', 'med 1005 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1586487", 'Kocksgatan 23, 4 tr', '1 rum', 'om 25 m²', 'med 1005 kr i månadsavgift','listing_icon'
 ],
 ['Båtsmannen Mindre 7', 'BRFBulten', [
         [18.0834219, 59.31533359998],
@@ -890,7 +892,7 @@ export const MapPolygons =
         [18.0834219, 59.31533359998]
     ],
     [18.0831369, 59.31533359998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Mindre 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen Mindre Nr 15', 'BRFBulten', [
         [18.0838471, 59.31534349998],
@@ -904,7 +906,7 @@ export const MapPolygons =
         [18.0838471, 59.31534349998]
     ],
     [18.083562099999998, 59.31534349998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Mindre Nr 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen Mindre nr 13', 'BRFBulten', [
         [18.0817813, 59.315359399980004],
@@ -916,7 +918,7 @@ export const MapPolygons =
         [18.0817813, 59.315359399980004]
     ],
     [18.0817588, 59.31507279998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Mindre nr 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen Mindre nr 9', 'BRFBulten', [
         [18.0826954, 59.31514339998],
@@ -928,7 +930,7 @@ export const MapPolygons =
         [18.0826954, 59.31514339998]
     ],
     [18.08270925, 59.31488534998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Mindre nr 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen Större 22', 'BRFBulten', [
         [18.0779817, 59.31482709998],
@@ -938,7 +940,7 @@ export const MapPolygons =
         [18.0779817, 59.31482709998]
     ],
     [18.07809395, 59.314579299980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Större 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen Större 23', 'BRFBulten', [
         [18.0785409, 59.31490909998],
@@ -950,7 +952,7 @@ export const MapPolygons =
         [18.0785409, 59.31490909998]
     ],
     [18.07852195, 59.31463939998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Större 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen Större nr 4', 'BRFBulten', [
         [18.079380099999998, 59.31501499998],
@@ -964,7 +966,7 @@ export const MapPolygons =
         [18.079380099999998, 59.31501499998]
     ],
     [18.079556366666665, 59.31482863331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen Större nr 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen mindre 6', 'BRFBulten', [
         [18.082817499999997, 59.31547429998],
@@ -976,7 +978,7 @@ export const MapPolygons =
         [18.082817499999997, 59.31547429998]
     ],
     [18.082792599999998, 59.315219699980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen mindre 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Båtsmannen större 78', 'BRFBulten', [
         [18.078717599999997, 59.31493129998],
@@ -990,7 +992,7 @@ export const MapPolygons =
         [18.078717599999997, 59.31493129998]
     ],
     [18.07826625, 59.31460689998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Båtsmannen större 78 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Bössan nr 11', 'BRFBulten', [
         [18.064195899999998, 59.32074499998],
@@ -1004,7 +1006,7 @@ export const MapPolygons =
         [18.064195899999998, 59.32074499998]
     ],
     [18.06418865, 59.32053652498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Bössan nr 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['C.M. Bellman', 'BRFBulten', [
         [18.065455699999998, 59.318851299980004],
@@ -1018,7 +1020,7 @@ export const MapPolygons =
         [18.065455699999998, 59.318851299980004]
     ],
     [18.065150133333333, 59.318666933313345], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>C.M. Bellman <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Dagakarlen 20', 'dagakarlen-20', [
         [18.0774919, 59.31406029998],
@@ -1028,7 +1030,7 @@ export const MapPolygons =
         [18.0774919, 59.31406029998]
     ],
     [18.0775968, 59.313867299980004], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-sofo-stockholms-kommun-kocksgatan-20,-1-tr-18354431', '<h1>Dagakarlen 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://svenskamaklarhuset.se/objekt/OBJ15648_1909173911?from=Hemnet", 'Kocksgatan 20, 1 tr', '3 rum', 'om 95 m²', 'med 3862 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://svenskamaklarhuset.se/objekt/OBJ15648_1909173911?from=Hemnet", 'Kocksgatan 20, 1 tr', '3 rum', 'om 95 m²', 'med 3862 kr i månadsavgift','listing_icon'
 ],
 ['Dagakarlen 29', 'BRFBulten', [
         [18.0790379, 59.31367999998],
@@ -1042,7 +1044,7 @@ export const MapPolygons =
         [18.0790379, 59.31367999998]
     ],
     [18.078752899999998, 59.31367999998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Dagakarlen 29 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Dagakarlen 30', 'BRFBulten', [
         [18.0793143, 59.313759799980005],
@@ -1056,7 +1058,7 @@ export const MapPolygons =
         [18.0793143, 59.313759799980005]
     ],
     [18.0790293, 59.313759799980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Dagakarlen 30 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Dagakarlen 32', 'BRFBulten', [
         [18.080000300000002, 59.31387079998],
@@ -1070,7 +1072,7 @@ export const MapPolygons =
         [18.080000300000002, 59.31387079998]
     ],
     [18.0797153, 59.31387079998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Dagakarlen 32 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Danvikskanalen', 'BRFBulten', [
         [18.100683399999998, 59.31240469998],
@@ -1080,7 +1082,7 @@ export const MapPolygons =
         [18.100683399999998, 59.31240469998]
     ],
     [18.1009009, 59.31222324998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Danvikskanalen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Danviksparken', 'BRFBulten', [
         [18.100143499999998, 59.312687199980004],
@@ -1094,7 +1096,7 @@ export const MapPolygons =
         [18.100143499999998, 59.312687199980004]
     ],
     [18.100193899999997, 59.31239353331333], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Danviksparken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Designationen', 'designationen', [
         [18.0652389, 59.313155399980005],
@@ -1111,7 +1113,7 @@ export const MapPolygons =
         [18.0652389, 59.313155399980005]
     ],
     [18.06417743333333, 59.31264016664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3,5rum-sodermalm-stockholms-kommun-magnus-ladulasgatan-49,-1-tr-18354527', '<h1>Designationen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58I4S37BL86CIRDF/Hemnet", 'Magnus Ladulåsgatan 49, 1 tr', '3,5 rum', 'om 83 m²', 'med 3650 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58I4S37BL86CIRDF/Hemnet", 'Magnus Ladulåsgatan 49, 1 tr', '3,5 rum', 'om 83 m²', 'med 3650 kr i månadsavgift','listing_icon'
 ],
 ['Diligensen 4', 'BRFBulten', [
         [18.0542697, 59.317114799980004],
@@ -1123,7 +1125,7 @@ export const MapPolygons =
         [18.0542697, 59.317114799980004]
     ],
     [18.054284699999997, 59.316921749980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Diligensen 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Diligensen 7', 'BRFBulten', [
         [18.055721300000002, 59.317065599980005],
@@ -1137,7 +1139,7 @@ export const MapPolygons =
         [18.055721300000002, 59.317065599980005]
     ],
     [18.0554363, 59.317065599980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Diligensen 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Diligensen 8', 'BRFBulten', [
         [18.0557146, 59.316859399980004],
@@ -1151,7 +1153,7 @@ export const MapPolygons =
         [18.0557146, 59.316859399980004]
     ],
     [18.0554296, 59.316859399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Diligensen 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draget', 'BRFBulten', [
         [18.0840432, 59.30859429998],
@@ -1165,7 +1167,7 @@ export const MapPolygons =
         [18.0840432, 59.30859429998]
     ],
     [18.0837582, 59.30859429998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draget <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 12', 'draken-12', [
         [18.0417007, 59.31627859998],
@@ -1183,7 +1185,7 @@ export const MapPolygons =
         [18.0417007, 59.31627859998]
     ],
     [18.042234, 59.31565818459539], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-hornstull-stockholms-kommun-drakenbergsgatan-13-18354917', '<h1>Draken 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2590454&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Drakenbergsgatan 13', '4 rum', 'om 92 m²', 'med 3824 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2590454&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Drakenbergsgatan 13', '4 rum', 'om 92 m²', 'med 3824 kr i månadsavgift','listing_icon'
 ],
 ['Draken 14', 'BRFBulten', [
         [18.0624368, 59.31646389998],
@@ -1195,7 +1197,7 @@ export const MapPolygons =
         [18.0624368, 59.31646389998]
     ],
     [18.062399149999997, 59.31624184998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 15', 'BRFBulten', [
         [18.0624589, 59.31646699998],
@@ -1205,7 +1207,7 @@ export const MapPolygons =
         [18.0624589, 59.31646699998]
     ],
     [18.06255045, 59.316269799980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 16', 'BRFBulten', [
         [18.040256199999998, 59.31611449998],
@@ -1215,7 +1217,7 @@ export const MapPolygons =
         [18.040256199999998, 59.31611449998]
     ],
     [18.040042, 59.315937449980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 16 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 19', 'BRFBulten', [
         [18.061827599999997, 59.31678619998],
@@ -1230,7 +1232,7 @@ export const MapPolygons =
         [18.061827599999997, 59.31678619998]
     ],
     [18.061817466666664, 59.316463599980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 20', 'BRFBulten', [
         [18.062096099999998, 59.31681979998],
@@ -1240,7 +1242,7 @@ export const MapPolygons =
         [18.062096099999998, 59.31681979998]
     ],
     [18.0617125, 59.31661289998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 4', 'BRFBulten', [
         [18.063224899999998, 59.31689579998],
@@ -1254,7 +1256,7 @@ export const MapPolygons =
         [18.063224899999998, 59.31689579998]
     ],
     [18.063335766666665, 59.31666196664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Draken 6', 'BRFBulten', [
         [18.0625908, 59.316844899980005],
@@ -1266,7 +1268,7 @@ export const MapPolygons =
         [18.0625908, 59.316844899980005]
     ],
     [18.062644249999998, 59.316610899980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Draken 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Droskhästen 13', 'BRFBulten', [
         [18.0777373, 59.31493899998],
@@ -1280,7 +1282,7 @@ export const MapPolygons =
         [18.0777373, 59.31493899998]
     ],
     [18.077452299999997, 59.31493899998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Droskhästen 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Droskhästen 17', 'droskhasten-17', [
         [18.0777927, 59.31531779998],
@@ -1294,7 +1296,7 @@ export const MapPolygons =
         [18.0777927, 59.31531779998]
     ],
     [18.077507699999998, 59.31531779998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-mosebacke-stockholms-kommun-tjarhovsgatan-22,-4tr-18379697', '<h1>Droskhästen 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1913602979?utm_source=hemnet&amp;utm_medium=hemnet", 'Tjärhovsgatan 22, 4tr', '1 rum', 'om 19 m²', 'med 1911 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1913602979?utm_source=hemnet&amp;utm_medium=hemnet", 'Tjärhovsgatan 22, 4tr', '1 rum', 'om 19 m²', 'med 1911 kr i månadsavgift','listing_icon'
 ],
 ['Droskhästen 8', 'BRFBulten', [
         [18.0765286, 59.31505499998],
@@ -1304,7 +1306,7 @@ export const MapPolygons =
         [18.0765286, 59.31505499998]
     ],
     [18.07670005, 59.31485529998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Droskhästen 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Dykärret 14', 'BRFBulten', [
         [18.0622267, 59.31446409998],
@@ -1318,7 +1320,7 @@ export const MapPolygons =
         [18.0622267, 59.31446409998]
     ],
     [18.062543833333333, 59.314269533313336], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Dykärret 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Dykärret 23', 'BRFBulten', [
         [18.0634777, 59.31506009998],
@@ -1332,7 +1334,7 @@ export const MapPolygons =
         [18.0634777, 59.31506009998]
     ],
     [18.06305945, 59.31486604998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Dykärret 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Dykärret Större 10', 'BRFBulten', [
         [18.069659899999998, 59.31636239998],
@@ -1347,7 +1349,7 @@ export const MapPolygons =
         [18.069659899999998, 59.31636239998]
     ],
     [18.06967872, 59.31613301998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Dykärret Större 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ekehjelmstorget', 'BRFBulten', [
         [18.065373299999997, 59.31528359998],
@@ -1361,7 +1363,7 @@ export const MapPolygons =
         [18.065373299999997, 59.31528359998]
     ],
     [18.065215839999997, 59.314918679979996], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ekehjelmstorget <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Eken nr 17', 'BRFBulten', [
         [18.0825094, 59.30937969998],
@@ -1371,7 +1373,7 @@ export const MapPolygons =
         [18.0825094, 59.30937969998]
     ],
     [18.08237485, 59.30921869998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Eken nr 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ella', 'BRFBulten', [
         [18.0698398, 59.312284099980005],
@@ -1385,7 +1387,7 @@ export const MapPolygons =
         [18.0698398, 59.312284099980005]
     ],
     [18.0695548, 59.312284099980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ella <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Eriksdal', 'BRFBulten', [
         [18.0649387, 59.30830069998],
@@ -1395,7 +1397,7 @@ export const MapPolygons =
         [18.0649387, 59.30830069998]
     ],
     [18.0651743, 59.30800604998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Eriksdal <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Eriksdalslunden 1', 'BRFBulten', [
         [18.0632721, 59.30729549998],
@@ -1409,7 +1411,7 @@ export const MapPolygons =
         [18.0632721, 59.30729549998]
     ],
     [18.063323933333333, 59.306975999980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Eriksdalslunden 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Erstagatan 23', 'BRFBulten', [
         [18.0907631, 59.31389889998],
@@ -1423,7 +1425,7 @@ export const MapPolygons =
         [18.0907631, 59.31389889998]
     ],
     [18.0904781, 59.31389889998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Erstagatan 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Erstagatan 28', 'erstagatan-28', [
         [18.089893399999998, 59.31379949998],
@@ -1433,7 +1435,7 @@ export const MapPolygons =
         [18.089893399999998, 59.31379949998]
     ],
     [18.08991665, 59.31361829998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sofia-stockholms-kommun-erstagatan-28-a-18382547', '<h1>Erstagatan 28 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2530554&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Erstagatan 28 A', '3 rum', 'om 73 m²', 'med 3576 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2530554&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Erstagatan 28 A', '3 rum', 'om 73 m²', 'med 3576 kr i månadsavgift','listing_icon'
 ],
 ['Fabriken 26', 'fabriken-26', [
         [18.030085399999997, 59.31637029998],
@@ -1443,7 +1445,7 @@ export const MapPolygons =
         [18.030085399999997, 59.31637029998]
     ],
     [18.029968349999997, 59.316141999980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hornstull-stockholms-kommun-folkskolegatan-22b-18356635', '<h1>Fabriken 26 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://bostad.skandiamaklarna.se/till-salu/default/MDMwM3wwMDAwMDMxMTM1Nnw1OA../objekt?utm_source=hemnet&amp;utm_medium=referral", 'Folkskolegatan 22B', '2 rum', 'om 66 m²', 'med 3531 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://bostad.skandiamaklarna.se/till-salu/default/MDMwM3wwMDAwMDMxMTM1Nnw1OA../objekt?utm_source=hemnet&amp;utm_medium=referral", 'Folkskolegatan 22B', '2 rum', 'om 66 m²', 'med 3531 kr i månadsavgift','listing_icon'
 ],
 ['Fabriken 27', 'BRFBulten', [
         [18.0299734, 59.31647079998],
@@ -1457,7 +1459,7 @@ export const MapPolygons =
         [18.0299734, 59.31647079998]
     ],
     [18.029688399999998, 59.31647079998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fabriken 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Farmaren', 'BRFBulten', [
         [18.0784059, 59.312626999980004],
@@ -1469,7 +1471,7 @@ export const MapPolygons =
         [18.0784059, 59.312626999980004]
     ],
     [18.07846965, 59.312367049980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Farmaren <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fatburen', 'BRFBulten', [
         [18.0662313, 59.31540599998],
@@ -1483,7 +1485,7 @@ export const MapPolygons =
         [18.0662313, 59.31540599998]
     ],
     [18.066153774999997, 59.31509337498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fatburen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fatbursbrunnen 1', 'BRFBulten', [
         [18.0635524, 59.31623769998],
@@ -1497,7 +1499,7 @@ export const MapPolygons =
         [18.0635524, 59.31623769998]
     ],
     [18.0637808, 59.31585149998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fatbursbrunnen 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fatbursbrunnen 8', 'BRFBulten', [
         [18.0629546, 59.31593969998001],
@@ -1511,7 +1513,7 @@ export const MapPolygons =
         [18.0629546, 59.31593969998001]
     ],
     [18.0626696, 59.31593969998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fatbursbrunnen 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fatbursstranden 1', 'BRFBulten', [
         [18.0664971, 59.314174999980004],
@@ -1527,7 +1529,7 @@ export const MapPolygons =
         [18.0664971, 59.314174999980004]
     ],
     [18.066006312499997, 59.31376969998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fatbursstranden 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fatbursviken 2', 'fatbursviken-2', [
         [18.0640751, 59.31386719998],
@@ -1544,7 +1546,7 @@ export const MapPolygons =
         [18.0640751, 59.31386719998]
     ],
     [18.06432275555556, 59.313507544424446], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-swedenborgsgatan-26,-5-tr-18380590', '<h1>Fatbursviken 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://fastighetsmaklarna.se/objekt/1603731", 'Swedenborgsgatan 26, 5 tr', '2 rum', 'om 61 m²', 'med 3334 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://fastighetsmaklarna.se/objekt/1603731", 'Swedenborgsgatan 26, 5 tr', '2 rum', 'om 61 m²', 'med 3334 kr i månadsavgift','listing_icon'
 ],
 ['Fenix', 'BRFBulten', [
         [18.083783699999998, 59.31430489998],
@@ -1559,7 +1561,7 @@ export const MapPolygons =
         [18.083783699999998, 59.31430489998]
     ],
     [18.08400524, 59.313878319980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fenix <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fiskaren Större 1', 'BRFBulten', [
         [18.072231499999997, 59.31757189998],
@@ -1569,7 +1571,7 @@ export const MapPolygons =
         [18.072231499999997, 59.31757189998]
     ],
     [18.07209575, 59.317415299980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fiskaren Större 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fiskaren Större 6', 'BRFBulten', [
         [18.072512099999997, 59.31799369998],
@@ -1579,7 +1581,7 @@ export const MapPolygons =
         [18.072512099999997, 59.31799369998]
     ],
     [18.072442, 59.31784289998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fiskaren Större 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fiskaren nr 20', 'BRFBulten', [
         [18.0731121, 59.31790449998],
@@ -1593,7 +1595,7 @@ export const MapPolygons =
         [18.0731121, 59.31790449998]
     ],
     [18.073054028571427, 59.31765979998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fiskaren nr 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fjällgatan 20', 'BRFBulten', [
         [18.084849900000002, 59.317360999980004],
@@ -1607,7 +1609,7 @@ export const MapPolygons =
         [18.084849900000002, 59.317360999980004]
     ],
     [18.0845649, 59.317360999980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fjällgatan 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fjällpalatset', 'BRFBulten', [
         [18.0767766, 59.31741469998],
@@ -1617,7 +1619,7 @@ export const MapPolygons =
         [18.0767766, 59.31741469998]
     ],
     [18.0766603, 59.31724779998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fjällpalatset <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Flaggan 10', 'BRFBulten', [
         [18.0887129, 59.31522679998],
@@ -1631,7 +1633,7 @@ export const MapPolygons =
         [18.0887129, 59.31522679998]
     ],
     [18.0884279, 59.31522679998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Flaggan 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Flaggan 11', 'BRFBulten', [
         [18.089811, 59.31483629998],
@@ -1645,7 +1647,7 @@ export const MapPolygons =
         [18.089811, 59.31483629998]
     ],
     [18.089526, 59.31483629998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Flaggan 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Flaggan 3', 'BRFBulten', [
         [18.0892896, 59.31562229998],
@@ -1655,7 +1657,7 @@ export const MapPolygons =
         [18.0892896, 59.31562229998]
     ],
     [18.08915575, 59.31547144998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Flaggan 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Flaggan 5', 'BRFBulten', [
         [18.090123900000002, 59.31525649998],
@@ -1669,7 +1671,7 @@ export const MapPolygons =
         [18.090123900000002, 59.31525649998]
     ],
     [18.0898389, 59.31525649998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Flaggan 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Flaggan 6', 'BRFBulten', [
         [18.090260100000002, 59.31508319998],
@@ -1683,7 +1685,7 @@ export const MapPolygons =
         [18.090260100000002, 59.31508319998]
     ],
     [18.0899751, 59.31508319998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Flaggan 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Flaggan 9', 'BRFBulten', [
         [18.0893286, 59.31489949998],
@@ -1697,7 +1699,7 @@ export const MapPolygons =
         [18.0893286, 59.31489949998]
     ],
     [18.0890436, 59.31489949998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Flaggan 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Folke', 'BRFBulten', [
         [18.0805641, 59.315277999980005],
@@ -1711,7 +1713,7 @@ export const MapPolygons =
         [18.0805641, 59.315277999980005]
     ],
     [18.0802791, 59.315277999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Folke <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fredmannen', 'BRFBulten', [
         [18.066370499999998, 59.31701649998],
@@ -1723,7 +1725,7 @@ export const MapPolygons =
         [18.066370499999998, 59.31701649998]
     ],
     [18.066356499999998, 59.316762449980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fredmannen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fyrkronan', 'BRFBulten', [
         [18.0881947, 59.316881399980005],
@@ -1737,7 +1739,7 @@ export const MapPolygons =
         [18.0881947, 59.316881399980005]
     ],
     [18.087909699999997, 59.316881399980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fyrkronan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fyrtornet 1', 'BRFBulten', [
         [18.090337599999998, 59.31519329998],
@@ -1753,7 +1755,7 @@ export const MapPolygons =
         [18.090337599999998, 59.31519329998]
     ],
     [18.0909109, 59.31481766998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fyrtornet 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fyrtornet 5', 'BRFBulten', [
         [18.0911849, 59.31570739998],
@@ -1765,7 +1767,7 @@ export const MapPolygons =
         [18.0911849, 59.31570739998]
     ],
     [18.0912378, 59.315429399980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fyrtornet 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fyrtornet 6', 'BRFBulten', [
         [18.09162, 59.315158299980006],
@@ -1779,7 +1781,7 @@ export const MapPolygons =
         [18.09162, 59.315158299980006]
     ],
     [18.091334999999997, 59.315158299980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fyrtornet 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Fällan 3', 'BRFBulten', [
         [18.055599100000002, 59.318377799980006],
@@ -1793,7 +1795,7 @@ export const MapPolygons =
         [18.055599100000002, 59.318377799980006]
     ],
     [18.0553141, 59.318377799980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Fällan 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Färdknäppen 2', 'fardknappen-2', [
         [18.0609423, 59.31411499998],
@@ -1807,7 +1809,7 @@ export const MapPolygons =
         [18.0609423, 59.31411499998]
     ],
     [18.0605927, 59.31392013331334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-fatbursgatan-35-18381959', '<h1>Färdknäppen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.visionfastighetsmakleri.se/objekt/1585223", 'Fatbursgatan 35', '2 rum', 'om 43 m²', 'med 2931 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.visionfastighetsmakleri.se/objekt/1585223", 'Fatbursgatan 35', '2 rum', 'om 43 m²', 'med 2931 kr i månadsavgift','listing_icon'
 ],
 ['Gamla Prästgården', 'BRFBulten', [
         [18.0648081, 59.316792599980005],
@@ -1819,7 +1821,7 @@ export const MapPolygons =
         [18.0648081, 59.316792599980005]
     ],
     [18.0648703, 59.31654469998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gamla Prästgården <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gamla Trean', 'BRFBulten', [
         [18.067032599999997, 59.31667619998],
@@ -1834,7 +1836,7 @@ export const MapPolygons =
         [18.067032599999997, 59.31667619998]
     ],
     [18.066934975, 59.31638324998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gamla Trean <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gebährschmerzen', 'BRFBulten', [
         [18.0862169, 59.31530499998],
@@ -1848,7 +1850,7 @@ export const MapPolygons =
         [18.0862169, 59.31530499998]
     ],
     [18.0859319, 59.31530499998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gebährschmerzen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gnejsen', 'gnejsen', [
         [18.0421691, 59.318496799980004],
@@ -1860,7 +1862,7 @@ export const MapPolygons =
         [18.0421691, 59.318496799980004]
     ],
     [18.0421927, 59.318279049980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-hogalid-stockholms-kommun-kristinehovsgatan-5a,-3tr-18380491', '<h1>Gnejsen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1882365220?utm_source=hemnet&amp;utm_medium=hemnet", 'Kristinehovsgatan 5a, 3tr', '1 rum', 'om 25 m²', 'med 1797 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1882365220?utm_source=hemnet&amp;utm_medium=hemnet", 'Kristinehovsgatan 5a, 3tr', '1 rum', 'om 25 m²', 'med 1797 kr i månadsavgift','listing_icon'
 ],
 ['Gnejsen 2', 'BRFBulten', [
         [18.0434073, 59.31893909998],
@@ -1876,7 +1878,7 @@ export const MapPolygons =
         [18.0434073, 59.31893909998]
     ],
     [18.043182416666667, 59.31854199998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gnejsen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Grindsgatan 33', 'grindsgatan-33', [
         [18.0674995, 59.30972819998],
@@ -1890,7 +1892,7 @@ export const MapPolygons =
         [18.0674995, 59.30972819998]
     ],
     [18.0672145, 59.30972819998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-sodermalm-stockholms-kommun-grindsgatan-33-18381542', '<h1>Grindsgatan 33 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1907424385/Hemnet", 'Grindsgatan 33', '4 rum', 'om 80 m²', 'med 2699 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1907424385/Hemnet", 'Grindsgatan 33', '4 rum', 'om 80 m²', 'med 2699 kr i månadsavgift','listing_icon'
 ],
 ['Gropen 28', 'gropen-28', [
         [18.0596255, 59.31909559998],
@@ -1905,7 +1907,7 @@ export const MapPolygons =
         [18.0596255, 59.31909559998]
     ],
     [18.059572466666665, 59.31875986664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-timmermansgatan-12,-1-tr-18354595', '<h1>Gropen 28 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20182/CMBOLGH58AKDSB14CIFMKJA/Hemnet", 'Timmermansgatan 12, 1 tr', '3 rum', 'om 76 m²', 'med 2566 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20182/CMBOLGH58AKDSB14CIFMKJA/Hemnet", 'Timmermansgatan 12, 1 tr', '3 rum', 'om 76 m²', 'med 2566 kr i månadsavgift','listing_icon'
 ],
 ['Gropen 29', 'BRFBulten', [
         [18.058663499999998, 59.319115799980004],
@@ -1915,7 +1917,7 @@ export const MapPolygons =
         [18.058663499999998, 59.319115799980004]
     ],
     [18.058518049999996, 59.31894589998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gropen 29 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gropen 68', 'BRFBulten', [
         [18.0591501, 59.31858159998001],
@@ -1929,7 +1931,7 @@ export const MapPolygons =
         [18.0591501, 59.31858159998001]
     ],
     [18.0588651, 59.31858159998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gropen 68 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Grundbulten', 'BRFBulten', [
         [18.033009699999997, 59.31812639998],
@@ -1944,7 +1946,7 @@ export const MapPolygons =
         [18.033009699999997, 59.31812639998]
     ],
     [18.0330329, 59.31788776664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Grundbulten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gruvan 5', 'BRFBulten', [
         [18.0956412, 59.31396699998],
@@ -1958,7 +1960,7 @@ export const MapPolygons =
         [18.0956412, 59.31396699998]
     ],
     [18.095793099999998, 59.313667899980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gruvan 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gruvan 8', 'gruvan-8', [
         [18.094900199999998, 59.313494699980005],
@@ -1972,7 +1974,7 @@ export const MapPolygons =
         [18.094900199999998, 59.313494699980005]
     ],
     [18.094924, 59.31333886664668], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-sofia-stockholms-kommun-duvnasgatan-5-18382316', '<h1>Gruvan 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1885153309/Hemnet", 'Duvnäsgatan 5', '2 rum', 'om 46 m²', 'med 1735 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1885153309/Hemnet", 'Duvnäsgatan 5', '2 rum', 'om 46 m²', 'med 1735 kr i månadsavgift','listing_icon'
 ],
 ['Gråberget 17', 'BRFBulten', [
         [18.076002, 59.315276699980004],
@@ -1982,7 +1984,7 @@ export const MapPolygons =
         [18.076002, 59.315276699980004]
     ],
     [18.07612375, 59.315045099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gråberget 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gråberget 18', 'BRFBulten', [
         [18.0751863, 59.31516419998],
@@ -1992,7 +1994,7 @@ export const MapPolygons =
         [18.0751863, 59.31516419998]
     ],
     [18.075003699999996, 59.314992899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gråberget 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gråberget nr 19', 'BRFBulten', [
         [18.0756594, 59.314957599980005],
@@ -2006,7 +2008,7 @@ export const MapPolygons =
         [18.0756594, 59.314957599980005]
     ],
     [18.075374399999998, 59.314957599980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gråberget nr 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Gårdsbjörken', 'BRFBulten', [
         [18.0589275, 59.31916729998],
@@ -2020,7 +2022,7 @@ export const MapPolygons =
         [18.0589275, 59.31916729998]
     ],
     [18.058642499999998, 59.31916729998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Gårdsbjörken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Götgatshöjden', 'BRFBulten', [
         [18.0721286, 59.31655249998],
@@ -2035,7 +2037,7 @@ export const MapPolygons =
         [18.0721286, 59.31655249998]
     ],
     [18.072015625, 59.31625902498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Götgatshöjden <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hagblomman', 'BRFBulten', [
         [18.0591497, 59.31768609998],
@@ -2045,7 +2047,7 @@ export const MapPolygons =
         [18.0591497, 59.31768609998]
     ],
     [18.05921105, 59.31750169998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hagblomman <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hagen 15', 'BRFBulten', [
         [18.0584691, 59.317321499980004],
@@ -2057,7 +2059,7 @@ export const MapPolygons =
         [18.0584691, 59.317321499980004]
     ],
     [18.05843415, 59.31712189998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hagen 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hagen 25', 'BRFBulten', [
         [18.0581859, 59.31712869998],
@@ -2071,7 +2073,7 @@ export const MapPolygons =
         [18.0581859, 59.31712869998]
     ],
     [18.0579009, 59.31712869998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hagen 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Halmstrået', 'BRFBulten', [
         [18.070501, 59.30620949998],
@@ -2085,7 +2087,7 @@ export const MapPolygons =
         [18.070501, 59.30620949998]
     ],
     [18.070848466666664, 59.30603583331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Halmstrået <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Halvmilen 12', 'BRFBulten', [
         [18.076196, 59.30791749998001],
@@ -2099,7 +2101,7 @@ export const MapPolygons =
         [18.076196, 59.30791749998001]
     ],
     [18.075910999999998, 59.30791749998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Halvmilen 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Halvmilen 2', 'halvmilen-2', [
         [18.0754286, 59.30962689998],
@@ -2109,7 +2111,7 @@ export const MapPolygons =
         [18.0754286, 59.30962689998]
     ],
     [18.0754588, 59.30946604998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-katarina-stockholms-kommun-gotgatan-96-18382364', '<h1>Halvmilen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2590981&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Götgatan 96', '3 rum', 'om 82 m²', 'med 2001 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2590981&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Götgatan 96', '3 rum', 'om 82 m²', 'med 2001 kr i månadsavgift','listing_icon'
 ],
 ['Halvmilen 4', 'BRFBulten', [
         [18.0748587, 59.30928309998001],
@@ -2123,7 +2125,7 @@ export const MapPolygons =
         [18.0748587, 59.30928309998001]
     ],
     [18.0745737, 59.30928309998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Halvmilen 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Halvmilen 5', 'BRFBulten', [
         [18.0741197, 59.30913979998],
@@ -2137,7 +2139,7 @@ export const MapPolygons =
         [18.0741197, 59.30913979998]
     ],
     [18.0738347, 59.30913979998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Halvmilen 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Halvmilen 8', 'BRFBulten', [
         [18.074339900000002, 59.30961319998001],
@@ -2151,7 +2153,7 @@ export const MapPolygons =
         [18.074339900000002, 59.30961319998001]
     ],
     [18.0740549, 59.30961319998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Halvmilen 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Halvmilen nr 3', 'halvmilen-nr-3', [
         [18.075088, 59.30926059998001],
@@ -2165,7 +2167,7 @@ export const MapPolygons =
         [18.075088, 59.30926059998001]
     ],
     [18.074803, 59.30926059998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1,5rum-sodermalm-skanstull-stockholms-kommun-dalslandsgatan-7-18363678', '<h1>Halvmilen nr 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1881898036?utm_source=hemnet&amp;utm_medium=hemnet", 'Dalslandsgatan 7', '1,5 rum', 'om 36,5 m²', 'med 1715 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1881898036?utm_source=hemnet&amp;utm_medium=hemnet", 'Dalslandsgatan 7', '1,5 rum', 'om 36,5 m²', 'med 1715 kr i månadsavgift','listing_icon'
 ],
 ['Harpalten 1', 'harpalten-1', [
         [18.051584899999998, 59.319118799980004],
@@ -2181,7 +2183,7 @@ export const MapPolygons =
         [18.051584899999998, 59.319118799980004]
     ],
     [18.051248966666666, 59.318566583313334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-hogalid-stockholms-kommun-ringvagen-11-c-18381143', '<h1>Harpalten 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2569935&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Ringvägen 11 C', '2 rum', 'om 61 m²', 'med 1973 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2569935&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Ringvägen 11 C', '2 rum', 'om 61 m²', 'med 1973 kr i månadsavgift','listing_icon'
 ],
 ['Harven 35', 'BRFBulten', [
         [18.0827104, 59.309392999980005],
@@ -2195,7 +2197,7 @@ export const MapPolygons =
         [18.0827104, 59.309392999980005]
     ],
     [18.082425399999998, 59.309392999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 35 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 36', 'BRFBulten', [
         [18.0821993, 59.30973549998],
@@ -2207,7 +2209,7 @@ export const MapPolygons =
         [18.0821993, 59.30973549998]
     ],
     [18.082234649999997, 59.30950579998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 36 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 37', 'BRFBulten', [
         [18.0812598, 59.31015619998001],
@@ -2221,7 +2223,7 @@ export const MapPolygons =
         [18.0812598, 59.31015619998001]
     ],
     [18.0809748, 59.31015619998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 37 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 42', 'BRFBulten', [
         [18.0818509, 59.30965299998],
@@ -2235,7 +2237,7 @@ export const MapPolygons =
         [18.0818509, 59.30965299998]
     ],
     [18.081565899999998, 59.30965299998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 42 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 48', 'BRFBulten', [
         [18.0813373, 59.30909949998001],
@@ -2249,7 +2251,7 @@ export const MapPolygons =
         [18.0813373, 59.30909949998001]
     ],
     [18.0810523, 59.30909949998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 48 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 49', 'BRFBulten', [
         [18.0813094, 59.30910799998],
@@ -2259,7 +2261,7 @@ export const MapPolygons =
         [18.0813094, 59.30910799998]
     ],
     [18.08139055, 59.30893499998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 49 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 53', 'BRFBulten', [
         [18.080392200000002, 59.310083699980005],
@@ -2273,7 +2275,7 @@ export const MapPolygons =
         [18.080392200000002, 59.310083699980005]
     ],
     [18.0801072, 59.310083699980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 53 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 55', 'BRFBulten', [
         [18.080906600000002, 59.31011389998],
@@ -2287,7 +2289,7 @@ export const MapPolygons =
         [18.080906600000002, 59.31011389998]
     ],
     [18.0806216, 59.31011389998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 55 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harven 58', 'BRFBulten', [
         [18.080619900000002, 59.309706799980006],
@@ -2301,7 +2303,7 @@ export const MapPolygons =
         [18.080619900000002, 59.309706799980006]
     ],
     [18.0803349, 59.309706799980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harven 58 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harvpinnen 11 och 12', 'BRFBulten', [
         [18.0795289, 59.30913249998],
@@ -2313,7 +2315,7 @@ export const MapPolygons =
         [18.0795289, 59.30913249998]
     ],
     [18.0795687, 59.308902799980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harvpinnen 11 och 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harvpinnen 19', 'BRFBulten', [
         [18.080065299999998, 59.30933349998],
@@ -2323,7 +2325,7 @@ export const MapPolygons =
         [18.080065299999998, 59.30933349998]
     ],
     [18.07978995, 59.30916484998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harvpinnen 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harvpinnen 75-79', 'BRFBulten', [
         [18.0792802, 59.30975859998],
@@ -2339,7 +2341,7 @@ export const MapPolygons =
         [18.0792802, 59.30975859998]
     ],
     [18.079358, 59.30943019998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harvpinnen 75-79 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harvpinnen 8', 'BRFBulten', [
         [18.0809352, 59.30895769998],
@@ -2349,7 +2351,7 @@ export const MapPolygons =
         [18.0809352, 59.30895769998]
     ],
     [18.080869649999997, 59.30879054998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harvpinnen 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Harvpinnen 9', 'BRFBulten', [
         [18.080619300000002, 59.30867999998],
@@ -2363,7 +2365,7 @@ export const MapPolygons =
         [18.080619300000002, 59.30867999998]
     ],
     [18.0803343, 59.30867999998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Harvpinnen 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Heleneborgsgatan 46', 'BRFBulten', [
         [18.034567, 59.319033099980004],
@@ -2377,7 +2379,7 @@ export const MapPolygons =
         [18.034567, 59.319033099980004]
     ],
     [18.034281999999997, 59.319033099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Heleneborgsgatan 46 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Heleneborgsparken', 'heleneborgsparken', [
         [18.043142, 59.320249799980004],
@@ -2391,7 +2393,7 @@ export const MapPolygons =
         [18.043142, 59.320249799980004]
     ],
     [18.04277928333333, 59.32002578331333], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-heleneborgsgatan-8b,-4tr-18378035', '<h1>Heleneborgsparken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58H3HMKR42MQ8GIF/Hemnet", 'Heleneborgsgatan 8B, 4tr', '3 rum', 'om 70 m²', 'med 4363 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58H3HMKR42MQ8GIF/Hemnet", 'Heleneborgsgatan 8B, 4tr', '3 rum', 'om 70 m²', 'med 4363 kr i månadsavgift','listing_icon'
 ],
 ['Helgagatan 30', 'BRFBulten', [
         [18.069646000000002, 59.31033209998],
@@ -2405,7 +2407,7 @@ export const MapPolygons =
         [18.069646000000002, 59.31033209998]
     ],
     [18.069361, 59.31033209998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Helgagatan 30 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Helgalunden 1-9', 'helgalunden-1-9', [
         [18.070864399999998, 59.31062339998],
@@ -2419,7 +2421,7 @@ export const MapPolygons =
         [18.070864399999998, 59.31062339998]
     ],
     [18.070460859999997, 59.31041957998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-helgalunden-1-18356081', '<h1>Helgalunden 1-9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1812528246/Hemnet", 'Helgalunden 1', '2 rum', 'om 58 m²', 'med 3896 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1812528246/Hemnet", 'Helgalunden 1', '2 rum', 'om 58 m²', 'med 3896 kr i månadsavgift','listing_icon'
 ],
 ['Helgalunden 17', 'BRFBulten', [
         [18.0720006, 59.30975939998],
@@ -2433,7 +2435,7 @@ export const MapPolygons =
         [18.0720006, 59.30975939998]
     ],
     [18.071715599999997, 59.30975939998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Helgalunden 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Helgonet', 'BRFBulten', [
         [18.0747869, 59.310006399980004],
@@ -2447,7 +2449,7 @@ export const MapPolygons =
         [18.0747869, 59.310006399980004]
     ],
     [18.074501899999998, 59.310006399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Helgonet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hembryggeriet', 'hembryggeriet', [
         [18.0362966, 59.31918739998],
@@ -2461,7 +2463,7 @@ export const MapPolygons =
         [18.0362966, 59.31918739998]
     ],
     [18.036149533333333, 59.31899963331335], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-sodermalm-stockholms-kommun-heleneborgsgatan-15b,-6-tr-vindsvaning-18355005', '<h1>Hembryggeriet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58ELD4BMG7NMS5QL/Hemnet", 'Heleneborgsgatan 15B, 6 tr vindsvåning', '4 rum', 'om 77 m²', 'med 4469 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58ELD4BMG7NMS5QL/Hemnet", 'Heleneborgsgatan 15B, 6 tr vindsvåning', '4 rum', 'om 77 m²', 'med 4469 kr i månadsavgift','listing_icon'
 ],
 ['Hornsgatan 39', 'BRFBulten', [
         [18.059796, 59.31860799998],
@@ -2471,7 +2473,7 @@ export const MapPolygons =
         [18.059796, 59.31860799998]
     ],
     [18.05959825, 59.31840924998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hornsgatan 39 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hornsgatan 45', 'BRFBulten', [
         [18.058646200000002, 59.318206899980005],
@@ -2485,7 +2487,7 @@ export const MapPolygons =
         [18.058646200000002, 59.318206899980005]
     ],
     [18.0583612, 59.318206899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hornsgatan 45 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hornsgatan 70', 'BRFBulten', [
         [18.0584389, 59.318937099980005],
@@ -2501,7 +2503,7 @@ export const MapPolygons =
         [18.0584389, 59.318937099980005]
     ],
     [18.058457266666665, 59.318698799980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hornsgatan 70 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hornsgatan 77', 'BRFBulten', [
         [18.0521891, 59.31739909998],
@@ -2515,7 +2517,7 @@ export const MapPolygons =
         [18.0521891, 59.31739909998]
     ],
     [18.051904099999998, 59.31739909998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hornsgatan 77 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hornsgatan/ Hornsbruksgatan', 'BRFBulten', [
         [18.0379985, 59.31654909998],
@@ -2529,7 +2531,7 @@ export const MapPolygons =
         [18.0379985, 59.31654909998]
     ],
     [18.038072875, 59.316078924980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hornsgatan/ Hornsbruksgatan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hornskroken', 'BRFBulten', [
         [18.0456176, 59.31739679998],
@@ -2543,7 +2545,7 @@ export const MapPolygons =
         [18.0456176, 59.31739679998]
     ],
     [18.0453326, 59.31739679998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hornskroken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hornstulls Strand 1', 'hornstulls-strand-1', [
         [18.0310976, 59.31570019998],
@@ -2553,7 +2555,7 @@ export const MapPolygons =
         [18.0310976, 59.31570019998]
     ],
     [18.030859749999998, 59.31550964998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-hornstulls-strand-1,-3-tr-18380713', '<h1>Hornstulls Strand 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20182/CMBOLGH58GJGURCMEOJ9RI9/Hemnet", 'Hornstulls Strand 1, 3 tr', '2 rum', 'om 43 m²', 'med 2191 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20182/CMBOLGH58GJGURCMEOJ9RI9/Hemnet", 'Hornstulls Strand 1, 3 tr', '2 rum', 'om 43 m²', 'med 2191 kr i månadsavgift','listing_icon'
 ],
 ['Huggjärnet 18-19', 'huggjarnet-18-19', [
         [18.0335744, 59.319203999980004],
@@ -2567,7 +2569,7 @@ export const MapPolygons =
         [18.0335744, 59.319203999980004]
     ],
     [18.0335933, 59.31899079998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-heleneborgsgatan-50-18383197', '<h1>Huggjärnet 18-19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.lansfast.se/object-redirect/?guid=52ADOPO8B60GER8U&amp;objectType=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Heleneborgsgatan 50', '3 rum', 'om 82,4 m²', 'med 3329 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.lansfast.se/object-redirect/?guid=52ADOPO8B60GER8U&amp;objectType=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Heleneborgsgatan 50', '3 rum', 'om 82,4 m²', 'med 3329 kr i månadsavgift','listing_icon'
 ],
 ['Huggjärnet 20', 'BRFBulten', [
         [18.0337571, 59.31948929998],
@@ -2577,7 +2579,7 @@ export const MapPolygons =
         [18.0337571, 59.31948929998]
     ],
     [18.03362725, 59.31932594998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Huggjärnet 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Huggjärnet 21', 'BRFBulten', [
         [18.0342673, 59.31955949998],
@@ -2587,7 +2589,7 @@ export const MapPolygons =
         [18.0342673, 59.31955949998]
     ],
     [18.034152, 59.31939749998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Huggjärnet 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hunden 15', 'BRFBulten', [
         [18.0628145, 59.31987179998001],
@@ -2601,7 +2603,7 @@ export const MapPolygons =
         [18.0628145, 59.31987179998001]
     ],
     [18.0625295, 59.31987179998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hunden 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hyveln 129', 'BRFBulten', [
         [18.041920299999997, 59.32015329998],
@@ -2613,7 +2615,7 @@ export const MapPolygons =
         [18.041920299999997, 59.32015329998]
     ],
     [18.0419444, 59.319938749980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hyveln 129 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Häckelfjäll 7', 'BRFBulten', [
         [18.0761157, 59.31794469998],
@@ -2625,7 +2627,7 @@ export const MapPolygons =
         [18.0761157, 59.31794469998]
     ],
     [18.0761403, 59.317702299980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Häckelfjäll 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Häckelfjäll 8', 'BRFBulten', [
         [18.0763343, 59.31796379998],
@@ -2639,7 +2641,7 @@ export const MapPolygons =
         [18.0763343, 59.31796379998]
     ],
     [18.076489966666667, 59.31770416664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Häckelfjäll 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Häcklefjäll 31', 'BRFBulten', [
         [18.077398, 59.317713699980004],
@@ -2651,7 +2653,7 @@ export const MapPolygons =
         [18.077398, 59.317713699980004]
     ],
     [18.0774309, 59.31751804998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Häcklefjäll 31 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Härden 105', 'BRFBulten', [
         [18.0561827, 59.31843399998],
@@ -2665,7 +2667,7 @@ export const MapPolygons =
         [18.0561827, 59.31843399998]
     ],
     [18.0558977, 59.31843399998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Härden 105 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Härden 109', 'BRFBulten', [
         [18.030137200000002, 59.31690099998001],
@@ -2679,7 +2681,7 @@ export const MapPolygons =
         [18.030137200000002, 59.31690099998001]
     ],
     [18.0298522, 59.31690099998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Härden 109 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Höga Loftet 2', 'BRFBulten', [
         [18.065347, 59.32016519998],
@@ -2689,7 +2691,7 @@ export const MapPolygons =
         [18.065347, 59.32016519998]
     ],
     [18.0652173, 59.320010899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Höga Loftet 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Höga Stigen Större 17', 'BRFBulten', [
         [18.0772996, 59.318023199980004],
@@ -2703,7 +2705,7 @@ export const MapPolygons =
         [18.0772996, 59.318023199980004]
     ],
     [18.0770146, 59.318023199980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Höga Stigen Större 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Högalidsgatan 33', 'hogalidsgatan-33', [
         [18.029081, 59.318248799980005],
@@ -2717,7 +2719,7 @@ export const MapPolygons =
         [18.029081, 59.318248799980005]
     ],
     [18.028796, 59.318248799980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-hogalidsgatan-33,-2tr-18376475', '<h1>Högalidsgatan 33 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58LIG2JKSF8JQCSL/Hemnet", 'Högalidsgatan 33, 2tr', '1 rum', 'om 26 m²', 'med 1975 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58LIG2JKSF8JQCSL/Hemnet", 'Högalidsgatan 33, 2tr', '1 rum', 'om 26 m²', 'med 1975 kr i månadsavgift','listing_icon'
 ],
 ['Högalidsmuttern nr 2', 'BRFBulten', [
         [18.035741599999998, 59.31913599998],
@@ -2731,7 +2733,7 @@ export const MapPolygons =
         [18.035741599999998, 59.31913599998]
     ],
     [18.035549, 59.31890069998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Högalidsmuttern nr 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Högalidsparken', 'BRFBulten', [
         [18.0372569, 59.31880679998],
@@ -2746,7 +2748,7 @@ export const MapPolygons =
         [18.0372569, 59.31880679998]
     ],
     [18.037320599999997, 59.31845207498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Högalidsparken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Högberget', 'BRFBulten', [
         [18.0607129, 59.315537599980004],
@@ -2760,7 +2762,7 @@ export const MapPolygons =
         [18.0607129, 59.315537599980004]
     ],
     [18.060551425, 59.31529087498001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Högberget <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Högberget nr 2', 'BRFBulten', [
         [18.068161, 59.31627159998],
@@ -2770,7 +2772,7 @@ export const MapPolygons =
         [18.068161, 59.31627159998]
     ],
     [18.067563800000002, 59.316043749980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Högberget nr 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Högsäter', 'BRFBulten', [
         [18.0499498, 59.31839559998],
@@ -2784,7 +2786,7 @@ export const MapPolygons =
         [18.0499498, 59.31839559998]
     ],
     [18.0496648, 59.31839559998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Högsäter <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hökboet', 'BRFBulten', [
         [18.0758029, 59.31296429998],
@@ -2800,7 +2802,7 @@ export const MapPolygons =
         [18.0758029, 59.31296429998]
     ],
     [18.075506916666665, 59.31266284998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hökboet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Höken 10-22', 'BRFBulten', [
         [18.0772397, 59.31312759998],
@@ -2814,7 +2816,7 @@ export const MapPolygons =
         [18.0772397, 59.31312759998]
     ],
     [18.076828066666668, 59.312849866646665], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Höken 10-22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Höken 9', 'BRFBulten', [
         [18.073549500000002, 59.31824679998],
@@ -2828,7 +2830,7 @@ export const MapPolygons =
         [18.073549500000002, 59.31824679998]
     ],
     [18.0732645, 59.31824679998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Höken 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hökensgata 1', 'BRFBulten', [
         [18.0723995, 59.318080999980005],
@@ -2842,7 +2844,7 @@ export const MapPolygons =
         [18.0723995, 59.318080999980005]
     ],
     [18.072114499999998, 59.318080999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Hökensgata 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Hörnhuset', 'hornhuset', [
         [18.0310255, 59.31844649998],
@@ -2854,7 +2856,7 @@ export const MapPolygons =
         [18.0310255, 59.31844649998]
     ],
     [18.03099905, 59.318217549980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-hogalid-stockholms-kommun-tobaksspinnargatan-1,-3tr-17232137', '<h1>Hörnhuset <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/hogalid/tobaksspinnargatan-1--3tr/292010?utm_source=hemnet&amp;utm_medium=referral", 'Tobaksspinnargatan 1, 3tr', '3 rum', 'om 57 m²', 'med 3088 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/hogalid/tobaksspinnargatan-1--3tr/292010?utm_source=hemnet&amp;utm_medium=referral", 'Tobaksspinnargatan 1, 3tr', '3 rum', 'om 57 m²', 'med 3088 kr i månadsavgift','listing_icon'
 ],
 ['Höstbuketten', 'BRFBulten', [
         [18.0844682, 59.31618969998],
@@ -2866,7 +2868,7 @@ export const MapPolygons =
         [18.0844682, 59.31618969998]
     ],
     [18.08448345, 59.31589799998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Höstbuketten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ingenjören 10', 'ingenjoren-10', [
         [18.0664584, 59.30888909998],
@@ -2878,7 +2880,7 @@ export const MapPolygons =
         [18.0664584, 59.30888909998]
     ],
     [18.0663894, 59.30862574998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-katarina-stockholms-kommun-ringvagen-87b,-3tr-18378975', '<h1>Ingenjören 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/katarina/ringvagen-87b--3tr/331512?utm_source=hemnet&amp;utm_medium=referral", 'Ringvägen 87B, 3tr', '2 rum', 'om 62,5 m²', 'med 3026 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/katarina/ringvagen-87b--3tr/331512?utm_source=hemnet&amp;utm_medium=referral", 'Ringvägen 87B, 3tr', '2 rum', 'om 62,5 m²', 'med 3026 kr i månadsavgift','listing_icon'
 ],
 ['Ingenjören 12', 'BRFBulten', [
         [18.065745099999997, 59.30902589998],
@@ -2888,7 +2890,7 @@ export const MapPolygons =
         [18.065745099999997, 59.30902589998]
     ],
     [18.065599149999997, 59.30876374998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ingenjören 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ingenjören 14', 'ingenjoren-14', [
         [18.0651441, 59.30882789998],
@@ -2902,7 +2904,7 @@ export const MapPolygons =
         [18.0651441, 59.30882789998]
     ],
     [18.0648591, 59.30882789998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-katarina,-sodermalm-stockholms-kommun-ringvagen-79,-4tr-18350537', '<h1>Ingenjören 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/katarina/ringvagen-79--4tr/115420?utm_source=hemnet&amp;utm_medium=referral", 'Ringvägen 79, 4tr', '2 rum', 'om 43 m²', 'med 1665 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/katarina/ringvagen-79--4tr/115420?utm_source=hemnet&amp;utm_medium=referral", 'Ringvägen 79, 4tr', '2 rum', 'om 43 m²', 'med 1665 kr i månadsavgift','listing_icon'
 ],
 ['Ingenjören 6', 'BRFBulten', [
         [18.065900199999998, 59.309433099980005],
@@ -2916,7 +2918,7 @@ export const MapPolygons =
         [18.065900199999998, 59.309433099980005]
     ],
     [18.066046466666666, 59.30917643331333], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ingenjören 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ingenjören nr 4', 'ingenjoren-nr-4', [
         [18.066720399999998, 59.30953539998],
@@ -2926,7 +2928,7 @@ export const MapPolygons =
         [18.066720399999998, 59.30953539998]
     ],
     [18.066942249999997, 59.30924279998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-grindsgatan-52,-2-tr-18381116', '<h1>Ingenjören nr 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58I4UFG9L86COH2P/Hemnet", 'Grindsgatan 52, 2 tr', '3 rum', 'om 83 m²', 'med 3953 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58I4UFG9L86COH2P/Hemnet", 'Grindsgatan 52, 2 tr', '3 rum', 'om 83 m²', 'med 3953 kr i månadsavgift','listing_icon'
 ],
 ['Inlandsisen', 'BRFBulten', [
         [18.0773248, 59.312986299980004],
@@ -2936,7 +2938,7 @@ export const MapPolygons =
         [18.0773248, 59.312986299980004]
     ],
     [18.077179, 59.312783299980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Inlandsisen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Inlandsisen 10', 'BRFBulten', [
         [18.0796536, 59.30888209998],
@@ -2950,7 +2952,7 @@ export const MapPolygons =
         [18.0796536, 59.30888209998]
     ],
     [18.074212900000003, 59.308659466646674], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Inlandsisen 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Inlandsisen 2', 'BRFBulten', [
         [18.076800199999997, 59.316728799980005],
@@ -2964,7 +2966,7 @@ export const MapPolygons =
         [18.076800199999997, 59.316728799980005]
     ],
     [18.07651843333333, 59.316566733313344], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Inlandsisen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Italien', 'BRFBulten', [
         [18.0556408, 59.316056299980005],
@@ -2978,7 +2980,7 @@ export const MapPolygons =
         [18.0556408, 59.316056299980005]
     ],
     [18.055355799999997, 59.316056299980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Italien <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Jernet 7', 'BRFBulten', [
         [18.0920065, 59.31358779998],
@@ -2994,7 +2996,7 @@ export const MapPolygons =
         [18.0920065, 59.31358779998]
     ],
     [18.091850016666665, 59.31313351664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Jernet 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Josephinagården', 'BRFBulten', [
         [18.0667943, 59.31572079998001],
@@ -3008,7 +3010,7 @@ export const MapPolygons =
         [18.0667943, 59.31572079998001]
     ],
     [18.0665093, 59.31572079998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Josephinagården <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Järnet 2', 'BRFBulten', [
         [18.0913666, 59.31352049998],
@@ -3022,7 +3024,7 @@ export const MapPolygons =
         [18.0913666, 59.31352049998]
     ],
     [18.0910816, 59.31352049998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Järnet 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Järnet 4', 'BRFBulten', [
         [18.0914274, 59.31295369998001],
@@ -3036,7 +3038,7 @@ export const MapPolygons =
         [18.0914274, 59.31295369998001]
     ],
     [18.0911424, 59.31295369998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Järnet 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kajplatsen', 'kajplatsen', [
         [18.0877332, 59.306442199980005],
@@ -3052,7 +3054,7 @@ export const MapPolygons =
         [18.0877332, 59.306442199980005]
     ],
     [18.087390522222222, 59.30601205553556], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-sofia-stockholms-kommun-tullgardsgatan-18-18341275', '<h1>Kajplatsen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58IARS2KHLVVL23E&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Tullgårdsgatan 18', '2 rum', 'om 52 m²', 'med 3294 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58IARS2KHLVVL23E&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Tullgårdsgatan 18', '2 rum', 'om 52 m²', 'med 3294 kr i månadsavgift','listing_icon'
 ],
 ['Kaninen Minsta 7', 'BRFBulten', [
         [18.0499069, 59.31963529998001],
@@ -3066,7 +3068,7 @@ export const MapPolygons =
         [18.0499069, 59.31963529998001]
     ],
     [18.049621899999998, 59.31963529998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kaninen Minsta 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kastanjen SoHo', 'BRFBulten', [
         [18.0632202, 59.31738099998],
@@ -3078,7 +3080,7 @@ export const MapPolygons =
         [18.0632202, 59.31738099998]
     ],
     [18.06325265, 59.317165299980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kastanjen SoHo <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katarina Västra Skola', 'BRFBulten', [
         [18.0771346, 59.31602439998],
@@ -3092,7 +3094,7 @@ export const MapPolygons =
         [18.0771346, 59.31602439998]
     ],
     [18.0768496, 59.31602439998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katarina Västra Skola <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattan Mindre', 'BRFBulten', [
         [18.0644168, 59.32036729998],
@@ -3102,7 +3104,7 @@ export const MapPolygons =
         [18.0644168, 59.32036729998]
     ],
     [18.0642944, 59.32019884998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattan Mindre <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattan Mindre 2', 'BRFBulten', [
         [18.0642424, 59.320352699980006],
@@ -3116,7 +3118,7 @@ export const MapPolygons =
         [18.0642424, 59.320352699980006]
     ],
     [18.0639574, 59.320352699980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattan Mindre 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattan Större 6', 'BRFBulten', [
         [18.0632653, 59.320315399980004],
@@ -3130,7 +3132,7 @@ export const MapPolygons =
         [18.0632653, 59.320315399980004]
     ],
     [18.0629803, 59.320315399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattan Större 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattan Större nr 2', 'BRFBulten', [
         [18.062780699999998, 59.32019839998],
@@ -3140,7 +3142,7 @@ export const MapPolygons =
         [18.062780699999998, 59.32019839998]
     ],
     [18.06300515, 59.320044149980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattan Större nr 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katten 4', 'BRFBulten', [
         [18.061661700000002, 59.31993769998],
@@ -3154,7 +3156,7 @@ export const MapPolygons =
         [18.061661700000002, 59.31993769998]
     ],
     [18.0613767, 59.31993769998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katten 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattfoten Mindre 14', 'BRFBulten', [
         [18.059286800000002, 59.32020349998],
@@ -3168,7 +3170,7 @@ export const MapPolygons =
         [18.059286800000002, 59.32020349998]
     ],
     [18.0590018, 59.32020349998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattfoten Mindre 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattfoten Mindre nr 11', 'BRFBulten', [
         [18.0584008, 59.32012079998],
@@ -3182,7 +3184,7 @@ export const MapPolygons =
         [18.0584008, 59.32012079998]
     ],
     [18.0581158, 59.32012079998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattfoten Mindre nr 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 1', 'BRFBulten', [
         [18.0624227, 59.320257099980005],
@@ -3196,7 +3198,7 @@ export const MapPolygons =
         [18.0624227, 59.320257099980005]
     ],
     [18.062137699999997, 59.320257099980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 17', 'BRFBulten', [
         [18.061514600000002, 59.320176299980005],
@@ -3210,7 +3212,7 @@ export const MapPolygons =
         [18.061514600000002, 59.320176299980005]
     ],
     [18.0612296, 59.320176299980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 25', 'BRFBulten', [
         [18.0611631, 59.32007869998],
@@ -3224,7 +3226,7 @@ export const MapPolygons =
         [18.0611631, 59.32007869998]
     ],
     [18.0608781, 59.32007869998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 26', 'BRFBulten', [
         [18.0619945, 59.320168999980005],
@@ -3238,7 +3240,7 @@ export const MapPolygons =
         [18.0619945, 59.320168999980005]
     ],
     [18.0617095, 59.320168999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 26 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 27', 'BRFBulten', [
         [18.0621918, 59.32000129998001],
@@ -3252,7 +3254,7 @@ export const MapPolygons =
         [18.0621918, 59.32000129998001]
     ],
     [18.0619068, 59.32000129998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 29', 'BRFBulten', [
         [18.0627071, 59.319996999980006],
@@ -3266,7 +3268,7 @@ export const MapPolygons =
         [18.0627071, 59.319996999980006]
     ],
     [18.0624221, 59.319996999980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 29 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 37', 'BRFBulten', [
         [18.0598648, 59.32025029998],
@@ -3278,7 +3280,7 @@ export const MapPolygons =
         [18.0598648, 59.32025029998]
     ],
     [18.0599292, 59.31990119998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 37 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 6', 'BRFBulten', [
         [18.0608185, 59.319801799980006],
@@ -3292,7 +3294,7 @@ export const MapPolygons =
         [18.0608185, 59.319801799980006]
     ],
     [18.0605335, 59.319801799980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 7', 'BRFBulten', [
         [18.0605771, 59.319717799980005],
@@ -3306,7 +3308,7 @@ export const MapPolygons =
         [18.0605771, 59.319717799980005]
     ],
     [18.060292099999998, 59.319717799980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet 9', 'BRFBulten', [
         [18.059964400000002, 59.31966869998001],
@@ -3320,7 +3322,7 @@ export const MapPolygons =
         [18.059964400000002, 59.31966869998001]
     ],
     [18.0596794, 59.31966869998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Katthuvudet nr 14', 'BRFBulten', [
         [18.0606905, 59.320064999980005],
@@ -3334,7 +3336,7 @@ export const MapPolygons =
         [18.0606905, 59.320064999980005]
     ],
     [18.060405499999998, 59.320064999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Katthuvudet nr 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattrumpan 14', 'BRFBulten', [
         [18.057771499999998, 59.31993779998],
@@ -3344,7 +3346,7 @@ export const MapPolygons =
         [18.057771499999998, 59.31993779998]
     ],
     [18.057684449999996, 59.31976054998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattrumpan 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattrumpan 25', 'BRFBulten', [
         [18.0587579, 59.32002039998],
@@ -3358,7 +3360,7 @@ export const MapPolygons =
         [18.0587579, 59.32002039998]
     ],
     [18.058472899999998, 59.32002039998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattrumpan 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattrumpan 7', 'BRFBulten', [
         [18.0582591, 59.319737799980004],
@@ -3370,7 +3372,7 @@ export const MapPolygons =
         [18.0582591, 59.319737799980004]
     ],
     [18.0582241, 59.31953834998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattrumpan 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattrumpan nr 9', 'BRFBulten', [
         [18.0581713, 59.319555399980004],
@@ -3384,7 +3386,7 @@ export const MapPolygons =
         [18.0581713, 59.319555399980004]
     ],
     [18.0578863, 59.319555399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattrumpan nr 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 11', 'BRFBulten', [
         [18.063086900000002, 59.31964329998],
@@ -3398,7 +3400,7 @@ export const MapPolygons =
         [18.063086900000002, 59.31964329998]
     ],
     [18.0628019, 59.31964329998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 13', 'BRFBulten', [
         [18.061771, 59.31976079998],
@@ -3412,7 +3414,7 @@ export const MapPolygons =
         [18.061771, 59.31976079998]
     ],
     [18.061486, 59.31976079998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 14', 'BRFBulten', [
         [18.061500199999998, 59.31969429998],
@@ -3422,7 +3424,7 @@ export const MapPolygons =
         [18.061500199999998, 59.31969429998]
     ],
     [18.061604499999998, 59.31953124998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 15', 'BRFBulten', [
         [18.062274300000002, 59.31957099998],
@@ -3436,7 +3438,7 @@ export const MapPolygons =
         [18.062274300000002, 59.31957099998]
     ],
     [18.0619893, 59.31957099998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 17', 'BRFBulten', [
         [18.0613602, 59.31966699998],
@@ -3450,7 +3452,7 @@ export const MapPolygons =
         [18.0613602, 59.31966699998]
     ],
     [18.061075199999998, 59.31966699998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 19', 'BRFBulten', [
         [18.0616404, 59.31947569998],
@@ -3464,7 +3466,7 @@ export const MapPolygons =
         [18.0616404, 59.31947569998]
     ],
     [18.0613554, 59.31947569998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 2', 'BRFBulten', [
         [18.0623221, 59.319952399980004],
@@ -3476,7 +3478,7 @@ export const MapPolygons =
         [18.0623221, 59.319952399980004]
     ],
     [18.06236865, 59.319702699980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 20', 'BRFBulten', [
         [18.0604386, 59.31961839998],
@@ -3490,7 +3492,7 @@ export const MapPolygons =
         [18.0604386, 59.31961839998]
     ],
     [18.0601536, 59.31961839998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 21', 'BRFBulten', [
         [18.0608404, 59.319590199980006],
@@ -3504,7 +3506,7 @@ export const MapPolygons =
         [18.0608404, 59.319590199980006]
     ],
     [18.0605554, 59.319590199980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 23', 'BRFBulten', [
         [18.0605076, 59.31935879998],
@@ -3518,7 +3520,7 @@ export const MapPolygons =
         [18.0605076, 59.31935879998]
     ],
     [18.0602226, 59.31935879998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 24', 'BRFBulten', [
         [18.060154400000002, 59.31931639998],
@@ -3532,7 +3534,7 @@ export const MapPolygons =
         [18.060154400000002, 59.31931639998]
     ],
     [18.0598694, 59.31931639998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 24 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 3', 'BRFBulten', [
         [18.0621454, 59.319931199980005],
@@ -3544,7 +3546,7 @@ export const MapPolygons =
         [18.0621454, 59.319931199980005]
     ],
     [18.062203699999998, 59.31966779998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kattryggen 9', 'BRFBulten', [
         [18.061120900000002, 59.319642999980005],
@@ -3558,7 +3560,7 @@ export const MapPolygons =
         [18.061120900000002, 59.319642999980005]
     ],
     [18.0608359, 59.319642999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kattryggen 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Keders', 'BRFBulten', [
         [18.0860313, 59.313860099980005],
@@ -3573,7 +3575,7 @@ export const MapPolygons =
         [18.0860313, 59.313860099980005]
     ],
     [18.0860614, 59.31347979998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Keders <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kejsaren', 'kejsaren', [
         [18.0733292, 59.31757639998],
@@ -3585,7 +3587,7 @@ export const MapPolygons =
         [18.0733292, 59.31757639998]
     ],
     [18.0733294, 59.317290699980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-mosebacke-stockholms-kommun-svartensgatan-8-a,-2-tr-18376160', '<h1>Kejsaren <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13917/CMBOLGH58ERU6N1M5JN4DP8/Hemnet", 'Svartensgatan 8 A, 2 tr', '3 rum', 'om 99 m²', 'med 3381 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13917/CMBOLGH58ERU6N1M5JN4DP8/Hemnet", 'Svartensgatan 8 A, 2 tr', '3 rum', 'om 99 m²', 'med 3381 kr i månadsavgift','listing_icon'
 ],
 ['Kejsaren 14', 'BRFBulten', [
         [18.0749337, 59.31736679998],
@@ -3597,7 +3599,7 @@ export const MapPolygons =
         [18.0749337, 59.31736679998]
     ],
     [18.0749876, 59.31712394998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kejsaren 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kejsaren 2', 'BRFBulten', [
         [18.072508, 59.31715989998],
@@ -3607,7 +3609,7 @@ export const MapPolygons =
         [18.072508, 59.31715989998]
     ],
     [18.07254015, 59.31697444998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kejsaren 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kejsaren 26', 'kejsaren-26', [
         [18.0748377, 59.31799609998],
@@ -3621,7 +3623,7 @@ export const MapPolygons =
         [18.0748377, 59.31799609998]
     ],
     [18.0745118, 59.31752819998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-mosebacke-stockholms-kommun-mosebacke-torg-14a-18355260', '<h1>Kejsaren 26 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1906313455/Hemnet", 'Mosebacke torg 14A', '2 rum', 'om 41 m²', 'med 2171 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M18440/OBJ18440_1906313455/Hemnet", 'Mosebacke torg 14A', '2 rum', 'om 41 m²', 'med 2171 kr i månadsavgift','listing_icon'
 ],
 ['Kejsaren 27', 'BRFBulten', [
         [18.0738845, 59.317643199980004],
@@ -3636,7 +3638,7 @@ export const MapPolygons =
         [18.0738845, 59.317643199980004]
     ],
     [18.073909099999998, 59.31734893331333], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kejsaren 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kejsaren 7', 'BRFBulten', [
         [18.073770800000002, 59.31736509998],
@@ -3650,7 +3652,7 @@ export const MapPolygons =
         [18.073770800000002, 59.31736509998]
     ],
     [18.0734858, 59.31736509998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kejsaren 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kejsarinnan', 'BRFBulten', [
         [18.074500099999998, 59.31734029998],
@@ -3662,7 +3664,7 @@ export const MapPolygons =
         [18.074500099999998, 59.31734029998]
     ],
     [18.07451325, 59.317099599980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kejsarinnan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kniven', 'BRFBulten', [
         [18.0685256, 59.31057449998001],
@@ -3676,7 +3678,7 @@ export const MapPolygons =
         [18.0685256, 59.31057449998001]
     ],
     [18.0682406, 59.31057449998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kniven <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kniven 20', 'BRFBulten', [
         [18.0675052, 59.30994099998001],
@@ -3690,7 +3692,7 @@ export const MapPolygons =
         [18.0675052, 59.30994099998001]
     ],
     [18.067220199999998, 59.30994099998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kniven 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kniven 23', 'BRFBulten', [
         [18.0677761, 59.31041369998],
@@ -3704,7 +3706,7 @@ export const MapPolygons =
         [18.0677761, 59.31041369998]
     ],
     [18.067491099999998, 59.31041369998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kniven 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kniven 24', 'BRFBulten', [
         [18.0680567, 59.31046649998],
@@ -3718,7 +3720,7 @@ export const MapPolygons =
         [18.0680567, 59.31046649998]
     ],
     [18.067771699999998, 59.31046649998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kniven 24 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kniven 27', 'BRFBulten', [
         [18.0687415, 59.31008939998],
@@ -3732,7 +3734,7 @@ export const MapPolygons =
         [18.0687415, 59.31008939998]
     ],
     [18.0684565, 59.31008939998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kniven 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kobran', 'BRFBulten', [
         [18.0599329, 59.31896459998],
@@ -3742,7 +3744,7 @@ export const MapPolygons =
         [18.0599329, 59.31896459998]
     ],
     [18.060062, 59.31877899998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kobran <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kocksgatan 28', 'BRFBulten', [
         [18.0789226, 59.31431579998],
@@ -3754,7 +3756,7 @@ export const MapPolygons =
         [18.0789226, 59.31431579998]
     ],
     [18.0789853, 59.31406599998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kocksgatan 28 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kocksgatan 42', 'BRFBulten', [
         [18.0815632, 59.31435639998001],
@@ -3768,7 +3770,7 @@ export const MapPolygons =
         [18.0815632, 59.31435639998001]
     ],
     [18.0812782, 59.31435639998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kocksgatan 42 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kocksgatan 43-45', 'BRFBulten', [
         [18.0833516, 59.31500899998],
@@ -3782,7 +3784,7 @@ export const MapPolygons =
         [18.0833516, 59.31500899998]
     ],
     [18.0831676, 59.31483505553555], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kocksgatan 43-45 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kolonnen 08', 'BRFBulten', [
         [18.077526900000002, 59.30859859998],
@@ -3796,7 +3798,7 @@ export const MapPolygons =
         [18.077526900000002, 59.30859859998]
     ],
     [18.0772419, 59.30859859998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kolonnen 08 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kolonnen 10', 'BRFBulten', [
         [18.078285700000002, 59.308699199980005],
@@ -3810,7 +3812,7 @@ export const MapPolygons =
         [18.078285700000002, 59.308699199980005]
     ],
     [18.0780007, 59.308699199980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kolonnen 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kolonnen 2', 'BRFBulten', [
         [18.078761099999998, 59.30869319998],
@@ -3822,7 +3824,7 @@ export const MapPolygons =
         [18.078761099999998, 59.30869319998]
     ],
     [18.0787955, 59.30844879998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kolonnen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kolonnen 3', 'BRFBulten', [
         [18.0783009, 59.30865939998],
@@ -3834,7 +3836,7 @@ export const MapPolygons =
         [18.0783009, 59.30865939998]
     ],
     [18.0782782, 59.30842694998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kolonnen 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kolonnen 4', 'BRFBulten', [
         [18.0777413, 59.30853549998],
@@ -3844,7 +3846,7 @@ export const MapPolygons =
         [18.0777413, 59.30853549998]
     ],
     [18.0778444, 59.30834464998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kolonnen 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kolonnen 6', 'BRFBulten', [
         [18.0766957, 59.308461499980005],
@@ -3854,7 +3856,7 @@ export const MapPolygons =
         [18.0766957, 59.308461499980005]
     ],
     [18.0768253, 59.30821264998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kolonnen 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kopparbonden', 'BRFBulten', [
         [18.0885392, 59.31403599998],
@@ -3868,7 +3870,7 @@ export const MapPolygons =
         [18.0885392, 59.31403599998]
     ],
     [18.088679466666665, 59.31381119998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kopparbonden <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kopparn 12', 'BRFBulten', [
         [18.0898174, 59.313114799980006],
@@ -3882,7 +3884,7 @@ export const MapPolygons =
         [18.0898174, 59.313114799980006]
     ],
     [18.0895324, 59.313114799980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kopparn 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kopparn 5', 'BRFBulten', [
         [18.0894744, 59.31314069998],
@@ -3896,7 +3898,7 @@ export const MapPolygons =
         [18.0894744, 59.31314069998]
     ],
     [18.0891894, 59.31314069998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kopparn 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kopparn 9', 'BRFBulten', [
         [18.0892941, 59.313922099980005],
@@ -3910,7 +3912,7 @@ export const MapPolygons =
         [18.0892941, 59.313922099980005]
     ],
     [18.089366724999998, 59.31371159998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kopparn 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kopparns vänner', 'BRFBulten', [
         [18.0903064, 59.31339349998],
@@ -3924,7 +3926,7 @@ export const MapPolygons =
         [18.0903064, 59.31339349998]
     ],
     [18.090021399999998, 59.31339349998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kopparns vänner <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kornet 11', 'BRFBulten', [
         [18.063525000000002, 59.308697499980006],
@@ -3938,7 +3940,7 @@ export const MapPolygons =
         [18.063525000000002, 59.308697499980006]
     ],
     [18.06324, 59.308697499980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kornet 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kroken 11', 'BRFBulten', [
         [18.0781384, 59.30720029998],
@@ -3948,7 +3950,7 @@ export const MapPolygons =
         [18.0781384, 59.30720029998]
     ],
     [18.0781164, 59.307021349980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kroken 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kroken 24/7', 'kroken-24-7', [
         [18.077905599999998, 59.30790949998],
@@ -3962,7 +3964,7 @@ export const MapPolygons =
         [18.077905599999998, 59.30790949998]
     ],
     [18.077530225, 59.30767487498001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-sofia-stockholms-kommun-ringvagen-104,-4-tr-18349695', '<h1>Kroken 24/7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=54CRDSO5Q5CTJHFU&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Ringvägen 104, 4½tr', '3 rum', 'om 85 m²', 'med 2449 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=54CRDSO5Q5CTJHFU&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Ringvägen 104, 4½tr', '3 rum', 'om 85 m²', 'med 2449 kr i månadsavgift','listing_icon'
 ],
 ['Kroken 4', 'BRFBulten', [
         [18.0775833, 59.30758379998],
@@ -3972,7 +3974,7 @@ export const MapPolygons =
         [18.0775833, 59.30758379998]
     ],
     [18.0774228, 59.30739724998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kroken 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kroken 8', 'BRFBulten', [
         [18.0785782, 59.30793719998],
@@ -3986,7 +3988,7 @@ export const MapPolygons =
         [18.0785782, 59.30793719998]
     ],
     [18.078579899999998, 59.30774563331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kroken 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kroken 9', 'BRFBulten', [
         [18.0784037, 59.30760569998],
@@ -3996,7 +3998,7 @@ export const MapPolygons =
         [18.0784037, 59.30760569998]
     ],
     [18.07836665, 59.307455099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kroken 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Krukis 27', 'BRFBulten', [
         [18.0552785, 59.31708459998001],
@@ -4010,7 +4012,7 @@ export const MapPolygons =
         [18.0552785, 59.31708459998001]
     ],
     [18.0549935, 59.31708459998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Krukis 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Krukmakaren 48', 'BRFBulten', [
         [18.0488504, 59.31690999998],
@@ -4020,7 +4022,7 @@ export const MapPolygons =
         [18.0488504, 59.31690999998]
     ],
     [18.0490025, 59.31670049998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Krukmakaren 48 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Krukomakaren 1', 'BRFBulten', [
         [18.044978, 59.31620259998],
@@ -4034,7 +4036,7 @@ export const MapPolygons =
         [18.044978, 59.31620259998]
     ],
     [18.045460563636365, 59.31588812725274], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Krukomakaren 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kråkhvilan', 'BRFBulten', [
         [18.0897367, 59.314134299980005],
@@ -4044,7 +4046,7 @@ export const MapPolygons =
         [18.0897367, 59.314134299980005]
     ],
     [18.08988075, 59.313979999980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kråkhvilan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Krönet', 'BRFBulten', [
         [18.0708913, 59.31838949998],
@@ -4058,7 +4060,7 @@ export const MapPolygons =
         [18.0708913, 59.31838949998]
     ],
     [18.070980666666667, 59.31816553331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Krönet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kvadraten 21', 'BRFBulten', [
         [18.0748699, 59.310538399980004],
@@ -4070,7 +4072,7 @@ export const MapPolygons =
         [18.0748699, 59.310538399980004]
     ],
     [18.074902899999998, 59.31033844998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kvadraten 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kvadraten 26', 'BRFBulten', [
         [18.073571, 59.30983179998],
@@ -4084,7 +4086,7 @@ export const MapPolygons =
         [18.073571, 59.30983179998]
     ],
     [18.073286, 59.30983179998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kvadraten 26 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kvadraten 33', 'BRFBulten', [
         [18.0750267, 59.31019349998],
@@ -4094,7 +4096,7 @@ export const MapPolygons =
         [18.0750267, 59.31019349998]
     ],
     [18.07491385, 59.310028399980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kvadraten 33 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kvadraten 35', 'BRFBulten', [
         [18.073923, 59.31035639998],
@@ -4108,7 +4110,7 @@ export const MapPolygons =
         [18.073923, 59.31035639998]
     ],
     [18.07345416, 59.310133179980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kvadraten 35 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kvarngatan 20', 'BRFBulten', [
         [18.068109399999997, 59.31667109998],
@@ -4118,7 +4120,7 @@ export const MapPolygons =
         [18.068109399999997, 59.31667109998]
     ],
     [18.06794655, 59.316470899980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kvarngatan 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kåken Bergsunds Strand 15', 'BRFBulten', [
         [18.027192, 59.31667129998],
@@ -4132,7 +4134,7 @@ export const MapPolygons =
         [18.027192, 59.31667129998]
     ],
     [18.026906999999998, 59.31667129998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kåken Bergsunds Strand 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Kölhalningen 2', 'kolhalningen-2', [
         [18.0281343, 59.31745189998001],
@@ -4146,7 +4148,7 @@ export const MapPolygons =
         [18.0281343, 59.31745189998001]
     ],
     [18.0278493, 59.31745189998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-hornstull-stockholms-kommun-bergsundsgatan-2-18382337', '<h1>Kölhalningen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2634967&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Bergsundsgatan 2', '2 rum', 'om 62 m²', 'med 2116 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2634967&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Bergsundsgatan 2', '2 rum', 'om 62 m²', 'med 2116 kr i månadsavgift','listing_icon'
 ],
 ['Kölhalningen 4', 'BRFBulten', [
         [18.0280004, 59.317821999980005],
@@ -4160,7 +4162,7 @@ export const MapPolygons =
         [18.0280004, 59.317821999980005]
     ],
     [18.027715399999998, 59.317821999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Kölhalningen 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ladulås', 'BRFBulten', [
         [18.080845, 59.31533079998],
@@ -4174,7 +4176,7 @@ export const MapPolygons =
         [18.080845, 59.31533079998]
     ],
     [18.08056, 59.31533079998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ladulås <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lampan 1', 'BRFBulten', [
         [18.0931282, 59.31459179998],
@@ -4184,7 +4186,7 @@ export const MapPolygons =
         [18.0931282, 59.31459179998]
     ],
     [18.09306195, 59.31440194998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lampan 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lampan 3', 'BRFBulten', [
         [18.0929678, 59.31394199998],
@@ -4198,7 +4200,7 @@ export const MapPolygons =
         [18.0929678, 59.31394199998]
     ],
     [18.0926828, 59.31394199998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lampan 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lappskon Mindre 2', 'lappskon-mindre-2', [
         [18.0666834, 59.32085889998],
@@ -4214,7 +4216,7 @@ export const MapPolygons =
         [18.0666834, 59.32085889998]
     ],
     [18.0669733375, 59.32057988748001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-mariaberget-stockholms-kommun-maria-trappgrand-1c,-1-tr-bastugatan-2-18382758', '<h1>Lappskon Mindre 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1896069840/Hemnet", 'Maria Trappgränd 1C, 1 tr / Bastugatan 2', '3 rum', 'om 78 m²', 'med 3928 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1896069840/Hemnet", 'Maria Trappgränd 1C, 1 tr / Bastugatan 2', '3 rum', 'om 78 m²', 'med 3928 kr i månadsavgift','listing_icon'
 ],
 ['Laxen', 'BRFBulten', [
         [18.068460599999998, 59.317859099980005],
@@ -4224,7 +4226,7 @@ export const MapPolygons =
         [18.068460599999998, 59.317859099980005]
     ],
     [18.06837215, 59.31770369998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Laxen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Leporiden 1', 'leporiden-1', [
         [18.055853499999998, 59.31970569998],
@@ -4239,7 +4241,7 @@ export const MapPolygons =
         [18.055853499999998, 59.31970569998]
     ],
     [18.055904483333332, 59.31917466664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-mariatorget-stockholms-kommun-ludvigsbergsgatan-3-18380569', '<h1>Leporiden 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.esny.se/objekt/1569685", 'Ludvigsbergsgatan 3', '3 rum', 'om 81 m²', 'med 2959 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.esny.se/objekt/1569685", 'Ludvigsbergsgatan 3', '3 rum', 'om 81 m²', 'med 2959 kr i månadsavgift','listing_icon'
 ],
 ['Lien 5', 'BRFBulten', [
         [18.082081799999997, 59.31121769998],
@@ -4255,7 +4257,7 @@ export const MapPolygons =
         [18.082081799999997, 59.31121769998]
     ],
     [18.082369585714282, 59.310866814265715], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lien 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lilla Tullen', 'BRFBulten', [
         [18.0912436, 59.30892029998],
@@ -4265,7 +4267,7 @@ export const MapPolygons =
         [18.0912436, 59.30892029998]
     ],
     [18.09143055, 59.30869674998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lilla Tullen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lilla Tullen Townhouse', 'BRFBulten', [
         [18.091007599999998, 59.30902529998],
@@ -4281,7 +4283,7 @@ export const MapPolygons =
         [18.091007599999998, 59.30902529998]
     ],
     [18.09081732222222, 59.30874779998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lilla Tullen Townhouse <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lindvallsplan 4', 'BRFBulten', [
         [18.028560900000002, 59.31646339998],
@@ -4295,7 +4297,7 @@ export const MapPolygons =
         [18.028560900000002, 59.31646339998]
     ],
     [18.0282759, 59.31646339998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lindvallsplan 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lingonet', 'lingonet', [
         [18.0385737, 59.31589929998],
@@ -4309,7 +4311,7 @@ export const MapPolygons =
         [18.0385737, 59.31589929998]
     ],
     [18.037837875, 59.31558219998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hornstull-stockholms-kommun-lignagatan-7,-5tr-18379458', '<h1>Lingonet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://app.maklarcrm.se/api/v1/publishers/redirect/MDI1M3wwMDAwMDAwMTExMXw1OA../direct?utm_source=hemnet&amp;utm_medium=referral", 'Lignagatan 7, 5tr', '2 rum', 'om 70 m²', 'med 3256 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://app.maklarcrm.se/api/v1/publishers/redirect/MDI1M3wwMDAwMDAwMTExMXw1OA../direct?utm_source=hemnet&amp;utm_medium=referral", 'Lignagatan 7, 5tr', '2 rum', 'om 70 m²', 'med 3256 kr i månadsavgift','listing_icon'
 ],
 ['Ljuset', 'BRFBulten', [
         [18.0868423, 59.31469269998],
@@ -4325,7 +4327,7 @@ export const MapPolygons =
         [18.0868423, 59.31469269998]
     ],
     [18.08781456153846, 59.314397961518466], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ljuset <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ljusterögatan 14', 'BRFBulten', [
         [18.092582800000002, 59.309532899980006],
@@ -4339,7 +4341,7 @@ export const MapPolygons =
         [18.092582800000002, 59.309532899980006]
     ],
     [18.0922978, 59.309532899980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ljusterögatan 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lommen', 'BRFBulten', [
         [18.070095000000002, 59.311801999980005],
@@ -4353,7 +4355,7 @@ export const MapPolygons =
         [18.070095000000002, 59.311801999980005]
     ],
     [18.06981, 59.311801999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lommen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Lorensbergsgatan', 'BRFBulten', [
         [18.03474, 59.319587099980005],
@@ -4363,7 +4365,7 @@ export const MapPolygons =
         [18.03474, 59.319587099980005]
     ],
     [18.0346312, 59.31942739998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Lorensbergsgatan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Långreven 12', 'BRFBulten', [
         [18.083515900000002, 59.308567299980005],
@@ -4377,7 +4379,7 @@ export const MapPolygons =
         [18.083515900000002, 59.308567299980005]
     ],
     [18.0832309, 59.308567299980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Långreven 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Långreven 14', 'BRFBulten', [
         [18.0846221, 59.308511899980005],
@@ -4391,7 +4393,7 @@ export const MapPolygons =
         [18.0846221, 59.308511899980005]
     ],
     [18.0843371, 59.308511899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Långreven 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Långreven 16', 'BRFBulten', [
         [18.0857709, 59.30846059998],
@@ -4405,7 +4407,7 @@ export const MapPolygons =
         [18.0857709, 59.30846059998]
     ],
     [18.0854859, 59.30846059998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Långreven 16 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Långreven 18', 'BRFBulten', [
         [18.0868765, 59.308514299980004],
@@ -4419,7 +4421,7 @@ export const MapPolygons =
         [18.0868765, 59.308514299980004]
     ],
     [18.086591499999997, 59.308514299980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Långreven 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Magdalena', 'BRFBulten', [
         [18.0675713, 59.318254799980004],
@@ -4433,7 +4435,7 @@ export const MapPolygons =
         [18.0675713, 59.318254799980004]
     ],
     [18.0672863, 59.318254799980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Magdalena <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Magdalena 2', 'BRFBulten', [
         [18.0672804, 59.31829649998],
@@ -4447,7 +4449,7 @@ export const MapPolygons =
         [18.0672804, 59.31829649998]
     ],
     [18.0669954, 59.31829649998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Magdalena 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Magdalena 4', 'BRFBulten', [
         [18.0659504, 59.31827969998],
@@ -4457,7 +4459,7 @@ export const MapPolygons =
         [18.0659504, 59.31827969998]
     ],
     [18.06623305, 59.31811854998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Magdalena 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mallen 1-3', 'mallen-1-3', [
         [18.0710485, 59.31259949998],
@@ -4472,7 +4474,7 @@ export const MapPolygons =
         [18.0710485, 59.31259949998]
     ],
     [18.070862433333332, 59.31236399998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-medborgarplatsen-stockholms-kommun-asogatan-98-18378395', '<h1>Mallen 1-3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13959/CMBOLGH58H2U2AFM96LATR6/Hemnet", 'Åsögatan 98', '2 rum', 'om 35 m²', 'med 2283 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13959/CMBOLGH58H2U2AFM96LATR6/Hemnet", 'Åsögatan 98', '2 rum', 'om 35 m²', 'med 2283 kr i månadsavgift','listing_icon'
 ],
 ['Mallen 9', 'BRFBulten', [
         [18.071304899999998, 59.31256459998],
@@ -4486,7 +4488,7 @@ export const MapPolygons =
         [18.071304899999998, 59.31256459998]
     ],
     [18.071292466666666, 59.31218039998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mallen 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mandeln', 'mandeln', [
         [18.0989941, 59.31168829998],
@@ -4501,7 +4503,7 @@ export const MapPolygons =
         [18.0989941, 59.31168829998]
     ],
     [18.0989739, 59.31108928748], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-katarina-sofia-stockholms-kommun-tegelviksgatan-49,-4tr-18382138', '<h1>Mandeln <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8090/CMBOLGH58DB1CUM12B50FIQ/Hemnet", 'Tegelviksgatan 49, 4tr', '3 rum', 'om 81 m²', 'med 4921 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8090/CMBOLGH58DB1CUM12B50FIQ/Hemnet", 'Tegelviksgatan 49, 4tr', '3 rum', 'om 81 m²', 'med 4921 kr i månadsavgift','listing_icon'
 ],
 ['Maria Prästgårdsgata 27', 'BRFBulten', [
         [18.0605593, 59.315670799980005],
@@ -4515,7 +4517,7 @@ export const MapPolygons =
         [18.0605593, 59.315670799980005]
     ],
     [18.0602743, 59.315670799980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Maria Prästgårdsgata 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mariagården', 'BRFBulten', [
         [18.0632558, 59.31620009998],
@@ -4525,7 +4527,7 @@ export const MapPolygons =
         [18.0632558, 59.31620009998]
     ],
     [18.0631178, 59.316031899980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mariagården <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Markisen', 'BRFBulten', [
         [18.0491504, 59.31727319998],
@@ -4535,7 +4537,7 @@ export const MapPolygons =
         [18.0491504, 59.31727319998]
     ],
     [18.04900725, 59.31706564998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Markisen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Marsvinet 4', 'BRFBulten', [
         [18.0646486, 59.31591369998],
@@ -4549,7 +4551,7 @@ export const MapPolygons =
         [18.0646486, 59.31591369998]
     ],
     [18.0643636, 59.31591369998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Marsvinet 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Masken 34', 'BRFBulten', [
         [18.0808811, 59.30747479998],
@@ -4561,7 +4563,7 @@ export const MapPolygons =
         [18.0808811, 59.30747479998]
     ],
     [18.08091425, 59.30720799998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Masken 34 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Masken 9', 'BRFBulten', [
         [18.083359299999998, 59.30763069998],
@@ -4571,7 +4573,7 @@ export const MapPolygons =
         [18.083359299999998, 59.30763069998]
     ],
     [18.083295449999998, 59.307416999980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Masken 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Melonen 1', 'BRFBulten', [
         [18.094907, 59.30922589998001],
@@ -4585,7 +4587,7 @@ export const MapPolygons =
         [18.094907, 59.30922589998001]
     ],
     [18.094621999999998, 59.30922589998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Melonen 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Melonen 2', 'BRFBulten', [
         [18.0943276, 59.30928269998],
@@ -4599,7 +4601,7 @@ export const MapPolygons =
         [18.0943276, 59.30928269998]
     ],
     [18.094042599999998, 59.30928269998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Melonen 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Metaren', 'BRFBulten', [
         [18.085235, 59.308470499980004],
@@ -4613,7 +4615,7 @@ export const MapPolygons =
         [18.085235, 59.308470499980004]
     ],
     [18.08495, 59.308470499980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Metaren <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Minnesgården', 'BRFBulten', [
         [18.0714139, 59.316577399980005],
@@ -4629,7 +4631,7 @@ export const MapPolygons =
         [18.0714139, 59.316577399980005]
     ],
     [18.07145051666667, 59.31605588331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Minnesgården <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mono', 'BRFBulten', [
         [18.055537100000002, 59.314345899980005],
@@ -4643,7 +4645,7 @@ export const MapPolygons =
         [18.055537100000002, 59.314345899980005]
     ],
     [18.0552521, 59.314345899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mono <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Monumentet 27', 'monumentet-27', [
         [18.077478499999998, 59.30937779998],
@@ -4658,7 +4660,7 @@ export const MapPolygons =
         [18.077478499999998, 59.30937779998]
     ],
     [18.07757645, 59.30904324998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-sofo-stockholms-kommun-olandsgatan-49b,-bv-18354742', '<h1>Monumentet 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1891694376?utm_source=hemnet&amp;utm_medium=hemnet", 'Ölandsgatan 49B, BV', '3 rum', 'om 69 m²', 'med 2825 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1891694376?utm_source=hemnet&amp;utm_medium=hemnet", 'Ölandsgatan 49B, BV', '3 rum', 'om 69 m²', 'med 2825 kr i månadsavgift','listing_icon'
 ],
 ['Moroten 5', 'BRFBulten', [
         [18.0864938, 59.310917799980004],
@@ -4672,7 +4674,7 @@ export const MapPolygons =
         [18.0864938, 59.310917799980004]
     ],
     [18.086717866666664, 59.31058389998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Moroten 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mosebacke Torg', 'BRFBulten', [
         [18.0739645, 59.31798699998],
@@ -4688,7 +4690,7 @@ export const MapPolygons =
         [18.0739645, 59.31798699998]
     ],
     [18.073900866666666, 59.31774898331333], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mosebacke Torg <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mullvaden', 'BRFBulten', [
         [18.059044800000002, 59.31833009998],
@@ -4702,7 +4704,7 @@ export const MapPolygons =
         [18.059044800000002, 59.31833009998]
     ],
     [18.0587598, 59.31833009998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mullvaden <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mullvaden Andra 30', 'mullvaden-andra-30', [
         [18.0521056, 59.317015799980005],
@@ -4716,7 +4718,7 @@ export const MapPolygons =
         [18.0521056, 59.317015799980005]
     ],
     [18.0518206, 59.317015799980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-krukmakargatan-38-18382260', '<h1>Mullvaden Andra 30 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M22674/OBJ22674_1910580817/Hemnet", 'Krukmakargatan 38', '1 rum', 'om 23 m²', 'med 2055 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M22674/OBJ22674_1910580817/Hemnet", 'Krukmakargatan 38', '1 rum', 'om 23 m²', 'med 2055 kr i månadsavgift','listing_icon'
 ],
 ['Mullvaden Andra 34', 'BRFBulten', [
         [18.053103500000002, 59.317547299980006],
@@ -4730,7 +4732,7 @@ export const MapPolygons =
         [18.053103500000002, 59.317547299980006]
     ],
     [18.0528185, 59.317547299980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mullvaden Andra 34 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mullvaden Andra nr 22', 'BRFBulten', [
         [18.054393400000002, 59.31774449998],
@@ -4744,7 +4746,7 @@ export const MapPolygons =
         [18.054393400000002, 59.31774449998]
     ],
     [18.0541084, 59.31774449998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mullvaden Andra nr 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mullvaden Första 15', 'BRFBulten', [
         [18.0594048, 59.31830759998],
@@ -4758,7 +4760,7 @@ export const MapPolygons =
         [18.0594048, 59.31830759998]
     ],
     [18.059119799999998, 59.31830759998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mullvaden Första 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mullvaden Första 20', 'BRFBulten', [
         [18.060128600000002, 59.31797309998],
@@ -4772,7 +4774,7 @@ export const MapPolygons =
         [18.060128600000002, 59.31797309998]
     ],
     [18.0598436, 59.31797309998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mullvaden Första 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mullvaden första 19', 'mullvaden-forsta-19', [
         [18.059695, 59.317940599980005],
@@ -4786,7 +4788,7 @@ export const MapPolygons =
         [18.059695, 59.317940599980005]
     ],
     [18.05941, 59.317940599980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-krukmakargatan-4,-3tr-18355178', '<h1>Mullvaden första 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58IDJ1TDKGPCTEF0/Hemnet", 'Krukmakargatan 4, 3tr', '2 rum', 'om 60 m²', 'med 2642 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58IDJ1TDKGPCTEF0/Hemnet", 'Krukmakargatan 4, 3tr', '2 rum', 'om 60 m²', 'med 2642 kr i månadsavgift','listing_icon'
 ],
 ['Mullvadsberget 21', 'BRFBulten', [
         [18.0449107, 59.317311799980004],
@@ -4800,7 +4802,7 @@ export const MapPolygons =
         [18.0449107, 59.317311799980004]
     ],
     [18.044625699999997, 59.317311799980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mullvadsberget 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Muttern 12', 'BRFBulten', [
         [18.0388014, 59.31879989998],
@@ -4814,7 +4816,7 @@ export const MapPolygons =
         [18.0388014, 59.31879989998]
     ],
     [18.038791766666666, 59.31846299998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Muttern 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Muttern 16', 'muttern-16', [
         [18.036786499999998, 59.31876149998],
@@ -4829,7 +4831,7 @@ export const MapPolygons =
         [18.036786499999998, 59.31876149998]
     ],
     [18.036839424999997, 59.31841944998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-hogalid-stockholms-kommun-hogalidsgatan-40d,-2tr-i-gardshus-18366296', '<h1>Muttern 16 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13917/CMBOLGH58M30550G0FUJRGT/Hemnet", 'Högalidsgatan 40D, 2tr i gårdshus', '3 rum', 'om 75 m²', 'med 3243 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13917/CMBOLGH58M30550G0FUJRGT/Hemnet", 'Högalidsgatan 40D, 2tr i gårdshus', '3 rum', 'om 75 m²', 'med 3243 kr i månadsavgift','listing_icon'
 ],
 ['Muttern 17', 'muttern-17', [
         [18.0362994, 59.31872339998],
@@ -4844,7 +4846,7 @@ export const MapPolygons =
         [18.0362994, 59.31872339998]
     ],
     [18.03636855, 59.31839687498], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2,5rum-sodermalm-stockholms-kommun-hogalidsgatan-42a,-5tr-18355357', '<h1>Muttern 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.blumenthalhoffman.se/objekt/1589481", 'Högalidsgatan 42A, 5tr', '2,5 rum', 'om 70 m²', 'med 3710 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.blumenthalhoffman.se/objekt/1589481", 'Högalidsgatan 42A, 5tr', '2,5 rum', 'om 70 m²', 'med 3710 kr i månadsavgift','listing_icon'
 ],
 ['Muttern 4', 'BRFBulten', [
         [18.036777, 59.31923179998],
@@ -4860,7 +4862,7 @@ export const MapPolygons =
         [18.036777, 59.31923179998]
     ],
     [18.036682825, 59.31895749998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Muttern 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Muttern 9', 'BRFBulten', [
         [18.0389675, 59.31943399998],
@@ -4870,7 +4872,7 @@ export const MapPolygons =
         [18.0389675, 59.31943399998]
     ],
     [18.03910345, 59.319229599980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Muttern 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mäster Mikael 22', 'BRFBulten', [
         [18.0813664, 59.317436499980005],
@@ -4884,7 +4886,7 @@ export const MapPolygons =
         [18.0813664, 59.317436499980005]
     ],
     [18.0810814, 59.317436499980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mäster Mikael 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Mäster Mikael 23', 'BRFBulten', [
         [18.0813829, 59.31718269998],
@@ -4898,7 +4900,7 @@ export const MapPolygons =
         [18.0813829, 59.31718269998]
     ],
     [18.0810979, 59.31718269998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Mäster Mikael 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nederland Mindre nr 13', 'BRFBulten', [
         [18.068523900000002, 59.316397899980004],
@@ -4912,7 +4914,7 @@ export const MapPolygons =
         [18.068523900000002, 59.316397899980004]
     ],
     [18.0682389, 59.316397899980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nederland Mindre nr 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nederland Mindre nr 14', 'BRFBulten', [
         [18.0660578, 59.31613849998],
@@ -4922,7 +4924,7 @@ export const MapPolygons =
         [18.0660578, 59.31613849998]
     ],
     [18.066153149999998, 59.31593074998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nederland Mindre nr 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nektarinen', 'BRFBulten', [
         [18.0991906, 59.312328399980004],
@@ -4934,7 +4936,7 @@ export const MapPolygons =
         [18.0991906, 59.312328399980004]
     ],
     [18.0991382, 59.312083249980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nektarinen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Neptun', 'BRFBulten', [
         [18.0380646, 59.31957619998],
@@ -4944,7 +4946,7 @@ export const MapPolygons =
         [18.0380646, 59.31957619998]
     ],
     [18.037984549999997, 59.31942174998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Neptun <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Neptunus', 'neptunus', [
         [18.0596691, 59.31756939998],
@@ -4959,7 +4961,7 @@ export const MapPolygons =
         [18.0596691, 59.31756939998]
     ],
     [18.0599071, 59.31732743331333], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-sankt-paulsgatan-28a-18381626', '<h1>Neptunus <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://nestorfastighetsmakleri.se/objekt/1591279", 'Sankt Paulsgatan 28A', '3 rum', 'om 57 m²', 'med 3272 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://nestorfastighetsmakleri.se/objekt/1591279", 'Sankt Paulsgatan 28A', '3 rum', 'om 57 m²', 'med 3272 kr i månadsavgift','listing_icon'
 ],
 ['Nerike', 'BRFBulten', [
         [18.0676259, 59.31824289998],
@@ -4971,7 +4973,7 @@ export const MapPolygons =
         [18.0676259, 59.31824289998]
     ],
     [18.067689199999997, 59.317994949980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nerike <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nya Plogen 12', 'nya-plogen-12', [
         [18.080845200000002, 59.31068059998],
@@ -4985,7 +4987,7 @@ export const MapPolygons =
         [18.080845200000002, 59.31068059998]
     ],
     [18.0805602, 59.31068059998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-katarina-stockholms-kommun-brannerigatan-5,-2tr-18387157', '<h1>Nya Plogen 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1895012889?utm_source=hemnet&amp;utm_medium=hemnet", 'Brännerigatan 5, 2tr', '1 rum', 'om 37 m²', 'med 2173 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1895012889?utm_source=hemnet&amp;utm_medium=hemnet", 'Brännerigatan 5, 2tr', '1 rum', 'om 37 m²', 'med 2173 kr i månadsavgift','listing_icon'
 ],
 ['Nybygget 19', 'BRFBulten', [
         [18.085674299999997, 59.31486399998],
@@ -4999,7 +5001,7 @@ export const MapPolygons =
         [18.085674299999997, 59.31486399998]
     ],
     [18.085417525, 59.314615899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nybygget 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nybygget 20', 'nybygget-20', [
         [18.084504, 59.314764199980004],
@@ -5013,7 +5015,7 @@ export const MapPolygons =
         [18.084504, 59.314764199980004]
     ],
     [18.084699999999998, 59.31452126664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-katarina-sofia-stockholms-kommun-asogatan-163,-2-tr-18380914', '<h1>Nybygget 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58N3RLI2I02R8JE2/Hemnet", 'Åsögatan 163, 2 tr', '1 rum', 'om 36 m²', 'med 1025 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58N3RLI2I02R8JE2/Hemnet", 'Åsögatan 163, 2 tr', '1 rum', 'om 36 m²', 'med 1025 kr i månadsavgift','listing_icon'
 ],
 ['Nytorgsbacken', 'BRFBulten', [
         [18.0813906, 59.31678449998],
@@ -5023,7 +5025,7 @@ export const MapPolygons =
         [18.0813906, 59.31678449998]
     ],
     [18.0811741, 59.31662844998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nytorgsbacken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nytorgspalatset', 'BRFBulten', [
         [18.0827588, 59.31314539998],
@@ -5033,7 +5035,7 @@ export const MapPolygons =
         [18.0827588, 59.31314539998]
     ],
     [18.0830094, 59.312957899980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Nytorgspalatset <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Nyåsbo', 'nyasbo', [
         [18.083085099999998, 59.31416669998],
@@ -5051,7 +5053,7 @@ export const MapPolygons =
         [18.083085099999998, 59.31416669998]
     ],
     [18.08280792222222, 59.313756722202214], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-katarina-sofia-stockholms-kommun-bondegatan-29-18381414', '<h1>Nyåsbo <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8090/CMBOLGH58JT9USVJNU88VSS/Hemnet", 'Bondegatan 29', '2 rum', 'om 46 m²', 'med 2822 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8090/CMBOLGH58JT9USVJNU88VSS/Hemnet", 'Bondegatan 29', '2 rum', 'om 46 m²', 'med 2822 kr i månadsavgift','listing_icon'
 ],
 ['Närke 8', 'BRFBulten', [
         [18.068000299999998, 59.31784299998],
@@ -5067,7 +5069,7 @@ export const MapPolygons =
         [18.068000299999998, 59.31784299998]
     ],
     [18.06803114, 59.31763217998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Närke 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Obelisken 10', 'obelisken-10', [
         [18.0766003, 59.31078149998],
@@ -5081,7 +5083,7 @@ export const MapPolygons =
         [18.0766003, 59.31078149998]
     ],
     [18.0764459, 59.31050786664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-sodermalm-stockholms-kommun-blekingegatan-40b,-5-tr-18345636', '<h1>Obelisken 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.skeppsholmen.se/objekt/1522055", 'Blekingegatan 40B, 5 tr', '4 rum', 'om 118 m²', 'med 3604 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.skeppsholmen.se/objekt/1522055", 'Blekingegatan 40B, 5 tr', '4 rum', 'om 118 m²', 'med 3604 kr i månadsavgift','listing_icon'
 ],
 ['Obelisken 3', 'BRFBulten', [
         [18.0758305, 59.31072309998],
@@ -5095,7 +5097,7 @@ export const MapPolygons =
         [18.0758305, 59.31072309998]
     ],
     [18.075757675, 59.31048599998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Obelisken 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ockupanten', 'BRFBulten', [
         [18.0591297, 59.318037799980004],
@@ -5109,7 +5111,7 @@ export const MapPolygons =
         [18.0591297, 59.318037799980004]
     ],
     [18.058671724999996, 59.317823074980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ockupanten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Oljan 10', 'BRFBulten', [
         [18.0924034, 59.31452729998],
@@ -5119,7 +5121,7 @@ export const MapPolygons =
         [18.0924034, 59.31452729998]
     ],
     [18.0924034, 59.31437729998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Oljan 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Oljan 31', 'BRFBulten', [
         [18.0914827, 59.314271199980006],
@@ -5133,7 +5135,7 @@ export const MapPolygons =
         [18.0914827, 59.314271199980006]
     ],
     [18.0911977, 59.314271199980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Oljan 31 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ormen 1', 'BRFBulten', [
         [18.0713784, 59.319282399980004],
@@ -5147,7 +5149,7 @@ export const MapPolygons =
         [18.0713784, 59.319282399980004]
     ],
     [18.0710934, 59.319282399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ormen 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ormen Större 13', 'BRFBulten', [
         [18.060728299999997, 59.31915139998],
@@ -5157,7 +5159,7 @@ export const MapPolygons =
         [18.060728299999997, 59.31915139998]
     ],
     [18.060801149999996, 59.31891514998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ormen Större 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ormen Större 14', 'BRFBulten', [
         [18.0607839, 59.319408299980005],
@@ -5169,7 +5171,7 @@ export const MapPolygons =
         [18.0607839, 59.319408299980005]
     ],
     [18.060816449999997, 59.319205199980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ormen Större 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ormen Större 5', 'BRFBulten', [
         [18.0614493, 59.318922499980005],
@@ -5183,7 +5185,7 @@ export const MapPolygons =
         [18.0614493, 59.318922499980005]
     ],
     [18.061164299999998, 59.318922499980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ormen Större 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ormen Större nr 17', 'BRFBulten', [
         [18.0599904, 59.31930939998],
@@ -5193,7 +5195,7 @@ export const MapPolygons =
         [18.0599904, 59.31930939998]
     ],
     [18.0599018, 59.319103699980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ormen Större nr 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ormsaltaren 1', 'BRFBulten', [
         [18.0714251, 59.319214999980005],
@@ -5207,7 +5209,7 @@ export const MapPolygons =
         [18.0714251, 59.319214999980005]
     ],
     [18.071140099999997, 59.319214999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ormsaltaren 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pahl 8', 'BRFBulten', [
         [18.0855475, 59.31429639998],
@@ -5221,7 +5223,7 @@ export const MapPolygons =
         [18.0855475, 59.31429639998]
     ],
     [18.0852625, 59.31429639998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pahl 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pahl Nr 10', 'pahl-nr-10', [
         [18.0863364, 59.31457549998],
@@ -5235,7 +5237,7 @@ export const MapPolygons =
         [18.0863364, 59.31457549998]
     ],
     [18.086248466666664, 59.31437416664667], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-sofia-stockholms-kommun-borgmastargatan-10b-18354945', '<h1>Pahl Nr 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://bostad.skandiamaklarna.se/till-salu/default/MDMwM3wwMDAwMDMxOTczMHw1OA../objekt?utm_source=hemnet&amp;utm_medium=referral", 'Borgmästargatan 10B', '1 rum', 'om 28 m²', 'med 1618 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://bostad.skandiamaklarna.se/till-salu/default/MDMwM3wwMDAwMDMxOTczMHw1OA../objekt?utm_source=hemnet&amp;utm_medium=referral", 'Borgmästargatan 10B', '1 rum', 'om 28 m²', 'med 1618 kr i månadsavgift','listing_icon'
 ],
 ['Paris 11, 12, 13', 'BRFBulten', [
         [18.0666176, 59.317795199980004],
@@ -5251,7 +5253,7 @@ export const MapPolygons =
         [18.0666176, 59.317795199980004]
     ],
     [18.066526800000002, 59.317478999980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Paris 11, 12, 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Parisblomman', 'BRFBulten', [
         [18.068186, 59.31726529998],
@@ -5265,7 +5267,7 @@ export const MapPolygons =
         [18.068186, 59.31726529998]
     ],
     [18.067901, 59.31726529998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Parisblomman <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pelarbacken 39', 'BRFBulten', [
         [18.0729806, 59.31589929998],
@@ -5279,7 +5281,7 @@ export const MapPolygons =
         [18.0729806, 59.31589929998]
     ],
     [18.0726956, 59.31589929998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pelarbacken 39 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pelarbacken Större 20', 'pelarbacken-storre-20', [
         [18.0728535, 59.31648089998],
@@ -5289,7 +5291,7 @@ export const MapPolygons =
         [18.0728535, 59.31648089998]
     ],
     [18.07266415, 59.31630079998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-sodermalm-stockholms-kommun-kapellgrand-4,-3tr-18381797', '<h1>Pelarbacken Större 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://fastighetsmaklarna.se/objekt/1603877", 'Kapellgränd 4, 3tr', '4 rum', 'om 100 m²', 'med 4950 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://fastighetsmaklarna.se/objekt/1603877", 'Kapellgränd 4, 3tr', '4 rum', 'om 100 m²', 'med 4950 kr i månadsavgift','listing_icon'
 ],
 ['Pelikan 10', 'BRFBulten', [
         [18.0759088, 59.31256819998],
@@ -5301,7 +5303,7 @@ export const MapPolygons =
         [18.0759088, 59.31256819998]
     ],
     [18.07596955, 59.31229589998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pelikan 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pelikanen 5', 'BRFBulten', [
         [18.075629799999998, 59.31241309998],
@@ -5311,7 +5313,7 @@ export const MapPolygons =
         [18.075629799999998, 59.31241309998]
     ],
     [18.07546515, 59.31226249998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pelikanen 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pennan 11', 'BRFBulten', [
         [18.0695237, 59.311790899980004],
@@ -5325,7 +5327,7 @@ export const MapPolygons =
         [18.0695237, 59.311790899980004]
     ],
     [18.0692387, 59.311790899980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pennan 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pennan 22', 'BRFBulten', [
         [18.0700435, 59.31194889998],
@@ -5339,7 +5341,7 @@ export const MapPolygons =
         [18.0700435, 59.31194889998]
     ],
     [18.0697585, 59.31194889998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pennan 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pennan 24', 'BRFBulten', [
         [18.0701883, 59.31160269998001],
@@ -5353,7 +5355,7 @@ export const MapPolygons =
         [18.0701883, 59.31160269998001]
     ],
     [18.0699033, 59.31160269998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pennan 24 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pennan 9', 'BRFBulten', [
         [18.069462, 59.31219489998001],
@@ -5367,7 +5369,7 @@ export const MapPolygons =
         [18.069462, 59.31219489998001]
     ],
     [18.069177, 59.31219489998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pennan 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pinnpojken', 'pinnpojken', [
         [18.064664999999998, 59.31022429998],
@@ -5386,7 +5388,7 @@ export const MapPolygons =
         [18.064664999999998, 59.31022429998]
     ],
     [18.064885320000002, 59.30977693998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-tideliusgatan-61-18380481', '<h1>Pinnpojken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M31529/OBJ31529_1911291397/Hemnet", 'Tideliusgatan 61', '1 rum', 'om 36 m²', 'med 1705 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M31529/OBJ31529_1911291397/Hemnet", 'Tideliusgatan 61', '1 rum', 'om 36 m²', 'med 1705 kr i månadsavgift','listing_icon'
 ],
 ['Plogen 3', 'BRFBulten', [
         [18.0808109, 59.311329499980005],
@@ -5396,7 +5398,7 @@ export const MapPolygons =
         [18.0808109, 59.311329499980005]
     ],
     [18.0808808, 59.31111149998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Plogen 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Plogen 7', 'plogen-7', [
         [18.0811498, 59.31079949998],
@@ -5408,7 +5410,7 @@ export const MapPolygons =
         [18.0811498, 59.31079949998]
     ],
     [18.08119205, 59.31053519998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1,5rum-sodermalm-katarina-sofia-stockholms-kommun-gotlandsgatan-71-18382500', '<h1>Plogen 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8090/CMBOLGH58N2LQEVC02HOL5G/Hemnet", 'Gotlandsgatan 71', '1,5 rum', 'om 34 m²', 'med 1878 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8090/CMBOLGH58N2LQEVC02HOL5G/Hemnet", 'Gotlandsgatan 71', '1,5 rum', 'om 34 m²', 'med 1878 kr i månadsavgift','listing_icon'
 ],
 ['Plutos Måne', 'BRFBulten', [
         [18.0578311, 59.319886199980004],
@@ -5422,7 +5424,7 @@ export const MapPolygons =
         [18.0578311, 59.319886199980004]
     ],
     [18.0575461, 59.319886199980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Plutos Måne <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Postiljonen', 'BRFBulten', [
         [18.0542236, 59.31653009998],
@@ -5437,7 +5439,7 @@ export const MapPolygons =
         [18.0542236, 59.31653009998]
     ],
     [18.05387467142857, 59.31617428569429], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Postiljonen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Postiljonen 15', 'BRFBulten', [
         [18.052472599999998, 59.31601619998],
@@ -5449,7 +5451,7 @@ export const MapPolygons =
         [18.052472599999998, 59.31601619998]
     ],
     [18.05252005, 59.31579954998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Postiljonen 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Postiljonen 4', 'BRFBulten', [
         [18.0536402, 59.31711229998],
@@ -5464,7 +5466,7 @@ export const MapPolygons =
         [18.0536402, 59.31711229998]
     ],
     [18.053671, 59.31681509998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Postiljonen 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Postiljonen 9', 'postiljonen-9', [
         [18.054664300000002, 59.31614949998001],
@@ -5478,7 +5480,7 @@ export const MapPolygons =
         [18.054664300000002, 59.31614949998001]
     ],
     [18.0543793, 59.31614949998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-doktor-abelins-gata-4-18381460', '<h1>Postiljonen 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1904509165?utm_source=hemnet&amp;utm_medium=hemnet", 'Doktor Abelins Gata 4', '2 rum', 'om 43 m²', 'med 2333 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1904509165?utm_source=hemnet&amp;utm_medium=hemnet", 'Doktor Abelins Gata 4', '2 rum', 'om 43 m²', 'med 2333 kr i månadsavgift','listing_icon'
 ],
 ['Postsäcken', 'postsacken', [
         [18.0559735, 59.31628769998],
@@ -5492,7 +5494,7 @@ export const MapPolygons =
         [18.0559735, 59.31628769998]
     ],
     [18.0556885, 59.31628769998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-mariatorget-stockholms-kommun-rosenlundsgatan-24,-3-tr-18332136', '<h1>Postsäcken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1585971", 'Rosenlundsgatan 24, 3 tr', '2 rum', 'om 39 m²', 'med 2137 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1585971", 'Rosenlundsgatan 24, 3 tr', '2 rum', 'om 39 m²', 'med 2137 kr i månadsavgift','listing_icon'
 ],
 ['Postsäcken 11', 'BRFBulten', [
         [18.0560505, 59.31606099998],
@@ -5506,7 +5508,7 @@ export const MapPolygons =
         [18.0560505, 59.31606099998]
     ],
     [18.0557655, 59.31606099998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Postsäcken 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Postsäcken 8', 'BRFBulten', [
         [18.055454400000002, 59.31645489998],
@@ -5520,7 +5522,7 @@ export const MapPolygons =
         [18.055454400000002, 59.31645489998]
     ],
     [18.0551694, 59.31645489998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Postsäcken 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Propellern 8', 'BRFBulten', [
         [18.0295057, 59.318344999980006],
@@ -5534,7 +5536,7 @@ export const MapPolygons =
         [18.0295057, 59.318344999980006]
     ],
     [18.0292207, 59.318344999980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Propellern 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Propellern 9', 'propellern-9', [
         [18.0295794, 59.318107899980006],
@@ -5548,7 +5550,7 @@ export const MapPolygons =
         [18.0295794, 59.318107899980006]
     ],
     [18.029294399999998, 59.318107899980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-hornstull-stockholms-kommun-folkskolegatan-4-18354904', '<h1>Propellern 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://brokr.se/vara-objekt/MDU3OHwwMDAwMDAwMzEzMXw1OA..?utm_source=hemnet&amp;utm_medium=referral", 'Folkskolegatan 4', '3 rum', 'om 62 m²', 'med 2763 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://brokr.se/vara-objekt/MDU3OHwwMDAwMDAwMzEzMXw1OA..?utm_source=hemnet&amp;utm_medium=referral", 'Folkskolegatan 4', '3 rum', 'om 62 m²', 'med 2763 kr i månadsavgift','listing_icon'
 ],
 ['Pyramiden 1', 'BRFBulten', [
         [18.075145799999998, 59.31168869998],
@@ -5560,7 +5562,7 @@ export const MapPolygons =
         [18.075145799999998, 59.31168869998]
     ],
     [18.0751663, 59.31147819998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pyramiden 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pyramiden 19', 'pyramiden-19', [
         [18.075200799999998, 59.31141249998],
@@ -5575,7 +5577,7 @@ export const MapPolygons =
         [18.075200799999998, 59.31141249998]
     ],
     [18.075257466666667, 59.31116573331334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-gotgatan-75a-18382275', '<h1>Pyramiden 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.esny.se/objekt/1557209", 'Götgatan 75A', '3 rum', 'om 75 m²', 'med 762 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.esny.se/objekt/1557209", 'Götgatan 75A', '3 rum', 'om 75 m²', 'med 762 kr i månadsavgift','listing_icon'
 ],
 ['Pyramiden 4', 'BRFBulten', [
         [18.0753786, 59.31099239998],
@@ -5585,7 +5587,7 @@ export const MapPolygons =
         [18.0753786, 59.31099239998]
     ],
     [18.07555575, 59.310799749980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pyramiden 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pyramiden 5', 'BRFBulten', [
         [18.076253, 59.31084939998],
@@ -5599,7 +5601,7 @@ export const MapPolygons =
         [18.076253, 59.31084939998]
     ],
     [18.075968, 59.31084939998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pyramiden 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pyramiden 6', 'BRFBulten', [
         [18.076316, 59.31122689998],
@@ -5611,7 +5613,7 @@ export const MapPolygons =
         [18.076316, 59.31122689998]
     ],
     [18.076287899999997, 59.31098919998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pyramiden 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Pålen 7', 'BRFBulten', [
         [18.050418999999998, 59.317033999980005],
@@ -5623,7 +5625,7 @@ export const MapPolygons =
         [18.050418999999998, 59.317033999980005]
     ],
     [18.0504206, 59.31685784998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Pålen 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rackarbacken', 'BRFBulten', [
         [18.0622686, 59.309063299980004],
@@ -5637,7 +5639,7 @@ export const MapPolygons =
         [18.0622686, 59.309063299980004]
     ],
     [18.061983599999998, 59.309063299980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rackarbacken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Renstiernas gata 27', 'BRFBulten', [
         [18.0851087, 59.31390649998001],
@@ -5651,7 +5653,7 @@ export const MapPolygons =
         [18.0851087, 59.31390649998001]
     ],
     [18.084823699999998, 59.31390649998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Renstiernas gata 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Riddarfjärden nr 7', 'BRFBulten', [
         [18.0451313, 59.31955869998001],
@@ -5665,7 +5667,7 @@ export const MapPolygons =
         [18.0451313, 59.31955869998001]
     ],
     [18.0448463, 59.31955869998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Riddarfjärden nr 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ringblomman 1', 'BRFBulten', [
         [18.0722028, 59.30741389998],
@@ -5680,7 +5682,7 @@ export const MapPolygons =
         [18.0722028, 59.30741389998]
     ],
     [18.0721626, 59.30713125998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ringblomman 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ritaren 7', 'BRFBulten', [
         [18.0686845, 59.30943719998],
@@ -5690,7 +5692,7 @@ export const MapPolygons =
         [18.0686845, 59.30943719998]
     ],
     [18.06856565, 59.309276299980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ritaren 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ritbesticket', 'BRFBulten', [
         [18.0703203, 59.31240419998],
@@ -5700,7 +5702,7 @@ export const MapPolygons =
         [18.0703203, 59.31240419998]
     ],
     [18.070278549999998, 59.312206799980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ritbesticket <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ritbesticket 4', 'BRFBulten', [
         [18.0706978, 59.31185519998],
@@ -5714,7 +5716,7 @@ export const MapPolygons =
         [18.0706978, 59.31185519998]
     ],
     [18.0704128, 59.31185519998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ritbesticket 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ron 15', 'BRFBulten', [
         [18.0813345, 59.31431939998],
@@ -5728,7 +5730,7 @@ export const MapPolygons =
         [18.0813345, 59.31431939998]
     ],
     [18.0810495, 59.31431939998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ron 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendahl Mindre 29', 'BRFBulten', [
         [18.0622662, 59.318195299980005],
@@ -5738,7 +5740,7 @@ export const MapPolygons =
         [18.0622662, 59.318195299980005]
     ],
     [18.062046549999998, 59.318010849980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendahl Mindre 29 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendahl Större 21', 'BRFBulten', [
         [18.0650074, 59.31922989998],
@@ -5748,7 +5750,7 @@ export const MapPolygons =
         [18.0650074, 59.31922989998]
     ],
     [18.06514645, 59.31906484998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendahl Större 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendal Större 25', 'BRFBulten', [
         [18.064242999999998, 59.31907299998],
@@ -5762,7 +5764,7 @@ export const MapPolygons =
         [18.064242999999998, 59.31907299998]
     ],
     [18.064345066666665, 59.31877556664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendal Större 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendal Större 26', 'BRFBulten', [
         [18.0639818, 59.31907489998],
@@ -5777,7 +5779,7 @@ export const MapPolygons =
         [18.0639818, 59.31907489998]
     ],
     [18.064091333333334, 59.31873859998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendal Större 26 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendal Större nr 22', 'BRFBulten', [
         [18.0653845, 59.318997899980005],
@@ -5791,7 +5793,7 @@ export const MapPolygons =
         [18.0653845, 59.318997899980005]
     ],
     [18.065084866666666, 59.318801366646674], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendal Större nr 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendal Större nr 3', 'BRFBulten', [
         [18.065589799999998, 59.31842229998],
@@ -5806,7 +5808,7 @@ export const MapPolygons =
         [18.065589799999998, 59.31842229998]
     ],
     [18.065634766666665, 59.31812486664666], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendal Större nr 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendal Större nr 9', 'BRFBulten', [
         [18.0641541, 59.31784109998],
@@ -5820,7 +5822,7 @@ export const MapPolygons =
         [18.0641541, 59.31784109998]
     ],
     [18.063869099999998, 59.31784109998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendal Större nr 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rosendal nr 15', 'BRFBulten', [
         [18.0618975, 59.31887149998],
@@ -5834,7 +5836,7 @@ export const MapPolygons =
         [18.0618975, 59.31887149998]
     ],
     [18.06174205, 59.31860894998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rosendal nr 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rovan 3', 'BRFBulten', [
         [18.0856494, 59.31027199998],
@@ -5848,7 +5850,7 @@ export const MapPolygons =
         [18.0856494, 59.31027199998]
     ],
     [18.0853644, 59.31027199998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rovan 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rovan 4', 'BRFBulten', [
         [18.0853328, 59.31038629998],
@@ -5862,7 +5864,7 @@ export const MapPolygons =
         [18.0853328, 59.31038629998]
     ],
     [18.085047799999998, 59.31038629998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rovan 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rovan 9', 'BRFBulten', [
         [18.086109099999998, 59.31045139998],
@@ -5874,7 +5876,7 @@ export const MapPolygons =
         [18.086109099999998, 59.31045139998]
     ],
     [18.086087649999996, 59.31025619998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rovan 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rudan 2', 'BRFBulten', [
         [18.0835017, 59.316124299980004],
@@ -5884,7 +5886,7 @@ export const MapPolygons =
         [18.0835017, 59.316124299980004]
     ],
     [18.0833401, 59.315959099980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rudan 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rudan Större 5', 'BRFBulten', [
         [18.083582699999997, 59.31591109998],
@@ -5894,7 +5896,7 @@ export const MapPolygons =
         [18.083582699999997, 59.31591109998]
     ],
     [18.0835004, 59.31569454998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rudan Större 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rudan Större 6', 'BRFBulten', [
         [18.0831731, 59.315648199980004],
@@ -5908,7 +5910,7 @@ export const MapPolygons =
         [18.0831731, 59.315648199980004]
     ],
     [18.082888099999998, 59.315648199980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rudan Större 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Rudan Större 7', 'BRFBulten', [
         [18.0828197, 59.31560589998001],
@@ -5922,7 +5924,7 @@ export const MapPolygons =
         [18.0828197, 59.31560589998001]
     ],
     [18.0825347, 59.31560589998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Rudan Större 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Räfsan 10', 'rafsan-10', [
         [18.0826459, 59.30981569998],
@@ -5934,7 +5936,7 @@ export const MapPolygons =
         [18.0826459, 59.30981569998]
     ],
     [18.082677699999998, 59.30960409998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-katarina-stockholms-kommun-sodermannagatan-45,-vind-18366340', '<h1>Räfsan 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1765290070?utm_source=hemnet&amp;utm_medium=hemnet", 'Södermannagatan 45, vind', '3 rum', 'om 65 m²', 'med 3773 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1765290070?utm_source=hemnet&amp;utm_medium=hemnet", 'Södermannagatan 45, vind', '3 rum', 'om 65 m²', 'med 3773 kr i månadsavgift','listing_icon'
 ],
 ['Räfsan 12', 'BRFBulten', [
         [18.0829323, 59.31029689998],
@@ -5948,7 +5950,7 @@ export const MapPolygons =
         [18.0829323, 59.31029689998]
     ],
     [18.082717674999998, 59.310046499980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Räfsan 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Räfsan 14', 'BRFBulten', [
         [18.0831717, 59.31034729998],
@@ -5962,7 +5964,7 @@ export const MapPolygons =
         [18.0831717, 59.31034729998]
     ],
     [18.0828867, 59.31034729998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Räfsan 14 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Räfsan 4, 5 och 6', 'BRFBulten', [
         [18.084361599999998, 59.31026259998],
@@ -5977,7 +5979,7 @@ export const MapPolygons =
         [18.084361599999998, 59.31026259998]
     ],
     [18.084512885714286, 59.30990052855144], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Räfsan 4, 5 och 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Räfsan nr 13', 'BRFBulten', [
         [18.0825999, 59.310358499980005],
@@ -5991,7 +5993,7 @@ export const MapPolygons =
         [18.0825999, 59.310358499980005]
     ],
     [18.0823149, 59.310358499980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Räfsan nr 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Råttan 11', 'rattan-11', [
         [18.0556967, 59.31809089998],
@@ -6005,7 +6007,7 @@ export const MapPolygons =
         [18.0556967, 59.31809089998]
     ],
     [18.05571133333333, 59.31791253331334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-bysistorget-stockholms-kommun-hornsgatan-57b-18377495', '<h1>Råttan 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20182/CMBOLGH58IRDK0DBTG778U3/Hemnet", 'Hornsgatan 57B', '1 rum', 'om 26 m²', 'med 481 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20182/CMBOLGH58IRDK0DBTG778U3/Hemnet", 'Hornsgatan 57B', '1 rum', 'om 26 m²', 'med 481 kr i månadsavgift','listing_icon'
 ],
 ['Råttan 9', 'BRFBulten', [
         [18.0568518, 59.31823529998],
@@ -6015,7 +6017,7 @@ export const MapPolygons =
         [18.0568518, 59.31823529998]
     ],
     [18.0569938, 59.318045099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Råttan 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['S:t Göran 1', 'BRFBulten', [
         [18.0646968, 59.317146499980005],
@@ -6030,7 +6032,7 @@ export const MapPolygons =
         [18.0646968, 59.317146499980005]
     ],
     [18.064355216666666, 59.31685581664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>S:t Göran 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['S:t Göran 5', 'BRFBulten', [
         [18.0646161, 59.31674719998],
@@ -6042,7 +6044,7 @@ export const MapPolygons =
         [18.0646161, 59.31674719998]
     ],
     [18.064628399999997, 59.316503449980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>S:t Göran 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['S:t Paul', 'BRFBulten', [
         [18.0620459, 59.317382499980006],
@@ -6056,7 +6058,7 @@ export const MapPolygons =
         [18.0620459, 59.317382499980006]
     ],
     [18.0617609, 59.317382499980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>S:t Paul <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['SIGNALEN 7', 'BRFBulten', [
         [18.0873795, 59.314812899980005],
@@ -6070,7 +6072,7 @@ export const MapPolygons =
         [18.0873795, 59.314812899980005]
     ],
     [18.0870945, 59.314812899980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>SIGNALEN 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Samaritgränd 1', 'samaritgrand-1', [
         [18.0557038, 59.31665009998],
@@ -6080,7 +6082,7 @@ export const MapPolygons =
         [18.0557038, 59.31665009998]
     ],
     [18.055659900000002, 59.316480449980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1,5rum-sodermalm-stockholms-kommun-samaritgrand-1-18381032', '<h1>Samaritgränd 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58M5HHNOA2C2F3KK/Hemnet", 'Samaritgränd 1', '1,5 rum', 'om 34 m²', 'med 1537 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58M5HHNOA2C2F3KK/Hemnet", 'Samaritgränd 1', '1,5 rum', 'om 34 m²', 'med 1537 kr i månadsavgift','listing_icon'
 ],
 ['Samaritgränd 6', 'BRFBulten', [
         [18.0550909, 59.316669699980004],
@@ -6094,7 +6096,7 @@ export const MapPolygons =
         [18.0550909, 59.316669699980004]
     ],
     [18.054805899999998, 59.316669699980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Samaritgränd 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sandstenen 1', 'BRFBulten', [
         [18.0467519, 59.31946639998],
@@ -6108,7 +6110,7 @@ export const MapPolygons =
         [18.0467519, 59.31946639998]
     ],
     [18.0464669, 59.31946639998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sandstenen 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sandstenen 6', 'BRFBulten', [
         [18.0473189, 59.31941339998001],
@@ -6122,7 +6124,7 @@ export const MapPolygons =
         [18.0473189, 59.31941339998001]
     ],
     [18.0470339, 59.31941339998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sandstenen 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sankt Göran 3', 'BRFBulten', [
         [18.065460599999998, 59.316824799980004],
@@ -6132,7 +6134,7 @@ export const MapPolygons =
         [18.065460599999998, 59.316824799980004]
     ],
     [18.0653827, 59.31658439998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sankt Göran 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sankta Katarina Mindre 2', 'BRFBulten', [
         [18.0800312, 59.31749639998],
@@ -6146,7 +6148,7 @@ export const MapPolygons =
         [18.0800312, 59.31749639998]
     ],
     [18.0797462, 59.31749639998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sankta Katarina Mindre 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Saturnus 21', 'BRFBulten', [
         [18.0692007, 59.31934099998],
@@ -6161,7 +6163,7 @@ export const MapPolygons =
         [18.0692007, 59.31934099998]
     ],
     [18.06949895, 59.31896299998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Saturnus 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Schultz 16', 'BRFBulten', [
         [18.0837135, 59.31464169998],
@@ -6175,7 +6177,7 @@ export const MapPolygons =
         [18.0837135, 59.31464169998]
     ],
     [18.0834285, 59.31464169998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Schultz 16 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Schultz No 8', 'BRFBulten', [
         [18.0838167, 59.31434789998001],
@@ -6189,7 +6191,7 @@ export const MapPolygons =
         [18.0838167, 59.31434789998001]
     ],
     [18.083531699999998, 59.31434789998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Schultz No 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Signalen', 'BRFBulten', [
         [18.087557, 59.315654899980004],
@@ -6199,7 +6201,7 @@ export const MapPolygons =
         [18.087557, 59.315654899980004]
     ],
     [18.0875129, 59.31550424998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Signalen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Signalen 6', 'BRFBulten', [
         [18.087626099999998, 59.31511889998],
@@ -6209,7 +6211,7 @@ export const MapPolygons =
         [18.087626099999998, 59.31511889998]
     ],
     [18.087526599999997, 59.31492514998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Signalen 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sillpackaren', 'BRFBulten', [
         [18.079289199999998, 59.31403259998],
@@ -6219,7 +6221,7 @@ export const MapPolygons =
         [18.079289199999998, 59.31403259998]
     ],
     [18.07933585, 59.313842399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sillpackaren <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sjöjungfrun 1', 'BRFBulten', [
         [18.0977674, 59.30918589998],
@@ -6235,7 +6237,7 @@ export const MapPolygons =
         [18.0977674, 59.30918589998]
     ],
     [18.09753525, 59.30881317498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sjöjungfrun 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sjölejonet 4', 'BRFBulten', [
         [18.0995806, 59.31121779998],
@@ -6245,7 +6247,7 @@ export const MapPolygons =
         [18.0995806, 59.31121779998]
     ],
     [18.09978205, 59.310984349980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sjölejonet 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sjöstaden', 'BRFBulten', [
         [18.097825399999998, 59.30973369998],
@@ -6261,7 +6263,7 @@ export const MapPolygons =
         [18.097825399999998, 59.30973369998]
     ],
     [18.0981874875, 59.309326124980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sjöstaden <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skaraborgsgatan 8-10', 'BRFBulten', [
         [18.0695297, 59.317851099980004],
@@ -6275,7 +6277,7 @@ export const MapPolygons =
         [18.0695297, 59.317851099980004]
     ],
     [18.069464133333334, 59.317596999980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skaraborgsgatan 8-10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skinnarviksberget', 'BRFBulten', [
         [18.0573615, 59.31973369998],
@@ -6289,7 +6291,7 @@ export const MapPolygons =
         [18.0573615, 59.31973369998]
     ],
     [18.057107775, 59.31947957498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skinnarviksberget <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skinnarviksberget nr 2', 'skinnarviksberget-nr-2', [
         [18.053898699999998, 59.31927549998],
@@ -6303,7 +6305,7 @@ export const MapPolygons =
         [18.053898699999998, 59.31927549998]
     ],
     [18.05308276, 59.31901646998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1,5rum-sodermalm-skinnarviksberget-stockholms-kommun-ludvigsbergsgatan-43,-bv-18354921', '<h1>Skinnarviksberget nr 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1908943591?utm_source=hemnet&amp;utm_medium=hemnet", 'Ludvigsbergsgatan 43, BV', '1,5 rum', 'om 41 m²', 'med 1253 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.husmanhagberg.se/objekt/annons/OBJ30479_1908943591?utm_source=hemnet&amp;utm_medium=hemnet", 'Ludvigsbergsgatan 43, BV', '1,5 rum', 'om 41 m²', 'med 1253 kr i månadsavgift','listing_icon'
 ],
 ['Skrovet 5', 'BRFBulten', [
         [18.0289143, 59.31699409998],
@@ -6317,7 +6319,7 @@ export const MapPolygons =
         [18.0289143, 59.31699409998]
     ],
     [18.0286293, 59.31699409998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skrovet 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skrovet 8', 'BRFBulten', [
         [18.0283534, 59.31705089998],
@@ -6331,7 +6333,7 @@ export const MapPolygons =
         [18.0283534, 59.31705089998]
     ],
     [18.0280684, 59.31705089998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skrovet 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skruven', 'BRFBulten', [
         [18.0327228, 59.31845839998],
@@ -6345,7 +6347,7 @@ export const MapPolygons =
         [18.0327228, 59.31845839998]
     ],
     [18.03291375, 59.318220774980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skruven <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skruven 11', 'skruven-11', [
         [18.0334978, 59.31855789998],
@@ -6359,7 +6361,7 @@ export const MapPolygons =
         [18.0334978, 59.31855789998]
     ],
     [18.033588733333332, 59.31828173331334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-hornstull-stockholms-kommun-hogalidsgatan-52-b,-5-tr-18381601', '<h1>Skruven 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13917/CMBOLGH58K3EG26PSU66SVR/Hemnet", 'Högalidsgatan 52 B, 5 tr', '3 rum', 'om 53 m²', 'med 3485 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13917/CMBOLGH58K3EG26PSU66SVR/Hemnet", 'Högalidsgatan 52 B, 5 tr', '3 rum', 'om 53 m²', 'med 3485 kr i månadsavgift','listing_icon'
 ],
 ['Skruven 5', 'BRFBulten', [
         [18.0346138, 59.31903669998],
@@ -6373,7 +6375,7 @@ export const MapPolygons =
         [18.0346138, 59.31903669998]
     ],
     [18.03453743333333, 59.31880116664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skruven 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skruven 9', 'BRFBulten', [
         [18.034621599999998, 59.318586799980004],
@@ -6387,7 +6389,7 @@ export const MapPolygons =
         [18.034621599999998, 59.318586799980004]
     ],
     [18.0346376, 59.31830966664666], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skruven 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skruven nr 2', 'BRFBulten', [
         [18.0328916, 59.31888459998],
@@ -6401,7 +6403,7 @@ export const MapPolygons =
         [18.0328916, 59.31888459998]
     ],
     [18.03276865, 59.318626624980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skruven nr 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Skånegård', 'BRFBulten', [
         [18.0808339, 59.312442199980005],
@@ -6411,7 +6413,7 @@ export const MapPolygons =
         [18.0808339, 59.312442199980005]
     ],
     [18.080899249999998, 59.31225629998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Skånegård <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Slipen 40', 'slipen-40', [
         [18.0272839, 59.31815679998],
@@ -6425,7 +6427,7 @@ export const MapPolygons =
         [18.0272839, 59.31815679998]
     ],
     [18.0269989, 59.31815679998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-hornstull-stockholms-kommun-slipgatan-2,-4-tr-18382423', '<h1>Slipen 40 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2610646&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Slipgatan 2, 4 tr', '1 rum', 'om 24 m²', 'med 1726 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2610646&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Slipgatan 2, 4 tr', '1 rum', 'om 24 m²', 'med 1726 kr i månadsavgift','listing_icon'
 ],
 ['Slipgatan 12', 'slipgatan-12', [
         [18.0278505, 59.31705979998],
@@ -6439,7 +6441,7 @@ export const MapPolygons =
         [18.0278505, 59.31705979998]
     ],
     [18.027565499999998, 59.31705979998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-hornstull-stockholms-kommun-slipgatan-12-18380807', '<h1>Slipgatan 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2430915&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Slipgatan 12', '1 rum', 'om 22 m²', 'med 1471 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2430915&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Slipgatan 12', '1 rum', 'om 22 m²', 'med 1471 kr i månadsavgift','listing_icon'
 ],
 ['Släggan 11', 'BRFBulten', [
         [18.0368273, 59.316104899980004],
@@ -6449,7 +6451,7 @@ export const MapPolygons =
         [18.0368273, 59.316104899980004]
     ],
     [18.03673535, 59.31587864998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Släggan 11 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Släggan 12', 'slaggan-12', [
         [18.0358299, 59.31603119998],
@@ -6463,7 +6465,7 @@ export const MapPolygons =
         [18.0358299, 59.31603119998]
     ],
     [18.035977266666666, 59.31578053331334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-hornsgatan-158a,-1-tr-18354990', '<h1>Släggan 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58IBJSDQSGP42MEV/Hemnet", 'Hornsgatan 158A, 1 tr', '1 rum', 'om 38 m²', 'med 1905 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58IBJSDQSGP42MEV/Hemnet", 'Hornsgatan 158A, 1 tr', '1 rum', 'om 38 m²', 'med 1905 kr i månadsavgift','listing_icon'
 ],
 ['Småland 13', 'BRFBulten', [
         [18.065753700000002, 59.31706589998],
@@ -6477,7 +6479,7 @@ export const MapPolygons =
         [18.065753700000002, 59.31706589998]
     ],
     [18.0654687, 59.31706589998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småland 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Småland 18', 'BRFBulten', [
         [18.065766699999998, 59.31690179998],
@@ -6487,7 +6489,7 @@ export const MapPolygons =
         [18.065766699999998, 59.31690179998]
     ],
     [18.06586635, 59.31672764998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småland 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Småland 19', 'BRFBulten', [
         [18.0652625, 59.31762819998],
@@ -6499,7 +6501,7 @@ export const MapPolygons =
         [18.0652625, 59.31762819998]
     ],
     [18.065274449999997, 59.31745034998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småland 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Småland 23', 'BRFBulten', [
         [18.0657411, 59.31730779998001],
@@ -6513,7 +6515,7 @@ export const MapPolygons =
         [18.0657411, 59.31730779998001]
     ],
     [18.0654561, 59.31730779998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småland 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Småland 4 och 5', 'BRFBulten', [
         [18.0660961, 59.31752349998],
@@ -6528,7 +6530,7 @@ export const MapPolygons =
         [18.0660961, 59.31752349998]
     ],
     [18.06601455, 59.31725834998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småland 4 och 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Småland nr 7', 'BRFBulten', [
         [18.0664574, 59.31697279998001],
@@ -6542,7 +6544,7 @@ export const MapPolygons =
         [18.0664574, 59.31697279998001]
     ],
     [18.0661724, 59.31697279998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småland nr 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Småländska Björnen', 'BRFBulten', [
         [18.0657468, 59.316708599980004],
@@ -6552,7 +6554,7 @@ export const MapPolygons =
         [18.0657468, 59.316708599980004]
     ],
     [18.065948749999997, 59.31653749998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Småländska Björnen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Smålänningen', 'smalanningen', [
         [18.0671034, 59.31693689998],
@@ -6567,7 +6569,7 @@ export const MapPolygons =
         [18.0671034, 59.31693689998]
     ],
     [18.0668227375, 59.31673756248], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-mariatorget-stockholms-kommun-maria-prastgardsgata-4,-3-tr-18381643', '<h1>Smålänningen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1910957124/Hemnet", 'Maria Prästgårdsgata 4, 3 tr', '1 rum', 'om 25 m²', 'med 1461 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1910957124/Hemnet", 'Maria Prästgårdsgata 4, 3 tr', '1 rum', 'om 25 m²', 'med 1461 kr i månadsavgift','listing_icon'
 ],
 ['Sofia 112', 'BRFBulten', [
         [18.0850222, 59.31542969998],
@@ -6581,7 +6583,7 @@ export const MapPolygons =
         [18.0850222, 59.31542969998]
     ],
     [18.0847372, 59.31542969998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sofia 112 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sofia 81', 'BRFBulten', [
         [18.083780400000002, 59.31300359998001],
@@ -6595,7 +6597,7 @@ export const MapPolygons =
         [18.083780400000002, 59.31300359998001]
     ],
     [18.0834954, 59.31300359998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sofia 81 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sofia Strand', 'BRFBulten', [
         [18.099099499999998, 59.31188599998],
@@ -6605,7 +6607,7 @@ export const MapPolygons =
         [18.099099499999998, 59.31188599998]
     ],
     [18.09934845, 59.31172694998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sofia Strand <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Spettet 1', 'BRFBulten', [
         [18.0400268, 59.31641909998],
@@ -6615,7 +6617,7 @@ export const MapPolygons =
         [18.0400268, 59.31641909998]
     ],
     [18.039888050000002, 59.316248999980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Spettet 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Spettet 10', 'BRFBulten', [
         [18.0379303, 59.316356599980004],
@@ -6629,7 +6631,7 @@ export const MapPolygons =
         [18.0379303, 59.316356599980004]
     ],
     [18.037645299999998, 59.316356599980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Spettet 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Spettet 2000', 'spettet-2000', [
         [18.0396504, 59.316759699980004],
@@ -6644,7 +6646,7 @@ export const MapPolygons =
         [18.0396504, 59.316759699980004]
     ],
     [18.03942316, 59.31641217998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-stockholms-kommun-hornsgatan-146a,-2tr-18354682', '<h1>Spettet 2000 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58A4E2BEUK0KB4O3/Hemnet", 'Hornsgatan 146A, 2tr', '3 rum', 'om 74,6 m²', 'med 3176 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58A4E2BEUK0KB4O3/Hemnet", 'Hornsgatan 146A, 2tr', '3 rum', 'om 74,6 m²', 'med 3176 kr i månadsavgift','listing_icon'
 ],
 ['Spettet 8', 'BRFBulten', [
         [18.037219099999998, 59.31614909998],
@@ -6654,7 +6656,7 @@ export const MapPolygons =
         [18.037219099999998, 59.31614909998]
     ],
     [18.03732555, 59.31596644998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Spettet 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Stammen 23', 'stammen-23', [
         [18.087596599999998, 59.316856999980004],
@@ -6669,7 +6671,7 @@ export const MapPolygons =
         [18.087596599999998, 59.316856999980004]
     ],
     [18.0877783, 59.316560033313344], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-stigbergsgatan-32b,-5-tr-18370415', '<h1>Stammen 23 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.erikolsson.se/bostader-till-salu/OBJ20965_1913826466?utm_source=hemnet.se&amp;utm_medium=referral&amp;utm_campaign=Hemnet_bostadsannons", 'Stigbergsgatan 32B, 5 tr', '2 rum', 'om 62 m²', 'med 2869 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.erikolsson.se/bostader-till-salu/OBJ20965_1913826466?utm_source=hemnet.se&amp;utm_medium=referral&amp;utm_campaign=Hemnet_bostadsannons", 'Stigbergsgatan 32B, 5 tr', '2 rum', 'om 62 m²', 'med 2869 kr i månadsavgift','listing_icon'
 ],
 ['Stammen nr 2', 'BRFBulten', [
         [18.0852701, 59.31736089998],
@@ -6683,7 +6685,7 @@ export const MapPolygons =
         [18.0852701, 59.31736089998]
     ],
     [18.084985099999997, 59.31736089998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Stammen nr 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Stomatol-Huset', 'BRFBulten', [
         [18.0721501, 59.319047099980004],
@@ -6697,7 +6699,7 @@ export const MapPolygons =
         [18.0721501, 59.319047099980004]
     ],
     [18.0718651, 59.319047099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Stomatol-Huset <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Storuven', 'BRFBulten', [
         [18.0534867, 59.318472499980004],
@@ -6711,7 +6713,7 @@ export const MapPolygons =
         [18.0534867, 59.318472499980004]
     ],
     [18.053476566666664, 59.318198233313346], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Storuven <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Strandslipen', 'strandslipen', [
         [18.0268869, 59.31763699998],
@@ -6725,7 +6727,7 @@ export const MapPolygons =
         [18.0268869, 59.31763699998]
     ],
     [18.0266019, 59.31763699998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-bergsunds-strand-5,-2tr-18376435', '<h1>Strandslipen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58IIF940AHHSJHL6/Hemnet", 'Bergsunds strand 5, 2tr', '2 rum', 'om 40 m²', 'med 2628 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58IIF940AHHSJHL6/Hemnet", 'Bergsunds strand 5, 2tr', '2 rum', 'om 40 m²', 'med 2628 kr i månadsavgift','listing_icon'
 ],
 ['Sturen Mindre', 'BRFBulten', [
         [18.076760099999998, 59.316534699980004],
@@ -6735,7 +6737,7 @@ export const MapPolygons =
         [18.076760099999998, 59.316534699980004]
     ],
     [18.07683865, 59.31635114998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sturen Mindre <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sturen Mindre 2', 'BRFBulten', [
         [18.076172099999997, 59.31655799998],
@@ -6745,7 +6747,7 @@ export const MapPolygons =
         [18.076172099999997, 59.31655799998]
     ],
     [18.07600325, 59.31637869998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sturen Mindre 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sturen Mindre 4', 'BRFBulten', [
         [18.0767368, 59.31691309998],
@@ -6759,7 +6761,7 @@ export const MapPolygons =
         [18.0767368, 59.31691309998]
     ],
     [18.076484633333333, 59.31669816664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sturen Mindre 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sturen Större', 'BRFBulten', [
         [18.0764736, 59.31574259998],
@@ -6773,7 +6775,7 @@ export const MapPolygons =
         [18.0764736, 59.31574259998]
     ],
     [18.076428, 59.315470333313336], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sturen Större <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Stämjärnet 1', 'BRFBulten', [
         [18.0403608, 59.32002979998],
@@ -6785,7 +6787,7 @@ export const MapPolygons =
         [18.0403608, 59.32002979998]
     ],
     [18.040367599999996, 59.31984464998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Stämjärnet 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Stören 15', 'BRFBulten', [
         [18.0621465, 59.31500489998],
@@ -6799,7 +6801,7 @@ export const MapPolygons =
         [18.0621465, 59.31500489998]
     ],
     [18.0618615, 59.31500489998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Stören 15 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Stören 19', 'BRFBulten', [
         [18.0639349, 59.31560719998],
@@ -6813,7 +6815,7 @@ export const MapPolygons =
         [18.0639349, 59.31560719998]
     ],
     [18.063969125, 59.31529159998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Stören 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Stören 20', 'BRFBulten', [
         [18.0631426, 59.31550339998],
@@ -6829,7 +6831,7 @@ export const MapPolygons =
         [18.0631426, 59.31550339998]
     ],
     [18.063190133333336, 59.31519428331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Stören 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Svejk', 'svejk', [
         [18.0774019, 59.313138399980005],
@@ -6843,7 +6845,7 @@ export const MapPolygons =
         [18.0774019, 59.313138399980005]
     ],
     [18.0771169, 59.313138399980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-katarina-stockholms-kommun-ostgotagatan-32-18381249', '<h1>Svejk <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58B2KQTCDST25JFN&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Östgötagatan 32', '2 rum', 'om 67 m²', 'med 2372 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58B2KQTCDST25JFN&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Östgötagatan 32', '2 rum', 'om 67 m²', 'med 2372 kr i månadsavgift','listing_icon'
 ],
 ['Svärdet 6', 'BRFBulten', [
         [18.054362599999997, 59.31335689998],
@@ -6857,7 +6859,7 @@ export const MapPolygons =
         [18.054362599999997, 59.31335689998]
     ],
     [18.0546969, 59.31291764283714], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Svärdet 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Swedenborg', 'swedenborg', [
         [18.0576159, 59.31833539998],
@@ -6869,7 +6871,7 @@ export const MapPolygons =
         [18.0576159, 59.31833539998]
     ],
     [18.057550999999997, 59.31808509998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-maria-stockholms-kommun-hornsgatan-49,-1-tr-18354668', '<h1>Swedenborg <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://svenskamaklarhuset.se/objekt/OBJ15648_1903574184?from=Hemnet", 'Hornsgatan 49, 1 tr', '1 rum', 'om 31 m²', 'med 1443 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://svenskamaklarhuset.se/objekt/OBJ15648_1903574184?from=Hemnet", 'Hornsgatan 49, 1 tr', '1 rum', 'om 31 m²', 'med 1443 kr i månadsavgift','listing_icon'
 ],
 ['Swedenborg 7', 'BRFBulten', [
         [18.064156, 59.31657439998],
@@ -6879,7 +6881,7 @@ export const MapPolygons =
         [18.064156, 59.31657439998]
     ],
     [18.06422465, 59.31639504998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Swedenborg 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Syrenen 1908', 'syrenen-1908', [
         [18.0848364, 59.31087209998],
@@ -6894,7 +6896,7 @@ export const MapPolygons =
         [18.0848364, 59.31087209998]
     ],
     [18.084692966666665, 59.310587199980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-katarina-stockholms-kommun-gotlandsgatan-78-18381198', '<h1>Syrenen 1908 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58KCCLJJQ8S7ONRD&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Gotlandsgatan 78', '1 rum', 'om 34 m²', 'med 1886 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58KCCLJJQ8S7ONRD&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Gotlandsgatan 78', '1 rum', 'om 34 m²', 'med 1886 kr i månadsavgift','listing_icon'
 ],
 ['Sågaren 16', 'BRFBulten', [
         [18.091388900000002, 59.31414509998],
@@ -6908,7 +6910,7 @@ export const MapPolygons =
         [18.091388900000002, 59.31414509998]
     ],
     [18.0911039, 59.31414509998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sågaren 16 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sågen 20', 'BRFBulten', [
         [18.0328696, 59.315736499980005],
@@ -6922,7 +6924,7 @@ export const MapPolygons =
         [18.0328696, 59.315736499980005]
     ],
     [18.0325846, 59.315736499980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sågen 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sågen 6', 'BRFBulten', [
         [18.0330273, 59.31538469998],
@@ -6936,7 +6938,7 @@ export const MapPolygons =
         [18.0330273, 59.31538469998]
     ],
     [18.0327423, 59.31538469998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sågen 6 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sågen 7', 'BRFBulten', [
         [18.0326744, 59.31534219998],
@@ -6950,7 +6952,7 @@ export const MapPolygons =
         [18.0326744, 59.31534219998]
     ],
     [18.0323894, 59.31534219998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sågen 7 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Sågverket 17', 'BRFBulten', [
         [18.0918029, 59.314001799980005],
@@ -6964,7 +6966,7 @@ export const MapPolygons =
         [18.0918029, 59.314001799980005]
     ],
     [18.0915179, 59.314001799980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Sågverket 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Söderhuset', 'BRFBulten', [
         [18.0560476, 59.318064599980005],
@@ -6974,7 +6976,7 @@ export const MapPolygons =
         [18.0560476, 59.318064599980005]
     ],
     [18.0561215, 59.317909949980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Söderhuset <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Söderkisen', 'BRFBulten', [
         [18.0560989, 59.31524559998],
@@ -6989,7 +6991,7 @@ export const MapPolygons =
         [18.0560989, 59.31524559998]
     ],
     [18.05619151666667, 59.31496653331333], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Söderkisen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Söderkåken', 'BRFBulten', [
         [18.0372235, 59.31927289998],
@@ -7004,7 +7006,7 @@ export const MapPolygons =
         [18.0372235, 59.31927289998]
     ],
     [18.037146999999997, 59.31897234998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Söderkåken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Södermalm', 'sodermalm', [
         [18.0818118, 59.31012389998],
@@ -7014,7 +7016,7 @@ export const MapPolygons =
         [18.0818118, 59.31012389998]
     ],
     [18.0819075, 59.30987709998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-sodermalm-nytorget-stockholms-kommun-sodermannagatan-50-18380546', '<h1>Södermalm <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://app.maklarcrm.se/api/v1/publishers/redirect/MDQ2MHwwMDAwMDAwMDMzMnw1OA../direct?utm_source=hemnet&amp;utm_medium=referral", 'Södermannagatan 50', '4 rum', 'om 89 m²', 'med 5278 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://app.maklarcrm.se/api/v1/publishers/redirect/MDQ2MHwwMDAwMDAwMDMzMnw1OA../direct?utm_source=hemnet&amp;utm_medium=referral", 'Södermannagatan 50', '4 rum', 'om 89 m²', 'med 5278 kr i månadsavgift','listing_icon'
 ],
 ['Södermannagatan 18', 'BRFBulten', [
         [18.080353600000002, 59.313913099980006],
@@ -7028,7 +7030,7 @@ export const MapPolygons =
         [18.080353600000002, 59.313913099980006]
     ],
     [18.0800686, 59.313913099980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Södermannagatan 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Söders Hjärta', 'soders-hjarta', [
         [18.0691176, 59.31298159998],
@@ -7042,7 +7044,7 @@ export const MapPolygons =
         [18.0691176, 59.31298159998]
     ],
     [18.068935633333332, 59.31268533331334], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-stockholms-kommun-siargatan-9,-van-3-18381207', '<h1>Söders Hjärta <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8437/CMBOLGH589R4CRHOMJDOU4B/Hemnet", 'Siargatan 9, vån 3', '3 rum', 'om 89 m²', 'med 4404 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8437/CMBOLGH589R4CRHOMJDOU4B/Hemnet", 'Siargatan 9, vån 3', '3 rum', 'om 89 m²', 'med 4404 kr i månadsavgift','listing_icon'
 ],
 ['Söders Höjder No 1', 'BRFBulten', [
         [18.0763404, 59.316397299980004],
@@ -7054,7 +7056,7 @@ export const MapPolygons =
         [18.0763404, 59.316397299980004]
     ],
     [18.0763399, 59.31624219998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Söders Höjder No 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Söders Pärla', 'BRFBulten', [
         [18.0614087, 59.319413899980006],
@@ -7068,7 +7070,7 @@ export const MapPolygons =
         [18.0614087, 59.319413899980006]
     ],
     [18.0611237, 59.319413899980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Söders Pärla <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Södersiluetten', 'BRFBulten', [
         [18.0805419, 59.31063479998],
@@ -7083,7 +7085,7 @@ export const MapPolygons =
         [18.0805419, 59.31063479998]
     ],
     [18.080671499999998, 59.31042869998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Södersiluetten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Södersol', 'BRFBulten', [
         [18.0789054, 59.306936499980004],
@@ -7097,7 +7099,7 @@ export const MapPolygons =
         [18.0789054, 59.306936499980004]
     ],
     [18.0786204, 59.306936499980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Södersol <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tantotorget', 'BRFBulten', [
         [18.0494287, 59.31114909998],
@@ -7109,7 +7111,7 @@ export const MapPolygons =
         [18.0494287, 59.31114909998]
     ],
     [18.0494063, 59.310959649980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tantotorget <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tapeten 1', 'BRFBulten', [
         [18.0495678, 59.31797199998],
@@ -7119,7 +7121,7 @@ export const MapPolygons =
         [18.0495678, 59.31797199998]
     ],
     [18.049794549999998, 59.317781799980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tapeten 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tapeten 4', 'BRFBulten', [
         [18.0492815, 59.31794529998],
@@ -7129,7 +7131,7 @@ export const MapPolygons =
         [18.0492815, 59.31794529998]
     ],
     [18.04919295, 59.317784049980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tapeten 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tavastgatan 22', 'BRFBulten', [
         [18.0610592, 59.319884399980005],
@@ -7143,7 +7145,7 @@ export const MapPolygons =
         [18.0610592, 59.319884399980005]
     ],
     [18.060774199999997, 59.319884399980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tavastgatan 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tavastgatan 25', 'BRFBulten', [
         [18.0615782, 59.319717099980004],
@@ -7157,7 +7159,7 @@ export const MapPolygons =
         [18.0615782, 59.319717099980004]
     ],
     [18.061293199999998, 59.319717099980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tavastgatan 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tegelviksgatan 30', 'BRFBulten', [
         [18.0982688, 59.31063659998],
@@ -7171,7 +7173,7 @@ export const MapPolygons =
         [18.0982688, 59.31063659998]
     ],
     [18.097983799999998, 59.31063659998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tegelviksgatan 30 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Timmerhögen', 'BRFBulten', [
         [18.061524, 59.31510019998],
@@ -7181,7 +7183,7 @@ export const MapPolygons =
         [18.061524, 59.31510019998]
     ],
     [18.06156585, 59.31490784998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Timmerhögen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Timmermannen 1', 'BRFBulten', [
         [18.077965, 59.31354189998],
@@ -7195,7 +7197,7 @@ export const MapPolygons =
         [18.077965, 59.31354189998]
     ],
     [18.0776462, 59.31333146664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Timmermannen 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Timmermannen 31', 'BRFBulten', [
         [18.0778238, 59.312976099980006],
@@ -7209,7 +7211,7 @@ export const MapPolygons =
         [18.0778238, 59.312976099980006]
     ],
     [18.0775388, 59.312976099980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Timmermannen 31 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tjurberget', 'BRFBulten', [
         [18.072421000000002, 59.31081839998],
@@ -7223,7 +7225,7 @@ export const MapPolygons =
         [18.072421000000002, 59.31081839998]
     ],
     [18.072136, 59.31081839998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tjurberget <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tjärhovet', 'BRFBulten', [
         [18.081635199999997, 59.31599109998],
@@ -7233,7 +7235,7 @@ export const MapPolygons =
         [18.081635199999997, 59.31599109998]
     ],
     [18.081496599999998, 59.315759849980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tjärhovet <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tobakspinnaren', 'BRFBulten', [
         [18.0311139, 59.317461399980004],
@@ -7247,7 +7249,7 @@ export const MapPolygons =
         [18.0311139, 59.317461399980004]
     ],
     [18.0308289, 59.317461399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tobakspinnaren <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tors Fiske', 'BRFBulten', [
         [18.062186699999998, 59.318370399980004],
@@ -7257,7 +7259,7 @@ export const MapPolygons =
         [18.062186699999998, 59.318370399980004]
     ],
     [18.0619619, 59.318196599980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tors Fiske <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tre Uppgångar', 'BRFBulten', [
         [18.079266399999998, 59.30877839998],
@@ -7273,7 +7275,7 @@ export const MapPolygons =
         [18.079266399999998, 59.30877839998]
     ],
     [18.079276833333335, 59.30850633331334], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Tre Uppgångar <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Trekanten på Söder', 'BRFBulten', [
         [18.0613797, 59.31876239998],
@@ -7288,7 +7290,7 @@ export const MapPolygons =
         [18.0613797, 59.31876239998]
     ],
     [18.0608125, 59.31850826664667], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Trekanten på Söder <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Trivselhem nr 1', 'BRFBulten', [
         [18.0901438, 59.31490489998001],
@@ -7302,7 +7304,7 @@ export const MapPolygons =
         [18.0901438, 59.31490489998001]
     ],
     [18.0898588, 59.31490489998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Trivselhem nr 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tullstugan 3', 'tullstugan-3', [
         [18.085499199999997, 59.30587479998],
@@ -7317,7 +7319,7 @@ export const MapPolygons =
         [18.085499199999997, 59.30587479998]
     ],
     [18.08420821111111, 59.305282799980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2,5rum-sodermalm-stockholms-kommun-dorjgrand-4-18350275', '<h1>Tullstugan 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/dorjgrand-4/280541?utm_source=hemnet&amp;utm_medium=referral", 'Dörjgränd 4', '2,5 rum', 'om 71 m²', 'med 3124 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "http://www.svenskfast.se/bostadsratt/stockholm/stockholm/stockholm/sodermalm/dorjgrand-4/280541?utm_source=hemnet&amp;utm_medium=referral", 'Dörjgränd 4', '2,5 rum', 'om 71 m²', 'med 3124 kr i månadsavgift','listing_icon'
 ],
 ['Turbinen 18', 'BRFBulten', [
         [18.0301405, 59.318376399980004],
@@ -7331,7 +7333,7 @@ export const MapPolygons =
         [18.0301405, 59.318376399980004]
     ],
     [18.0298555, 59.318376399980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Turbinen 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Turbinen 20', 'BRFBulten', [
         [18.0306702, 59.318277499980006],
@@ -7345,7 +7347,7 @@ export const MapPolygons =
         [18.0306702, 59.318277499980006]
     ],
     [18.030385199999998, 59.318277499980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Turbinen 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Turbinen 21', 'BRFBulten', [
         [18.0309096, 59.31798459998],
@@ -7359,7 +7361,7 @@ export const MapPolygons =
         [18.0309096, 59.31798459998]
     ],
     [18.0306246, 59.31798459998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Turbinen 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Turbinen 24', 'BRFBulten', [
         [18.0302441, 59.317919999980006],
@@ -7373,7 +7375,7 @@ export const MapPolygons =
         [18.0302441, 59.317919999980006]
     ],
     [18.0299591, 59.317919999980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Turbinen 24 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Turbinen 25', 'turbinen-25', [
         [18.0303066, 59.318166699980004],
@@ -7387,7 +7389,7 @@ export const MapPolygons =
         [18.0303066, 59.318166699980004]
     ],
     [18.030021599999998, 59.318166699980004], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-folkskolegatan-3,-3-tr-18381160', '<h1>Turbinen 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH559PRM3127LNOMUO/Hemnet", 'Folkskolegatan 3, 3 tr', '1 rum', 'om 24 m²', 'med 1325 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH559PRM3127LNOMUO/Hemnet", 'Folkskolegatan 3, 3 tr', '1 rum', 'om 24 m²', 'med 1325 kr i månadsavgift','listing_icon'
 ],
 ['Turbinen 27', 'BRFBulten', [
         [18.0307644, 59.31769289998],
@@ -7401,7 +7403,7 @@ export const MapPolygons =
         [18.0307644, 59.31769289998]
     ],
     [18.030479399999997, 59.31769289998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Turbinen 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Tången 10', 'tangen-10', [
         [18.033244200000002, 59.31502719998],
@@ -7415,7 +7417,7 @@ export const MapPolygons =
         [18.033244200000002, 59.31502719998]
     ],
     [18.0329592, 59.31502719998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1,5rum-hogalid-stockholms-kommun-hornsgatan-149,-6-tr-18382378', '<h1>Tången 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2633026&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Hornsgatan 149, 6 tr', '1,5 rum', 'om 34 m²', 'med 2194 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.fastighetsbyran.com/sv/sverige/Objekt/?objektID=2633026&amp;utm_source=hemnet.se&amp;utm_medium=referral", 'Hornsgatan 149, 6 tr', '1,5 rum', 'om 34 m²', 'med 2194 kr i månadsavgift','listing_icon'
 ],
 ['Tången 12', 'tangen-12', [
         [18.033483, 59.31448169998001],
@@ -7429,7 +7431,7 @@ export const MapPolygons =
         [18.033483, 59.31448169998001]
     ],
     [18.033198, 59.31448169998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-hornstulls-strand-13,-2-tr-18381219', '<h1>Tången 12 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58MCB41CV6180BNR/Hemnet", 'Hornstulls Strand 13, 2 tr', '2 rum', 'om 53 m²', 'med 3370 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S13784/CMBOLGH58MCB41CV6180BNR/Hemnet", 'Hornstulls Strand 13, 2 tr', '2 rum', 'om 53 m²', 'med 3370 kr i månadsavgift','listing_icon'
 ],
 ['Tången 9', 'tangen-9', [
         [18.032818600000002, 59.31499509998],
@@ -7443,7 +7445,7 @@ export const MapPolygons =
         [18.032818600000002, 59.31499509998]
     ],
     [18.0325336, 59.31499509998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-hornsgatan-151,-5-tr-18350676', '<h1>Tången 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=55F42L8O00LNP38P&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Hornsgatan 151, 5 tr', '2 rum', 'om 44 m²', 'med 2551 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=55F42L8O00LNP38P&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Hornsgatan 151, 5 tr', '2 rum', 'om 44 m²', 'med 2551 kr i månadsavgift','listing_icon'
 ],
 ['Ufven Större nr 5', 'BRFBulten', [
         [18.054174399999997, 59.31851419998],
@@ -7455,7 +7457,7 @@ export const MapPolygons =
         [18.054174399999997, 59.31851419998]
     ],
     [18.0542418, 59.31823829998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ufven Större nr 5 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ugglan Mindre 3', 'BRFBulten', [
         [18.0634166, 59.319687299980004],
@@ -7469,7 +7471,7 @@ export const MapPolygons =
         [18.0634166, 59.319687299980004]
     ],
     [18.0631316, 59.319687299980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ugglan Mindre 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ugglan Mindre 4', 'BRFBulten', [
         [18.0633328, 59.31992539998],
@@ -7483,7 +7485,7 @@ export const MapPolygons =
         [18.0633328, 59.31992539998]
     ],
     [18.0630478, 59.31992539998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ugglan Mindre 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Ugglan Större 2', 'BRFBulten', [
         [18.064809, 59.320100199980004],
@@ -7497,7 +7499,7 @@ export const MapPolygons =
         [18.064809, 59.320100199980004]
     ],
     [18.064524, 59.320100199980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Ugglan Större 2 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Urvädersklippan', 'BRFBulten', [
         [18.0725546, 59.318992399980004],
@@ -7509,7 +7511,7 @@ export const MapPolygons =
         [18.0725546, 59.318992399980004]
     ],
     [18.07255715, 59.31881744998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Urvädersklippan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Urvädersklippan Mindre 10', 'urvadersklippan-mindre-10', [
         [18.071864, 59.318935399980006],
@@ -7523,7 +7525,7 @@ export const MapPolygons =
         [18.071864, 59.318935399980006]
     ],
     [18.071579, 59.318935399980006], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-4rum-sodermalm-stockholms-kommun-klevgrand-2,-3-tr-18288235', '<h1>Urvädersklippan Mindre 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.skeppsholmen.se/objekt/1582345", 'Klevgränd 2, 3 tr', '4 rum', 'om 88 m²', 'med 2762 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.skeppsholmen.se/objekt/1582345", 'Klevgränd 2, 3 tr', '4 rum', 'om 88 m²', 'med 2762 kr i månadsavgift','listing_icon'
 ],
 ['Utkiken 20', 'BRFBulten', [
         [18.0935934, 59.31550849998],
@@ -7537,7 +7539,7 @@ export const MapPolygons =
         [18.0935934, 59.31550849998]
     ],
     [18.0935268, 59.315351833313336], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Utkiken 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Uven Större 21', 'BRFBulten', [
         [18.0529173, 59.31839179998],
@@ -7547,7 +7549,7 @@ export const MapPolygons =
         [18.0529173, 59.31839179998]
     ],
     [18.0530417, 59.31808449998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Uven Större 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Uven Större 22', 'uven-storre-22', [
         [18.0526278, 59.318406299980005],
@@ -7559,7 +7561,7 @@ export const MapPolygons =
         [18.0526278, 59.318406299980005]
     ],
     [18.05272025, 59.31807049998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-brannkyrkagatan-81-18376077', '<h1>Uven Större 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.erikolsson.se/bostader-till-salu/OBJ20965_1912608000?utm_source=hemnet.se&amp;utm_medium=referral&amp;utm_campaign=Hemnet_bostadsannons", 'Brännkyrkagatan 81', '2 rum', 'om 45 m²', 'med 1631 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.erikolsson.se/bostader-till-salu/OBJ20965_1912608000?utm_source=hemnet.se&amp;utm_medium=referral&amp;utm_campaign=Hemnet_bostadsannons", 'Brännkyrkagatan 81', '2 rum', 'om 45 m²', 'med 1631 kr i månadsavgift','listing_icon'
 ],
 ['Uven Större 25', 'BRFBulten', [
         [18.0523527, 59.31837299998],
@@ -7571,7 +7573,7 @@ export const MapPolygons =
         [18.0523527, 59.31837299998]
     ],
     [18.05238595, 59.31803234998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Uven Större 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['VDSU Fasaden', 'BRFBulten', [
         [18.0763346, 59.312600199980004],
@@ -7583,7 +7585,7 @@ export const MapPolygons =
         [18.0763346, 59.312600199980004]
     ],
     [18.0763695, 59.31228854998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>VDSU Fasaden <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vattenspegeln', 'BRFBulten', [
         [18.0363926, 59.31972969998],
@@ -7595,7 +7597,7 @@ export const MapPolygons =
         [18.0363926, 59.31972969998]
     ],
     [18.036423, 59.31950939998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vattenspegeln <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vattumannen 18', 'BRFBulten', [
         [18.0618547, 59.31684109998],
@@ -7609,7 +7611,7 @@ export const MapPolygons =
         [18.0618547, 59.31684109998]
     ],
     [18.0615697, 59.31684109998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vattumannen 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vattumannen nr 20', 'BRFBulten', [
         [18.0613668, 59.31748179998],
@@ -7621,7 +7623,7 @@ export const MapPolygons =
         [18.0613668, 59.31748179998]
     ],
     [18.06136595, 59.31721584998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vattumannen nr 20 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Veken 1', 'BRFBulten', [
         [18.0896543, 59.31473539998],
@@ -7631,7 +7633,7 @@ export const MapPolygons =
         [18.0896543, 59.31473539998]
     ],
     [18.089776899999997, 59.314556199980004], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Veken 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Veken 9', 'BRFBulten', [
         [18.089560900000002, 59.31450019998],
@@ -7645,7 +7647,7 @@ export const MapPolygons =
         [18.089560900000002, 59.31450019998]
     ],
     [18.0892759, 59.31450019998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Veken 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vetet 1', 'BRFBulten', [
         [18.0701482, 59.30750999998],
@@ -7655,7 +7657,7 @@ export const MapPolygons =
         [18.0701482, 59.30750999998]
     ],
     [18.07010505, 59.30734274998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vetet 1 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vi i femman', 'BRFBulten', [
         [18.038684699999997, 59.31940789998],
@@ -7670,7 +7672,7 @@ export const MapPolygons =
         [18.038684699999997, 59.31940789998]
     ],
     [18.03858603333333, 59.319127866646674], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vi i femman <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Viggen', 'viggen', [
         [18.057972200000002, 59.31934829998001],
@@ -7684,7 +7686,7 @@ export const MapPolygons =
         [18.057972200000002, 59.31934829998001]
     ],
     [18.0576872, 59.31934829998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2,5rum-sodermalm-mariaberget-stockholms-kommun-tavastgatan-43-vind-18381420', '<h1>Viggen <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1911619277/Hemnet", 'Tavastgatan 43 - Vind', '2,5 rum', 'om 75 m²', 'med 4240 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M12708/OBJ12708_1911619277/Hemnet", 'Tavastgatan 43 - Vind', '2,5 rum', 'om 75 m²', 'med 4240 kr i månadsavgift','listing_icon'
 ],
 ['Viggen 13', 'BRFBulten', [
         [18.0570597, 59.31942879998],
@@ -7694,7 +7696,7 @@ export const MapPolygons =
         [18.0570597, 59.31942879998]
     ],
     [18.0569987, 59.31920839998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Viggen 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Viggen 4', 'BRFBulten', [
         [18.0583128, 59.31921379998],
@@ -7704,7 +7706,7 @@ export const MapPolygons =
         [18.0583128, 59.31921379998]
     ],
     [18.05818595, 59.31904799998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Viggen 4 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Viggen 8', 'BRFBulten', [
         [18.0587616, 59.31937709998],
@@ -7718,7 +7720,7 @@ export const MapPolygons =
         [18.0587616, 59.31937709998]
     ],
     [18.0584766, 59.31937709998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Viggen 8 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Viggen 9', 'BRFBulten', [
         [18.0590424, 59.31942989998],
@@ -7732,7 +7734,7 @@ export const MapPolygons =
         [18.0590424, 59.31942989998]
     ],
     [18.058757399999998, 59.31942989998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Viggen 9 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vitbetan', 'vitbetan', [
         [18.0871706, 59.309648299980005],
@@ -7746,7 +7748,7 @@ export const MapPolygons =
         [18.0871706, 59.309648299980005]
     ],
     [18.0868856, 59.309648299980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-stockholms-kommun-katarina-bangata-55,-2tr-18378315', '<h1>Vitbetan <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20436/CMBOLGH58LL0BFDAF95IMTQ/Hemnet", 'Katarina Bangata 55, 2tr', '2 rum', 'om 66 m²', 'med 3561 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S20436/CMBOLGH58LL0BFDAF95IMTQ/Hemnet", 'Katarina Bangata 55, 2tr', '2 rum', 'om 66 m²', 'med 3561 kr i månadsavgift','listing_icon'
 ],
 ['Vitbetan 17', 'BRFBulten', [
         [18.090619, 59.30901809998],
@@ -7760,7 +7762,7 @@ export const MapPolygons =
         [18.090619, 59.30901809998]
     ],
     [18.090334, 59.30901809998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vitbetan 17 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vitbetan 18', 'vitbetan-18', [
         [18.0904199, 59.308843299980005],
@@ -7774,7 +7776,7 @@ export const MapPolygons =
         [18.0904199, 59.308843299980005]
     ],
     [18.0901349, 59.308843299980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-katarina-sofia-stockholms-kommun-malmgardsvagen-10-18382322', '<h1>Vitbetan 18 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8437/CMBOLGH58OIK5KVDP39BCQS/Hemnet", 'Malmgårdsvägen 10', '2 rum', 'om 44 m²', 'med 2534 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S8437/CMBOLGH58OIK5KVDP39BCQS/Hemnet", 'Malmgårdsvägen 10', '2 rum', 'om 44 m²', 'med 2534 kr i månadsavgift','listing_icon'
 ],
 ['Vitbetan 19', 'BRFBulten', [
         [18.0902535, 59.30872759998],
@@ -7788,7 +7790,7 @@ export const MapPolygons =
         [18.0902535, 59.30872759998]
     ],
     [18.089968499999998, 59.30872759998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vitbetan 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vitbetan 25', 'BRFBulten', [
         [18.0874408, 59.309921399980006],
@@ -7802,7 +7804,7 @@ export const MapPolygons =
         [18.0874408, 59.309921399980006]
     ],
     [18.087155799999998, 59.309921399980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vitbetan 25 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vitbetan 27', 'vitbetan-27', [
         [18.0880173, 59.31018779998001],
@@ -7816,7 +7818,7 @@ export const MapPolygons =
         [18.0880173, 59.31018779998001]
     ],
     [18.0877323, 59.31018779998001], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-stockholms-kommun-ringvagen-162,-4tr-18356597', '<h1>Vitbetan 27 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M20135/OBJ20135_1847390778/Hemnet", 'Ringvägen 162, 4tr', '1 rum', 'om 41 m²', 'med 2086 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/M20135/OBJ20135_1847390778/Hemnet", 'Ringvägen 162, 4tr', '1 rum', 'om 41 m²', 'med 2086 kr i månadsavgift','listing_icon'
 ],
 ['Vitbetan 3', 'vitbetan-3', [
         [18.0889377, 59.30982049998],
@@ -7831,7 +7833,7 @@ export const MapPolygons =
         [18.0889377, 59.30982049998]
     ],
     [18.0888257875, 59.309356749980005], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-1rum-sodermalm-sofia-stockholms-kommun-katarina-bangata-67-a,-4-tr-18369477', '<h1>Vitbetan 3 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S1577/CMBOLGH58JR4UQ0JN65NNO9/Hemnet", 'Katarina bangata 67 A, 4 tr', '1 rum', 'om 28 m²', 'med 1578 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://connect-resolve.maklare.vitec.net/Description/S1577/CMBOLGH58JR4UQ0JN65NNO9/Hemnet", 'Katarina bangata 67 A, 4 tr', '1 rum', 'om 28 m²', 'med 1578 kr i månadsavgift','listing_icon'
 ],
 ['Vitbetan 35', 'BRFBulten', [
         [18.0873973, 59.30954479998],
@@ -7845,7 +7847,7 @@ export const MapPolygons =
         [18.0873973, 59.30954479998]
     ],
     [18.087112299999998, 59.30954479998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vitbetan 35 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vitbetan 36 C', 'BRFBulten', [
         [18.0883384, 59.30958189998],
@@ -7859,7 +7861,7 @@ export const MapPolygons =
         [18.0883384, 59.30958189998]
     ],
     [18.0880534, 59.30958189998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vitbetan 36 C <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vitbetan 38', 'BRFBulten', [
         [18.0877801, 59.309803399980005],
@@ -7873,7 +7875,7 @@ export const MapPolygons =
         [18.0877801, 59.309803399980005]
     ],
     [18.087495099999998, 59.309803399980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vitbetan 38 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vägaren', 'BRFBulten', [
         [18.0754532, 59.31449989998],
@@ -7888,7 +7890,7 @@ export const MapPolygons =
         [18.0754532, 59.31449989998]
     ],
     [18.075654519999997, 59.314152599980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vägaren <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Västergötland 10', 'BRFBulten', [
         [18.0705741, 59.31828989998],
@@ -7902,7 +7904,7 @@ export const MapPolygons =
         [18.0705741, 59.31828989998]
     ],
     [18.0702891, 59.31828989998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Västergötland 10 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Västergötland 13', 'vastergotland-13', [
         [18.0707715, 59.31812219998],
@@ -7916,7 +7918,7 @@ export const MapPolygons =
         [18.0707715, 59.31812219998]
     ],
     [18.070486499999998, 59.31812219998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-maria-stockholms-kommun-repslagargatan-11-18355007', '<h1>Västergötland 13 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58HS5Q1EOODK85NS&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Repslagargatan 11', '2 rum', 'om 48 m²', 'med 1615 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bjurfors.se/pages/beskrivning.aspx?OBJGUID=58HS5Q1EOODK85NS&amp;OBJTYPE=CMBOLGH&amp;utm_source=hemnet&amp;utm_medium=referral", 'Repslagargatan 11', '2 rum', 'om 48 m²', 'med 1615 kr i månadsavgift','listing_icon'
 ],
 ['Västergötland 19', 'BRFBulten', [
         [18.0715873, 59.316533099980006],
@@ -7930,7 +7932,7 @@ export const MapPolygons =
         [18.0715873, 59.316533099980006]
     ],
     [18.0713023, 59.316533099980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Västergötland 19 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Västergötland 22', 'BRFBulten', [
         [18.0708029, 59.31832689998],
@@ -7944,7 +7946,7 @@ export const MapPolygons =
         [18.0708029, 59.31832689998]
     ],
     [18.0705179, 59.31832689998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Västergötland 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Västgötagatan 22', 'BRFBulten', [
         [18.0719134, 59.31186719998001],
@@ -7958,7 +7960,7 @@ export const MapPolygons =
         [18.0719134, 59.31186719998001]
     ],
     [18.071628399999998, 59.31186719998001], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Västgötagatan 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vågskivan 21', 'BRFBulten', [
         [18.0691582, 59.310541499980005],
@@ -7972,7 +7974,7 @@ export const MapPolygons =
         [18.0691582, 59.310541499980005]
     ],
     [18.0688732, 59.310541499980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vågskivan 21 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vågskivan 22', 'BRFBulten', [
         [18.069594000000002, 59.310478999980006],
@@ -7986,7 +7988,7 @@ export const MapPolygons =
         [18.069594000000002, 59.310478999980006]
     ],
     [18.069309, 59.310478999980006], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vågskivan 22 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vågskivan 32', 'BRFBulten', [
         [18.0717035, 59.310502599980005],
@@ -8000,7 +8002,7 @@ export const MapPolygons =
         [18.0717035, 59.310502599980005]
     ],
     [18.0714185, 59.310502599980005], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vågskivan 32 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Vågskivan 35', 'BRFBulten', [
         [18.0719015, 59.31098569998],
@@ -8014,7 +8016,7 @@ export const MapPolygons =
         [18.0719015, 59.31098569998]
     ],
     [18.071616499999998, 59.31098569998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Vågskivan 35 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Wirwach', 'BRFBulten', [
         [18.0488546, 59.31836389998],
@@ -8028,7 +8030,7 @@ export const MapPolygons =
         [18.0488546, 59.31836389998]
     ],
     [18.048652325, 59.31808022498], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Wirwach <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Wollmar Yx50', 'BRFBulten', [
         [18.0531471, 59.31609469998],
@@ -8040,7 +8042,7 @@ export const MapPolygons =
         [18.0531471, 59.31609469998]
     ],
     [18.053194650000002, 59.31587209998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Wollmar Yx50 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Yxkull', 'BRFBulten', [
         [18.0556987, 59.31601879998],
@@ -8054,7 +8056,7 @@ export const MapPolygons =
         [18.0556987, 59.31601879998]
     ],
     [18.05594783333333, 59.31579833331333], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>Yxkull <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['Zinken', 'zinken', [
         [18.0472635, 59.31641049998],
@@ -8070,7 +8072,7 @@ export const MapPolygons =
         [18.0472635, 59.31641049998]
     ],
     [18.047564414285713, 59.31589229998], '#ff0000', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-3rum-sodermalm-hogalid-stockholms-kommun-krukmakargatan-45,-1tr-18355895', '<h1>Zinken <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1603425", 'Krukmakargatan 45, 1tr', '3 rum', 'om 66 m²', 'med 2867 kr i månadsavgift'
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', "https://www.bosthlm.se/objekt/1603425", 'Krukmakargatan 45, 1tr', '3 rum', 'om 66 m²', 'med 2867 kr i månadsavgift','listing_icon'
 ],
 ['mullvaden andra 37', 'BRFBulten', [
         [18.0521706, 59.31765729998],
@@ -8084,7 +8086,7 @@ export const MapPolygons =
         [18.0521706, 59.31765729998]
     ],
     [18.05209175, 59.31737109998], '#A34646', 35, '382908172956279', 'https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>mullvaden andra 37 <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62' +
-    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', ''
+    '/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf'
 ],
 ['BRFBulten','BRFBulten',[[18.033901, 59.316236],
 			  [18.034647, 59.316325],
@@ -8093,4 +8095,4 @@ export const MapPolygons =
 			  [18.035178, 59.316137],
 			  [18.034012, 59.316037],
 			  [18.033901, 59.316236]], [18.034865, 59.316240],'#A34646',35,'382908172956279','https://www.hemnet.se/bostad/lagenhet-2rum-sodermalm-hogalid-stockholms-kommun-lorensbergsgatan-5a-18333355', '<h1>BRF Bulten <a font-size: 28px href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window">&#128279</a></h1>  <h2><br><br>&nbsp&nbsp62'+
-							'/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '']];
+							'/m2&nbsp 2,600 &nbsp1,2 milj&nbsp Rank&nbsp2%.hyryta</h2>', '', '', '', '', '','empty_brf']];
