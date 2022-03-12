@@ -119,9 +119,9 @@ a { text-decoration: none; }
 	left: 0%;
 	width: 50%;
 	height: 48.5%;
-	background-image: url('./icons/default3.png');
+	/*background-image: url('./icons/default3.png');
     background-repeat:   no-repeat;
-    background-position: top center ;              /* optional, center the image */
+    background-position: top center ;    */          /* optional, center the image */
 }
 
 .default-container a {
