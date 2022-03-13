@@ -125,11 +125,15 @@ a { text-decoration: none; }
 }
 
 .default-container a {
-	position: absolute; 
-	z-index: -3;
-	top: 218px;
-	left: 460px;
-	font: 1px 'Verdana';
+	position: relative; 
+	z-index: 2;
+	top: 63vh;
+	left: 0vh;
+	width: 50vw;
+	height: 48.5vh;
+    background-color: #ffeeec;
+    padding: 0;
+	margin: 0;
 
 }
 
@@ -150,6 +154,7 @@ left: -1vw;
 width: 101vw; 
 height: 150vh;
 background-color: #ffeeec;
+box-shadow: none!important;
 
 }
 
@@ -166,7 +171,10 @@ background-color: #ffeeec;
     padding: 0;
 	margin: 0;
     cursor: pointer;
+	box-shadow: none!important;
 }
+
+
 
 
 .BRFBulten-container {
@@ -176,9 +184,9 @@ background-color: #ffeeec;
 	left: 0%;
 	width: 50%;
 	height: 48.5%;
-	background-image: url('./icons/BRFBulten3.png');
+	/*background-image: url('./icons/BRFBulten3.png');
     background-repeat:   no-repeat;
-    background-position: top left;              /* optional, center the image */
+    background-position: top left; */             /* optional, center the image */
 	
 }
 

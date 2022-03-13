@@ -6,10 +6,13 @@ import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
 import useCollapse from 'react-collapsed';
 import CollapsibleHornstull from './CollapsibleHornstull';
+import CollapsibleTjoget from './CollapsibleTjoget';
 import addSymbolLayer from './addSymbolLayer.js';
 
 import listing_icon from './icons/listing_icon.png';
-import drink_icon from './icons/drink_icon.png';
+import drinks_icon from './icons/drink_icon.png';
+import food_icon from './icons/food_icon.png';
+import empty_brf from './icons/empty_brf.png';
 
 	
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
@@ -19,9 +22,7 @@ var renderer;
 var scene;
 var camera;
 const defaultStart= [18.036,59.316] 
- const handleResize = (e) => {
-  this.setState({ windowWidth: window.innerWidth,windowHeight: window.innerHeight });
- };
+const marker_types = [['empty_brf',empty_brf],['listing_icon',listing_icon],['food_icon',food_icon],['drinks_icon',drinks_icon]]
 
 export default class App extends React.PureComponent {
   constructor(props) {
@@ -76,11 +77,10 @@ export default class App extends React.PureComponent {
 	
 	this.map.on('load', () => {
 
-
-		
-		addSymbolLayer('points',this.map,MapPolygons,listing_icon,'listing_icon',zoom)
-		addSymbolLayer('drinks',this.map,MapPolygons,drink_icon,'drinks_icon',zoom)
-		
+		var i = 0
+		for (i; i < marker_types.length; i++) {
+			addSymbolLayer(marker_types[i][0],this.map,MapPolygons,marker_types[i][1],marker_types[i][0],zoom)
+		}
 
 		
 
@@ -135,99 +135,55 @@ export default class App extends React.PureComponent {
 		//});
 
 	});
+	var i = 0
+	for (i; i < marker_types.length; i++) {
+		this.map.on('click', marker_types[i][0], (e) => {
+			const coordinates = e.features[0].geometry.coordinates.slice();
+			//var ObjectArray = ['BRFBulten','Hornstull'];
+			var arrayLength = MapPolygons.length;
+			var i = 0;
 
-	this.map.on('click', 'points', (e) => {
-		const coordinates = e.features[0].geometry.coordinates.slice();
-		//var ObjectArray = ['BRFBulten','Hornstull'];
-		var arrayLength = MapPolygons.length;
-		var i = 0;
 
-
-		
-		if (this.map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
-			for (i; i < arrayLength; i++) {
-				//Turn off all but clicked highlights
-				if (e.features[0].properties.title === MapPolygons[i][0]) {
-					let popup_cont;//just for handling new polygons
-					if (e.features[0].properties.title==='Hornstull' || e.features[0].properties.title==='BRFBulten') {
-					  popup_cont=e.features[0].properties.title;
+			
+			if (this.map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
+				for (i; i < arrayLength; i++) {
+					//Turn off all but clicked highlights
+					if (e.features[0].properties.title === MapPolygons[i][0]) {
+						let popup_cont;//just for handling new polygons
+						if (e.features[0].properties.title==='Hornstull' || e.features[0].properties.title==='BRFBulten') {
+						  popup_cont=e.features[0].properties.title;
+						} else {
+						  popup_cont='BRFBulten';
+						}
+						var popup = new mapboxgl.Popup({closeButton: false, className: popup_cont, 'border-top-color': 'rgba(205, 205, 205,0)' })
+						.setLngLat(coordinates)
+						.setHTML(e.features[0].properties.description)
+						.setMaxWidth('none')
+						.addTo(this.map);
+						this.map.triggerRepaint();
+						this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
+						this.setState({
+							activeCSS: MapPolygons[i][1],
+							iframeURL: MapPolygons[i][6],
+							hnetURL: MapPolygons[i][7],
+							realtorURL: MapPolygons[i][9],
+							hnetHeader: MapPolygons[i][10],
+							hnetBody1: MapPolygons[i][11],
+							hnetBody2: MapPolygons[i][12],
+							hnetBody3: MapPolygons[i][13],
+						  });
 					} else {
-					  popup_cont='BRFBulten';
+						this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 					}
-					var popup = new mapboxgl.Popup({closeButton: false, className: popup_cont, 'border-top-color': 'rgba(205, 205, 205,0)' })
-					.setLngLat(coordinates)
-					.setHTML(e.features[0].properties.description)
-					.setMaxWidth('none')
-					.addTo(this.map);
-					this.map.triggerRepaint();
-					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
-					this.setState({
-						activeCSS: MapPolygons[i][1],
-						iframeURL: MapPolygons[i][6],
-						hnetURL: MapPolygons[i][7],
-						realtorURL: MapPolygons[i][9],
-						hnetHeader: MapPolygons[i][10],
-						hnetBody1: MapPolygons[i][11],
-						hnetBody2: MapPolygons[i][12],
-						hnetBody3: MapPolygons[i][13],
-					  });
-				} else {
+				}
+			} else {
+				for (i; i < arrayLength; i++) {
+					//Turn off all
 					this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
 				}
 			}
-		} else {
-			for (i; i < arrayLength; i++) {
-				//Turn off all
-				this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
-			}
-		}
-	});
-	
-	this.map.on('click', 'drinks', (e) => {
-		const coordinates = e.features[0].geometry.coordinates.slice();
-		//var ObjectArray = ['BRFBulten','Hornstull'];
-		var arrayLength = MapPolygons.length;
-		var i = 0;
-
-
-		
-		if (this.map.getLayoutProperty(e.features[0].properties.title,'visibility')==='none') {
-			
-			//Turn off all but clicked highlights
-			if (e.features[0].properties.title === 'Hornstull') {
-				let popup_cont;//just for handling new polygons
-				if (e.features[0].properties.title==='Hornstull' || e.features[0].properties.title==='BRFBulten') {
-				  popup_cont=e.features[0].properties.title;
-				} else {
-				  popup_cont='BRFBulten';
-				}
-				var popup = new mapboxgl.Popup({closeButton: false, className: popup_cont, 'border-top-color': 'rgba(205, 205, 205,0)' })
-				.setLngLat(coordinates)
-				.setHTML(e.features[0].properties.description)
-				.setMaxWidth('none')
-				.addTo(this.map);
-				this.map.triggerRepaint();
-				this.map.setLayoutProperty('Hornstull', 'visibility', 'visible');
-				this.setState({
-					activeCSS: 'Hornstull',
-					iframeURL: '3022856907944008',
-					hnetURL: '',
-					realtorURL: '',
-					hnetHeader: '',
-					hnetBody1: '',
-					hnetBody2: '',
-					hnetBody3: '',
-				  });
-			} else {
-				this.map.setLayoutProperty('Hornstull', 'visibility', 'none');
-			}
-			
-		} else {
-
-				this.map.setLayoutProperty('Hornstull', 'visibility', 'none');
-			
-		}
-	});
+		});
+	}
 
     this.map.on('move', () => {
       this.setState({
@@ -436,7 +392,15 @@ export default class App extends React.PureComponent {
 		<CollapsibleHornstull>
 
 				</CollapsibleHornstull>;
-	} else {
+	} else if (this.state.activeCSS==='Tjoget'){
+		exp_ind=
+				<CollapsibleTjoget>
+
+				</CollapsibleTjoget>;
+		
+	}
+	
+	else {
 	  exp_ind=<div class={this.state.activeCSS+"-container"}>
 					<h1>{this.state.hnetHeader}</h1>
 					<p> {this.state.hnetBody1} <br/> {this.state.hnetBody2} <br/> {this.state.hnetBody3} </p> 
