@@ -4,9 +4,9 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 //import { MapNodes } from './MapNodes.js';
 import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
-import useCollapse from 'react-collapsed';
 import CollapsibleHornstull from './CollapsibleHornstull';
 import CollapsibleTjoget from './CollapsibleTjoget';
+import PulldownPopup from './PulldownPopup';
 import addSymbolLayer from './addSymbolLayer.js';
 
 import listing_icon from './icons/listing_icon.png';
@@ -41,7 +41,9 @@ export default class App extends React.PureComponent {
 	  hnetHeader: '',
 	  hnetBody1: '',
 	  hnetBody2: '',
-	  hnetBody3: ''
+	  hnetBody3: '',
+	  PopupHeader: '',
+	  PopupContent: ''
 	  
 	  
 	  
@@ -81,65 +83,11 @@ export default class App extends React.PureComponent {
 		for (i; i < marker_types.length; i++) {
 			addSymbolLayer(marker_types[i][0],this.map,MapPolygons,marker_types[i][1],marker_types[i][0],zoom)
 		}
-
 		
-
-
-
-		//map.addLayer({
-		//	'id': 'BRFBulten-outline',
-		//	'type': 'line',
-		//	'source': 'BRFBulten',
-		//	'layout': {
-		//		'visibility': 'none'
-		//	},
-		//	'paint': {
-		//		'line-color': '#000',
-		//		'line-width': {
-		//			'type': 'exponential',
-		//			'base': 1,
-		//			'stops': [
-		//				[0, 1 * Math.pow(1, (0 - zoom))],
-		//				[24, 1 * Math.pow(1, (24 - zoom))]
-		//			]
-		//		}
-		//	}
-		//});
-		//this.map.addLayer({
-		//	'id': 'points',
-		//	'type': 'circle',
-		//	'source': 'points',
-		//	'paint': {
-		//		// Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
-		//		// with three steps to implement three types of circles:
-		//		//   * Blue, 20px circles when point count is less than 100
-		//		//   * Yellow, 30px circles when point count is between 100 and 750
-		//		//   * Pink, 40px circles when point count is greater than or equal to 750
-		//		'circle-color': ['get', 'color'],
-		//		//'#16DF35',
-		//		'circle-radius': {
-		//			'base': 2,
-		//			'stops': [
-		//				[0, 150 * Math.pow(1.5, (0 - zoom))],
-		//				[24, 150 * Math.pow(1.5, (24 - zoom))]
-		//			]
-		//		},
-		//		'circle-stroke-width': {
-		//			'base': 2,
-		//			'stops': [
-		//				[0, 15 * Math.pow(1.5, (0 - zoom))],
-		//				[24, 15 * Math.pow(1.5, Math.max((24 - zoom),2)]
-		//			]
-		//		}
-		//	}
-		//});
-
 	});
 	var i = 0
 	for (i; i < marker_types.length; i++) {
 		this.map.on('click', marker_types[i][0], (e) => {
-			const coordinates = e.features[0].geometry.coordinates.slice();
-			//var ObjectArray = ['BRFBulten','Hornstull'];
 			var arrayLength = MapPolygons.length;
 			var i = 0;
 
@@ -149,18 +97,7 @@ export default class App extends React.PureComponent {
 				for (i; i < arrayLength; i++) {
 					//Turn off all but clicked highlights
 					if (e.features[0].properties.title === MapPolygons[i][0]) {
-						let popup_cont;//just for handling new polygons
-						if (e.features[0].properties.title==='Hornstull' || e.features[0].properties.title==='BRFBulten') {
-						  popup_cont=e.features[0].properties.title;
-						} else {
-						  popup_cont='BRFBulten';
-						}
-						var popup = new mapboxgl.Popup({closeButton: false, className: popup_cont, 'border-top-color': 'rgba(205, 205, 205,0)' })
-						.setLngLat(coordinates)
-						.setHTML(e.features[0].properties.description)
-						.setMaxWidth('none')
-						.addTo(this.map);
-						this.map.triggerRepaint();
+
 						this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'visible');
 						this.setState({
 							activeCSS: MapPolygons[i][1],
@@ -171,6 +108,8 @@ export default class App extends React.PureComponent {
 							hnetBody1: MapPolygons[i][11],
 							hnetBody2: MapPolygons[i][12],
 							hnetBody3: MapPolygons[i][13],
+							PopupHeader: MapPolygons[i][0],
+							PopupContent: MapPolygons[i][8]
 						  });
 					} else {
 						this.map.setLayoutProperty(MapPolygons[i][0], 'visibility', 'none');
@@ -325,30 +264,7 @@ export default class App extends React.PureComponent {
 	
 		componentDidUpdate(prevProps,prevState) {
 		if (prevState.spriteLng !== this.state.spriteLng) {
-			//convert coords
-			//const modelOrigin = [this.state.spriteLng, this.state.spriteLat];
-			//const modelAltitude = 20;
-			//
-			//const modelAsMercatorCoordinate = mapboxgl.MercatorCoordinate.fromLngLat(
-			//	modelOrigin,
-			//	modelAltitude
-			//);
-			//
-			//// transformation parameters to position, rotate and scale the 3D model onto the map
-			//const modelTransform = {
-			//	translateX: modelAsMercatorCoordinate.x,
-			//	translateY: modelAsMercatorCoordinate.y,
-			//	translateZ: modelAsMercatorCoordinate.z,
-			//
-			//	/* Since the 3D model is in real world meters, a scale transform needs to be
-			//	* applied since the CustomLayerInterface expects units in MercatorCoordinates.
-			//	*/
-			//	scale: modelAsMercatorCoordinate.meterInMercatorCoordinateUnits()
-			//};
-			//
-			//console.log('x'+modelTransform.translateX);
-			//console.log('y'+modelTransform.translateY);
-			//console.log('z'+modelTransform.translateZ);
+			
 			minion.rotation.y = -this.state.spriteBearing*(Math.PI / 180) + Math.PI/2;
 			minion.position.x = (this.state.spriteLng-defaultStart[0])*4300;		
 			minion.position.z = (defaultStart[1]-this.state.spriteLat)*9000;		
@@ -378,13 +294,7 @@ export default class App extends React.PureComponent {
 	
 	
   render() {
-    const { iframeURL, spriteLat} = this.state;
-	let left_cont;
-	if (this.state.activeCSS==='Hornstull' || this.state.activeCSS==='BRFBulten') {
-	  left_cont=this.state.activeCSS+"-container";
-	} else {
-	  left_cont="default-container";
-	}
+    const { iframeURL} = this.state;
 	
 	let exp_ind;
 	if (this.state.activeCSS==='Hornstull') {
@@ -396,23 +306,31 @@ export default class App extends React.PureComponent {
 		exp_ind=
 				<CollapsibleTjoget>
 
-				</CollapsibleTjoget>;
+				</CollapsibleTjoget>
+
+				;
 		
 	}
 	
 	else {
-	  exp_ind=<div class={this.state.activeCSS+"-container"}>
+	  exp_ind=
+	  <div>
+	  <PulldownPopup PopupHeader={this.state.PopupHeader} PopupContent={this.state.PopupContent} style={{ paddingTop: "0vh"}} >
+	  </PulldownPopup>
+	  <div className={this.state.activeCSS+"-container"}>
 					<h1>{this.state.hnetHeader}</h1>
 					<p> {this.state.hnetBody1} <br/> {this.state.hnetBody2} <br/> {this.state.hnetBody3} </p> 
-					<a class='hnet' href={this.state.hnetURL} target="_blank" title="Opens in a new window">Hemnet</a>
-					<a class='realtor' href={this.state.realtorURL} target="_blank" title="Opens in a new window">Mäklare</a>
+					<a className='hnet' href={this.state.hnetURL} target="_blank" title="Opens in a new window">Hemnet</a>
+					<a className='realtor' href={this.state.realtorURL} target="_blank" title="Opens in a new window">Mäklare</a>
+				
 				</div>;
+				</div>
 	}
 	
     return (
 	<div>
 		<Street parentCallback = {this.handleCallback.bind(this)}  imageId={iframeURL} />
-			<div ref={this.mapContainer} class="map-container" />
+			<div ref={this.mapContainer} className="map-container" />
 
 			<div>
 				{exp_ind}

@@ -1,6 +1,5 @@
 
 import React from 'react';
-import App from './App.js';
 import {Viewer} from 'mapillary-js';
 
 
@@ -47,7 +46,7 @@ import {Viewer} from 'mapillary-js';
     render() {
       return (
 	  <div>
-		<div ref={this.streetContainer}  class="street-container" >
+		<div ref={this.streetContainer}  className="street-container" >
 	
 		</div>
 	</div>

@@ -14,7 +14,7 @@ export default function CollapsibleHornstull() {
 
 return (
     <div className="Hornstull-container">
-        <div className="header" {...getToggleProps()}>
+        <div className="header"  {...getToggleProps()}>
             {isExpanded ? '' : 'Expand'}
 		        <div {...getCollapseProps()}>
             <div className="content">
