@@ -119,6 +119,8 @@ a { text-decoration: none; }
 	left: 0%;
 	width: 50%;
 	height: 48.5%;
+	    padding: 0;
+	margin: 0;
 	/*background-image: url('./icons/default3.png');
     background-repeat:   no-repeat;
     background-position: top center ;    */          /* optional, center the image */
@@ -161,7 +163,7 @@ box-shadow: none!important;
 
 .Hornstull-container .header {	
 
-	position: relative; 
+	position: absolute; 
 	z-index: 2;
 	top: 63vh;
 	left: 0vh;
@@ -169,9 +171,39 @@ box-shadow: none!important;
 	height: 48.5vh;
     background-color: #ffeeec;
     padding: 0;
+	padding-top: 0;
 	margin: 0;
     cursor: pointer;
-	box-shadow: none!important;
+	box-shadow: none! important;
+}
+
+.PulldownPopup-container .content {	
+	position: relative; 
+	top: 0vh;
+	left: 0vw;
+	width: 100vw;
+	height: 10vh;
+    background-color: #ffeeec;
+	padding-top: 0vh;
+		
+		
+
+
+}
+
+
+.PulldownPopup-container .header {	
+
+	position: absolute; 
+	z-index: 2;
+	top: 0vh;
+	left: 0vh;
+	width: 100vw;
+	height: 3vh;
+    background-color: #ffeeec;
+	    padding-top: 0vh;
+    cursor: pointer;
+	display: block; font-size: 1.8vh;  font-weight: bold;
 }
 
 
