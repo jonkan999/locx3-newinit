@@ -16,7 +16,7 @@ return (
         <div className="header" style={{ textAlign: "center", fontSize: "1.8vh", display: "block",paddingTop: "1vh",border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"}} {...getToggleProps()}>
             {isExpanded ? '' : object.PopupHeader}
             <div className='content' style={{border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"}} {...getCollapseProps()} >
-			<h2 style={{ textAlign: "center", fontSize: "1.8vh", display: "block", paddingTop: "0vh"}}> {object.PopupHeader} </h2>
+			<h2 style={{ textAlign: "center", fontSize: "1.8vh", display: "block", paddingTop: "0vh", marginTop: "0vh"}}> {object.PopupHeader} </h2>
 			<h2 style={{ textAlign: "center", fontSize: "1.5vh", display: "block", paddingTop: "0vh", paddingLeft: "3.5vw", paddingRight: "3.5vw",fontWeight: "normal"}}> BRF {object.PopupHeader}, 81 st bostadsrätter och ytterliggare 2 % uthyrningsbaryta i föreningen. 62 kr i avgift och 8 000 kr i snittbelåning kvadratmeter <a style={{color: "#128279"}} href="http://www.brfbulten23.com/" target="_blank" title="Opens in a new window"> länk </a></h2>
 
 				

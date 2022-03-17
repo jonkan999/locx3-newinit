@@ -9,15 +9,17 @@ import tjoget from './icons/tjoget.png';
 export default function CollapsibleTjoget() {
 	
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({
+		expandStyles: {border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"},
+		collapseStyles: {border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"},
 		duration:10
 	});
 
 return (
     <div className="Hornstull-container">
-        <div className="header" {...getToggleProps()}>
+        <div className="header" style={{border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"}} {...getToggleProps()}>
             {isExpanded ? '' : 'Expand'}
-		        <div {...getCollapseProps()}>
-            <div className="content">
+		        <div className="content" style={{border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"}} {...getCollapseProps()}>
+            
 				<h2 style={{ padding: "2vh 5vw", textAlign: "center"}}> Tjoget </h2>
 				<img src={tjoget} alt="tjoget" style={{display: 'block', marginLeft: 'auto',marginRight: 'auto',width: '70vw'}}/>
 				<p style={{ padding: "2vh 5vw", textAlign: "center"}}> 
@@ -26,7 +28,7 @@ return (
 				
 				
 
-            </div>
+          
         </div>
 
         </div>
