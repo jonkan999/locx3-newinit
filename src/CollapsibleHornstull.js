@@ -16,10 +16,10 @@ export default function CollapsibleHornstull() {
 
 return (
     <div className="Hornstull-container">
-        <div className="header"  {...getToggleProps()}>
+        <div className="header" style={{border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"}}  {...getToggleProps()}>
             {isExpanded ? '' : 'Expand'}
-		        <div {...getCollapseProps()}>
-            <div className="content">
+		        <div className="content" style={{border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"}} {...getCollapseProps()}>
+           
 				<h1 style={{ padding: "2vh 5vw", textAlign: "center"}}> Hornstull Restauranger </h1>
 				
 				<h2 style={{ padding: "2vh 5vw", textAlign: "center"}}> Restaurang Barbro </h2>
@@ -60,7 +60,7 @@ return (
 				
 				
 
-            </div>
+            
         </div>
 
         </div>
