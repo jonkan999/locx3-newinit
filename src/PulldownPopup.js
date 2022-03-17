@@ -5,6 +5,8 @@ import useCollapse from 'react-collapsed';
 export default function PulldownPopup(object) {
 	
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({
+		expandStyles: {border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"},
+		collapseStyles: {border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"},
 		duration:1100
 	});
 

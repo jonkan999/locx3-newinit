@@ -9,6 +9,8 @@ import tjoget from './icons/tjoget.png';
 export default function CollapsibleHornstull() {
 	
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({
+		expandStyles: {border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"},
+		collapseStyles: {border: "solid #ffeeec 0.1px", boxShadow: "0.1px 0.1px 0.1px 0.1px #ffeeec"},
 		duration:10
 	});
 
