@@ -1,0 +1,4659 @@
+a { text-decoration: none; }
+
+
+.map-container {
+	position: absolute;
+	left:0;
+	top: 0;
+	bottom: 0;
+	height: 63vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+
+.street-container {
+	position: absolute; 
+	z-index: -1;
+	top: 54.5vh;
+	left: 50vw;
+	width: 50vw;
+	height: 48.5vh;
+	-webkit-filter: saturate(1.4) contrast(1.1);
+	filter: saturate(1.4) contrast(1.1);
+}
+/*
+.sidebar {
+	background-color: rgba(35, 55, 75, 0.9);
+	color: #fff;
+	padding: 6px 12px;
+	font-family: monospace;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	margin: 12px;
+	border-radius: 4px;
+}
+
+.resp-iframe {
+    position: relative;
+    bottom: 50%;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+	border: 0;
+}*/
+
+
+.BRFBulten .mapboxgl-popup-content {
+	position: absolute;
+	top: -248px;  /* position the top  edge of the element at the middle of the parent */
+    left: -155px; /* position the left edge of the element at the middle of the parent */
+	width: 359px;
+	height: 153px;
+	color: rgb(0,0,0);
+	opacity: 0.75;
+	background-image: url('./icons/test2.png');
+	padding:0;
+
+}
+.BRFBulten .mapboxgl-popup-tip {
+  border-top-color: rgba(205, 205, 205,0);
+  border-bottom-color: rgba(205, 205, 205,0);
+  border-right-color: rgba(205, 205, 205,0);
+  border-left-color: rgba(205, 205, 205,0);
+}
+
+.BRFBulten .mapboxgl-popup-content h1 {
+  font: 32px 'Verdana';
+  color: rgb(0,0,0);
+  margin: 0;
+  border-radius: 3px 1px 0 0;
+  font-weight: 900;
+}
+
+.BRFBulten .mapboxgl-popup-content h2 {
+  font: 16.5px 'Verdana';
+  line-height:33px;
+  color: rgb(0,0,0);
+  margin: 0;
+  font-weight: 10000;
+}
+
+
+
+.Hornstull .mapboxgl-popup-content {
+	position: absolute;
+	top: -248px;  /* position the top  edge of the element at the middle of the parent */
+    left: -155px; /* position the left edge of the element at the middle of the parent */
+	width: 359px;
+	height: 153px;
+	color: rgb(0,0,0);
+	opacity: 0.75;
+	background-image: url('./icons/test3.png');
+	padding:0;
+}
+.Hornstull .mapboxgl-popup-tip {
+  border-top-color: rgba(205, 205, 205,0);
+  border-bottom-color: rgba(205, 205, 205,0);
+  border-right-color: rgba(205, 205, 205,0);
+  border-left-color: rgba(205, 205, 205,0);
+}
+
+.Hornstull .mapboxgl-popup-content h1 {
+  font: 32px 'Verdana';
+  color: rgb(0,0,0);
+  margin: 0;
+  border-radius: 3px 1px 0 0;
+  font-weight: 900;
+}
+
+.default-container {
+	position: absolute; 
+	z-index: -2;
+	top: 63%;
+	left: 0%;
+	width: 50%;
+	height: 48.5%;
+	    padding: 0;
+	margin: 0;
+	/*background-image: url('./icons/default3.png');
+    background-repeat:   no-repeat;
+    background-position: top center ;    */          /* optional, center the image */
+}
+
+.default-container a {
+	position: relative; 
+	z-index: 2;
+	top: 63vh;
+	left: 0vh;
+	width: 50vw;
+	height: 48.5vh;
+    background-color: #ffeeec;
+    padding: 0;
+	margin: 0;
+
+}
+
+/*
+.Hornstull-container {
+	position: absolute; 
+	z-index: -2;
+	top: 63%;
+	left: 0%;
+	width: 50%;
+	height: 48.5%;
+}*/
+
+.Hornstull-container .content {	
+position: relative;
+top: -66vh; 
+left: -1vw; 
+width: 101vw; 
+height: 150vh;
+background-color: #ffeeec;
+	border: solid #ffeeec 0.1px;
+	box-shadow: 0.1px 0.1px 0.1px 0.1px #ffeeec;
+
+}
+
+
+.Hornstull-container .header {	
+
+	position: absolute; 
+	z-index: 2;
+	top: 63vh;
+	left: 0vh;
+	width: 50vw;
+	height: 48.5vh;
+    background-color: #ffeeec;
+    padding: 0;
+	padding-top: 0;
+	margin: 0;
+    cursor: pointer;
+	border: solid #ffeeec 0.1px;
+	box-shadow: 0.1px 0.1px 0.1px 0.1px #ffeeec;
+}
+
+.PulldownPopup-container .content {	
+	position: relative; 
+	top: 0vh;
+	left: 0vw;
+	width: 100vw;
+	height: 10vh;
+    background-color: #ffeeec;
+	padding-top: 0vh;
+	border: solid #ffeeec 0.1px;
+	box-shadow: 0.1px 0.1px 0.1px 0.1px #ffeeec;
+		
+		
+
+
+}
+
+
+.PulldownPopup-container .header {	
+
+	position: absolute; 
+	z-index: 2;
+	top: 0vh;
+	left: 0vh;
+	width: 100vw;
+	height: 3vh;
+    background-color: #ffeeec;
+	padding-top: 0vh;
+    cursor: pointer;
+	display: block; font-size: 1.8vh;  font-weight: bold;
+	border: solid #ffeeec 0.1px;
+	box-shadow: 0.1px 0.1px 0.1px 0.1px #ffeeec;
+}
+
+
+
+
+.BRFBulten-container {
+	position: absolute; 
+	z-index: -2;
+	top: 63%;
+	left: 0%;
+	width: 50%;
+	height: 48.5%;
+	/*background-image: url('./icons/BRFBulten3.png');
+    background-repeat:   no-repeat;
+    background-position: top left; */             /* optional, center the image */
+	
+}
+
+
+.BRFBulten-container a {
+	position: absolute; 
+	top: 218px;
+	left: 460px;
+	font: 23px 'Verdana';
+
+
+}
+.bergsgruvan-storre-33-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8c/19/8c19f2f71d69fac016bd7fa71f437b83.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bergsgruvan-storre-33-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+			font: 4vw 'Verdana';
+            /*font: 4vw 'Verdana';*/
+
+            }
+
+            .bergsgruvan-storre-33-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bergsgruvan-storre-33-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bergsgruvan-storre-33-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.bergsunds-strand-34-38-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8e/b5/8eb5b79effef0a576cd5c21dcc75ab01.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bergsunds-strand-34-38-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .bergsunds-strand-34-38-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bergsunds-strand-34-38-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bergsunds-strand-34-38-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.bonden-13-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/2d/0d/2d0d331580b774386cee88be488aae4f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bonden-13-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .bonden-13-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bonden-13-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bonden-13-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.bonden-storre-29-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/10/11/1011945065975e9e9b03fb3dd9798dbf.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bonden-storre-29-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .bonden-storre-29-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bonden-storre-29-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bonden-storre-29-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.bondesonen-22-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/0a/c5/0ac5f6ce476e86016e3c0d466419f191.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bondesonen-22-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .bondesonen-22-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bondesonen-22-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bondesonen-22-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.bondesonen-fyrtiosexan-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/64/a1/64a1dc3fa1a5e24ac44fc144715f7385.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bondesonen-fyrtiosexan-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .bondesonen-fyrtiosexan-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bondesonen-fyrtiosexan-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bondesonen-fyrtiosexan-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.bondetorpet-80-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/2b/fa/2bfac1e07a5b9e3eac8d1aaed3f4388b.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .bondetorpet-80-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .bondetorpet-80-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bondetorpet-80-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .bondetorpet-80-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.brinckan-1-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/ed/52/ed527de35c53564a7f1260d8573f0089.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .brinckan-1-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .brinckan-1-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .brinckan-1-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .brinckan-1-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.buketten-3-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/0b/49/0b49c0bf1a3a99243f62962012881a35.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .buketten-3-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .buketten-3-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .buketten-3-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .buketten-3-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.batsmannen-25-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/40/74/4074f91b0a05d44623b4c310e3d58de7.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .batsmannen-25-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .batsmannen-25-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .batsmannen-25-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .batsmannen-25-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.dagakarlen-20-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/80/c0/80c0d1444a6a793655eadea42ef4b45b.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .dagakarlen-20-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .dagakarlen-20-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .dagakarlen-20-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .dagakarlen-20-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.designationen-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/97/5f/975f13dc1d9d8b7ff765c565dd70689b.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .designationen-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .designationen-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .designationen-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .designationen-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.draken-12-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/e6/cf/e6cfdfb7d9409294a4d4168a46abb252.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .draken-12-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .draken-12-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .draken-12-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .draken-12-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.droskhasten-17-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/7a/06/7a06d5de0cda4ffda55adf20b7f6a8b2.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .droskhasten-17-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .droskhasten-17-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .droskhasten-17-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .droskhasten-17-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.erstagatan-28-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/9b/96/9b968652c9d8c69b96c5fdda71471573.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .erstagatan-28-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .erstagatan-28-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .erstagatan-28-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .erstagatan-28-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.fabriken-26-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/52/2b/522b0a98e6eb7c00a2aed7fef18c7ee9.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .fabriken-26-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .fabriken-26-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .fabriken-26-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .fabriken-26-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.fatbursviken-2-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/82/e0/82e0c88d8a63f51b71cf249993ba518e.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .fatbursviken-2-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .fatbursviken-2-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .fatbursviken-2-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .fatbursviken-2-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.fardknappen-2-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/2c/f5/2cf52e01098f5bf678c04598e9c5e0c1.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .fardknappen-2-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .fardknappen-2-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .fardknappen-2-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .fardknappen-2-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.gnejsen-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/9c/1b/9c1bf93869e024a18df77f946987fdd0.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .gnejsen-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .gnejsen-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .gnejsen-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .gnejsen-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.grindsgatan-33-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/6f/6d/6f6da7bc43f53b5e052dade3a4f899eb.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .grindsgatan-33-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .grindsgatan-33-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .grindsgatan-33-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .grindsgatan-33-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.gropen-28-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/4d/a8/4da82d6b3b23c8956e28c5d280a5c8a5.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .gropen-28-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .gropen-28-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .gropen-28-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .gropen-28-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.gruvan-8-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/99/0e/990eb42167b21f4e62ac1e0402e033c2.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .gruvan-8-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .gruvan-8-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .gruvan-8-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .gruvan-8-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.halvmilen-2-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/a0/23/a023b359834ad60a48f9a47502a5a14d.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .halvmilen-2-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .halvmilen-2-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .halvmilen-2-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .halvmilen-2-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.halvmilen-nr-3-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/cb/35/cb35212589a7f3d522ae53ce7a80f47e.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .halvmilen-nr-3-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .halvmilen-nr-3-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .halvmilen-nr-3-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .halvmilen-nr-3-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.harpalten-1-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/9f/15/9f157520d947a0b19668827bcb2646ce.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .harpalten-1-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .harpalten-1-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .harpalten-1-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .harpalten-1-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.heleneborgsparken-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8b/dd/8bdda0bd78a442b520335c534f1de629.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .heleneborgsparken-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .heleneborgsparken-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .heleneborgsparken-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .heleneborgsparken-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.helgalunden-1-9-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/41/24/41243f229466997e3556982dfd183d81.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .helgalunden-1-9-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .helgalunden-1-9-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .helgalunden-1-9-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .helgalunden-1-9-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.hembryggeriet-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/dc/b7/dcb7ed6a6409495bf1ce5c185cbc1e1f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .hembryggeriet-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .hembryggeriet-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hembryggeriet-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hembryggeriet-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.hornstulls-strand-1-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/9d/95/9d95af0fdd0e65387fa8c7281862b319.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .hornstulls-strand-1-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .hornstulls-strand-1-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hornstulls-strand-1-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hornstulls-strand-1-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.huggjarnet-18-19-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/63/a1/63a17d439c929957e397a4f57b40fb52.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .huggjarnet-18-19-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .huggjarnet-18-19-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .huggjarnet-18-19-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .huggjarnet-18-19-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.hogalidsgatan-33-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/81/fd/81fdc1e5c68e96694e9199fd13978acc.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .hogalidsgatan-33-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .hogalidsgatan-33-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hogalidsgatan-33-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hogalidsgatan-33-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.hornhuset-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/26/f1/26f1bebfc597738faead30e92bfa71ee.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .hornhuset-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .hornhuset-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hornhuset-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .hornhuset-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.ingenjoren-10-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/50/8c/508ce57f083a1d5d4ec1896fe323afe3.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .ingenjoren-10-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .ingenjoren-10-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .ingenjoren-10-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .ingenjoren-10-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.ingenjoren-14-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/e0/b8/e0b8a82015f4f77388cd4fe642be414a.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .ingenjoren-14-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .ingenjoren-14-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .ingenjoren-14-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .ingenjoren-14-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.ingenjoren-nr-4-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/3c/4b/3c4b25427441554d4702c1b52142d027.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .ingenjoren-nr-4-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .ingenjoren-nr-4-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .ingenjoren-nr-4-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .ingenjoren-nr-4-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.kajplatsen-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/1e/22/1e222a3a6647e61d71323573fac5a85c.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .kajplatsen-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .kajplatsen-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kajplatsen-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kajplatsen-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.kejsaren-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/0c/c2/0cc2e3afd139dddcc94d6ab5f1fc7c3c.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .kejsaren-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .kejsaren-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kejsaren-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kejsaren-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.kejsaren-26-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/af/f1/aff14aa276ce768f2e877205b78d1cce.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .kejsaren-26-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .kejsaren-26-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kejsaren-26-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kejsaren-26-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.kroken-24-7-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/c5/40/c54019eba2325118353df007355b92fe.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .kroken-24-7-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .kroken-24-7-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kroken-24-7-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kroken-24-7-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.kolhalningen-2-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/ac/59/ac5940e868154f45af969c1e46b630ef.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .kolhalningen-2-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .kolhalningen-2-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kolhalningen-2-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .kolhalningen-2-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.lappskon-mindre-2-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/52/fc/52fc0a6b914b7e3e779ed5e1d2d46d06.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .lappskon-mindre-2-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .lappskon-mindre-2-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .lappskon-mindre-2-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .lappskon-mindre-2-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.leporiden-1-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/9e/23/9e2352a37ce071c1f09c9e6cc6184baf.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .leporiden-1-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .leporiden-1-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .leporiden-1-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .leporiden-1-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.lingonet-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/14/5f/145f4389cf8a34bf0f7283a054ea703f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .lingonet-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .lingonet-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .lingonet-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .lingonet-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.mallen-1-3-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/20/11/20119f1936f08e77efb3fecb266e258f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .mallen-1-3-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .mallen-1-3-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mallen-1-3-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mallen-1-3-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.mandeln-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/85/3d/853dafe0bfaf9c4e6759712b9d21d272.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .mandeln-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .mandeln-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mandeln-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mandeln-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.monumentet-27-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/75/78/7578bb0c6d738597f2de91f4956ca384.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .monumentet-27-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .monumentet-27-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .monumentet-27-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .monumentet-27-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.mullvaden-andra-30-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/ee/e5/eee59c8b0dacd3b4d84bd65624be984f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .mullvaden-andra-30-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .mullvaden-andra-30-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mullvaden-andra-30-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mullvaden-andra-30-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.mullvaden-forsta-19-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/7c/ca/7cca98517c2ac63fdc480639a5aa447d.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .mullvaden-forsta-19-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .mullvaden-forsta-19-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mullvaden-forsta-19-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .mullvaden-forsta-19-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.muttern-16-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/e4/c9/e4c98816849dbfd7134be515052ea447.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .muttern-16-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .muttern-16-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .muttern-16-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .muttern-16-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.muttern-17-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/cd/84/cd84a662e0ea99b63aa81834ae906b1b.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .muttern-17-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .muttern-17-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .muttern-17-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .muttern-17-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.neptunus-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/83/30/8330bdd375574624d0f7ebdf5ba44234.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .neptunus-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .neptunus-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .neptunus-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .neptunus-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.nya-plogen-12-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/85/fe/85fe87057e3b56b81b0e6ee290266ecc.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .nya-plogen-12-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .nya-plogen-12-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .nya-plogen-12-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .nya-plogen-12-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.nybygget-20-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/b9/22/b9224618306dfbf29e2f7dd4b4704852.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .nybygget-20-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .nybygget-20-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .nybygget-20-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .nybygget-20-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.nyasbo-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/44/8e/448ea2eca14231d3fe9a5b306e91f101.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .nyasbo-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .nyasbo-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .nyasbo-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .nyasbo-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.obelisken-10-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/86/0a/860a71b0dbb23c63d31e53e5fa17af59.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .obelisken-10-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .obelisken-10-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .obelisken-10-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .obelisken-10-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.pahl-nr-10-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/1a/e9/1ae93d547075127da76210bcb975e37e.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .pahl-nr-10-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .pahl-nr-10-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pahl-nr-10-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pahl-nr-10-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.pelarbacken-storre-20-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/ce/c7/cec7dd5e6dd319f9ea4a7e96a0fb4aa9.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .pelarbacken-storre-20-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .pelarbacken-storre-20-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pelarbacken-storre-20-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pelarbacken-storre-20-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.pinnpojken-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8d/b8/8db85af7911fff43fa0d0d986d60bd7f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .pinnpojken-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .pinnpojken-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pinnpojken-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pinnpojken-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.plogen-7-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/0a/36/0a3609e058a65fca1900e19892f96ead.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .plogen-7-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .plogen-7-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .plogen-7-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .plogen-7-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.postiljonen-9-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/be/ae/beae6e7c647c1dfba66a9b4726c3e098.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .postiljonen-9-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .postiljonen-9-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .postiljonen-9-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .postiljonen-9-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.postsacken-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/27/3e/273e0260fb6eb993db1d2637d97d3909.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .postsacken-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .postsacken-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .postsacken-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .postsacken-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.propellern-9-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/7a/b1/7ab1d172bad9cfb8d573dac306121e7e.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .propellern-9-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .propellern-9-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .propellern-9-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .propellern-9-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.pyramiden-19-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/65/71/65716ee4559d3acc17cbc4edc0d9e35c.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .pyramiden-19-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .pyramiden-19-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pyramiden-19-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .pyramiden-19-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.rafsan-10-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/c6/98/c6986fa59f67f4ae43f7507b2cf608c0.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .rafsan-10-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .rafsan-10-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .rafsan-10-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .rafsan-10-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.rattan-11-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/02/ed/02edb0f9a70088c92aa4970e0da20139.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .rattan-11-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .rattan-11-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .rattan-11-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .rattan-11-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.samaritgrand-1-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/50/60/506079a32e88fd6c05d05d70a63a565a.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .samaritgrand-1-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .samaritgrand-1-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .samaritgrand-1-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .samaritgrand-1-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.skinnarviksberget-nr-2-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8d/cb/8dcbefca313cfaf7ecbefc81d4afaf18.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .skinnarviksberget-nr-2-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .skinnarviksberget-nr-2-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .skinnarviksberget-nr-2-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .skinnarviksberget-nr-2-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.skruven-11-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/96/fb/96fb402fb10886cb1deb8fa9454688de.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .skruven-11-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .skruven-11-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .skruven-11-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .skruven-11-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.slipen-40-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/02/0f/020f906e23438d0bd1e6b1b9cce9d7fd.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .slipen-40-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .slipen-40-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .slipen-40-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .slipen-40-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.slipgatan-12-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/5c/6d/5c6d31d91f6effd38048ec916124425f.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .slipgatan-12-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .slipgatan-12-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .slipgatan-12-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .slipgatan-12-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.slaggan-12-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/7e/24/7e2418a493a3bfc824c9be5e7cb2aa80.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .slaggan-12-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .slaggan-12-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .slaggan-12-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .slaggan-12-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.smalanningen-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8e/5b/8e5b73bde0227dea4ee89c0dd4ea7fe7.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .smalanningen-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .smalanningen-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .smalanningen-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .smalanningen-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.spettet-2000-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/0a/6a/0a6a1ff394dc6b75efc34fa40fcf46f4.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .spettet-2000-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .spettet-2000-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .spettet-2000-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .spettet-2000-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.stammen-23-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/ff/ba/ffbac435ac048343a7891552f48c5412.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .stammen-23-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .stammen-23-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .stammen-23-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .stammen-23-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.strandslipen-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/06/a4/06a452650453c6ebe717e688d26e3eca.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .strandslipen-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .strandslipen-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .strandslipen-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .strandslipen-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.svejk-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/bb/36/bb3690a81a4ed5afdc0ce0783a1ca860.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .svejk-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .svejk-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .svejk-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .svejk-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.swedenborg-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/e8/e0/e8e0a478a76e6169a28bdad7e867d9a5.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .swedenborg-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .swedenborg-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .swedenborg-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .swedenborg-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.syrenen-1908-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/26/2f/262f29bf73c4c27a0de56c8e25144d5d.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .syrenen-1908-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .syrenen-1908-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .syrenen-1908-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .syrenen-1908-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.sodermalm-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/af/90/af90f20bfbf56332aeac6db51517ea56.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .sodermalm-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .sodermalm-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .sodermalm-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .sodermalm-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.soders-hjarta-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/05/c6/05c63aef7fa6ee7c82af15b0151df4b3.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .soders-hjarta-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .soders-hjarta-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .soders-hjarta-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .soders-hjarta-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.tullstugan-3-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/dd/1c/dd1ce88a1e6992370f3e328a65581eeb.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .tullstugan-3-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .tullstugan-3-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tullstugan-3-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tullstugan-3-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.turbinen-25-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/66/d7/66d784a14973dad3631458a5a92a1fe2.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .turbinen-25-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .turbinen-25-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .turbinen-25-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .turbinen-25-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.tangen-10-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/9e/c2/9ec22bf7f76e16bdf1252f82c47c790e.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .tangen-10-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .tangen-10-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tangen-10-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tangen-10-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.tangen-12-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/1d/b4/1db4358b0c12a62dc690b9fba78c9e3d.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .tangen-12-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .tangen-12-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tangen-12-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tangen-12-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.tangen-9-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/7c/6f/7c6fb6dfb7891e18bf70d90e697dfed3.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .tangen-9-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .tangen-9-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tangen-9-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .tangen-9-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.urvadersklippan-mindre-10-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/cc/31/cc318a71a79a30cb116dddf6f7fb7bc7.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .urvadersklippan-mindre-10-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .urvadersklippan-mindre-10-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .urvadersklippan-mindre-10-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .urvadersklippan-mindre-10-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.uven-storre-22-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/6c/3d/6c3d6df9218df134aa287c9e2a61fe8d.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .uven-storre-22-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .uven-storre-22-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .uven-storre-22-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .uven-storre-22-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.viggen-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/fb/4a/fb4a6a62ab46cf6014005d71c7103711.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .viggen-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .viggen-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .viggen-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .viggen-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.vitbetan-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/a6/b0/a6b056fe46e5bdc3870e6a085807cc31.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .vitbetan-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .vitbetan-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.vitbetan-18-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/2c/7e/2c7ebe1afe5a3d7d30bcd2fd79135088.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .vitbetan-18-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .vitbetan-18-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-18-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-18-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.vitbetan-27-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/b7/74/b7747d27864f697325451014cd6b08cb.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .vitbetan-27-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .vitbetan-27-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-27-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-27-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.vitbetan-3-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/5d/89/5d89913655600d8f74f66f6525405e21.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .vitbetan-3-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .vitbetan-3-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-3-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vitbetan-3-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.vastergotland-13-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/42/a8/42a8baed480d8d27576e4f8491948c18.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .vastergotland-13-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .vastergotland-13-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vastergotland-13-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .vastergotland-13-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+.zinken-container {
+            position: absolute; 
+            z-index: -2;
+            top: 63%;
+            left: 0%;
+            width: 50%;
+            height: 48.5%;
+            background-image: url('https://bilder.hemnet.se/images/listing_card/8f/82/8f8262193e7a5490b816119208da7351.jpg');
+            background-size: 100%;
+            max-height: 179px;
+            background-repeat:   no-repeat;
+            background-position: top left;              /* optional, center the image */
+
+            }
+
+
+            .zinken-container h1 {
+            position: absolute; 
+            top: min(25vw,180px);
+            left: 5px;
+            font: 4vw 'Verdana';
+
+            }
+
+            .zinken-container p {
+            position: absolute; 
+            top: min(37vw,215px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .zinken-container a.hnet {
+            position: absolute; 
+            top: min(55vw,281px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
+            .zinken-container a.realtor {
+            position: absolute; 
+            top: min(60vw,300px);
+            left: 5px;
+            font: min(3vw,12px) 'Verdana';
+
+            }
+
