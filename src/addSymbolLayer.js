@@ -86,7 +86,7 @@ export default function addSymbolLayer(layer_id,map,polygons,image_id,image_src,
 				'source': layer_id, // reference the data source
 				'layout': {
 					'icon-image': image_src, // reference the image
-					'icon-size': 0.02 * Math.pow(1.5, Math.max((24 - zoom),2)),
+					'icon-size': 0.75,
       'icon-allow-overlap': true
 				}
 			});

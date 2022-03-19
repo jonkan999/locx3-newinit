@@ -6,6 +6,7 @@ import { MapPolygons } from './MapPolygons.js';
 import Street from './Street';
 import CollapsibleHornstull from './CollapsibleHornstull';
 import CollapsibleTjoget from './CollapsibleTjoget';
+import CollapsibleTanto from './CollapsibleTanto';
 import PulldownPopup from './PulldownPopup';
 import addSymbolLayer from './addSymbolLayer.js';
 
@@ -13,6 +14,7 @@ import listing_icon from './icons/listing_icon.png';
 import drinks_icon from './icons/drink_icon.png';
 import food_icon from './icons/food_icon.png';
 import empty_brf from './icons/empty_brf.png';
+import workout_icon from './icons/workout_icon.png';
 
 	
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9ua2FueDMiLCJhIjoiY2t6a2NpamRlMHBnNzJwa2VwMXZienQxZSJ9.8Or2IqnhqXW72AMn6PndLg';
@@ -22,7 +24,7 @@ var renderer;
 var scene;
 var camera;
 const defaultStart= [18.036,59.316] 
-const marker_types = [['empty_brf',empty_brf],['listing_icon',listing_icon],['food_icon',food_icon],['drinks_icon',drinks_icon]]
+const marker_types = [['empty_brf',empty_brf],['listing_icon',listing_icon],['food_icon',food_icon],['drinks_icon',drinks_icon],['workout_icon',workout_icon]]
 
 export default class App extends React.PureComponent {
   constructor(props) {
@@ -307,6 +309,15 @@ export default class App extends React.PureComponent {
 				<CollapsibleTjoget>
 
 				</CollapsibleTjoget>
+
+				;
+		
+	
+	} else if (this.state.activeCSS==='Tantolunden'){
+		exp_ind=
+				<CollapsibleTanto>
+
+				</CollapsibleTanto>
 
 				;
 		
